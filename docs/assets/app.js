@@ -1,6 +1,9 @@
 const state = {
   data: null,
-  filter: "all"
+  research: null,
+  filter: "all",
+  selectedCompany: null,
+  filingSymbol: "all"
 };
 
 const decisionLabels = {
@@ -41,6 +44,48 @@ function formatMoney(value) {
   }).format(Number(value));
 }
 
+function formatPrice(value) {
+  if (value === null || value === undefined || Number.isNaN(Number(value))) return "n/a";
+  return new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: "USD",
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2
+  }).format(Number(value));
+}
+
+function formatMoneyCompact(value) {
+  if (value === null || value === undefined || Number.isNaN(Number(value))) return "n/a";
+  return new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: "USD",
+    notation: "compact",
+    maximumFractionDigits: 2
+  }).format(Number(value));
+}
+
+function formatNumber(value, digits = 0) {
+  if (value === null || value === undefined || Number.isNaN(Number(value))) return "n/a";
+  return new Intl.NumberFormat("en-US", {
+    maximumFractionDigits: digits
+  }).format(Number(value));
+}
+
+function formatPercent(value, digits = 2) {
+  if (value === null || value === undefined || Number.isNaN(Number(value))) return "n/a";
+  const number = Number(value);
+  const sign = number > 0 ? "+" : "";
+  return `${sign}${number.toFixed(digits)}%`;
+}
+
+function trendMode(value) {
+  const number = Number(value);
+  if (!Number.isFinite(number)) return "info";
+  if (number > 0.05) return "up";
+  if (number < -0.05) return "down";
+  return "flat";
+}
+
 function classFor(run) {
   if (run?.severity) return run.severity;
   if (run?.status === "error") return "error";
@@ -51,6 +96,15 @@ function classFor(run) {
 
 function badge(label, mode = "info") {
   return `<span class="badge ${mode}">${escapeHtml(label)}</span>`;
+}
+
+function smallStat(value, label, mode = "") {
+  return `
+    <div class="mini-stat ${escapeHtml(mode)}">
+      <strong>${escapeHtml(value)}</strong>
+      <span>${escapeHtml(label)}</span>
+    </div>
+  `;
 }
 
 function latestAccount(data) {
@@ -286,6 +340,246 @@ function renderRisk(data) {
   `;
 }
 
+function renderMarketSnapshot(research) {
+  const meta = document.querySelector("#marketMeta");
+  const market = research?.market_snapshot || {};
+  meta.textContent = market.generated_at
+    ? `Snapshot ${formatTime(market.generated_at)}`
+    : "No market snapshot";
+
+  const target = document.querySelector("#marketSnapshot");
+  const companies = research?.companies || [];
+  if (!companies.length) {
+    target.innerHTML = `<div class="empty">No company research data has been exported yet.</div>`;
+    return;
+  }
+
+  target.innerHTML = companies
+    .map((company) => {
+      const quote = company.market || {};
+      const mode = trendMode(quote.day_change_pct);
+      const range = Math.round(Number(quote.range_52w_position_pct || 0));
+      const spread = quote.spread_pct === null || quote.spread_pct === undefined ? "n/a" : formatPercent(quote.spread_pct, 3);
+      return `
+        <article class="market-card">
+          <div class="market-head">
+            <div>
+              <p class="ticker-line">${escapeHtml(company.symbol)}</p>
+              <p class="company-name">${escapeHtml(company.name)}</p>
+            </div>
+            ${badge(formatPercent(quote.day_change_pct), mode)}
+          </div>
+          <div class="price-row">
+            <strong>${escapeHtml(formatPrice(quote.price))}</strong>
+            <span>${escapeHtml(formatTime(quote.as_of))}</span>
+          </div>
+          <div class="mini-grid">
+            ${smallStat(formatPrice(quote.previous_close), "Prev close")}
+            ${smallStat(`${formatNumber(quote.volume)} / ${formatNumber(quote.avg_volume_30d)}`, "Vol / 30d avg")}
+            ${smallStat(formatMoneyCompact(quote.market_cap), "Market cap")}
+            ${smallStat(quote.pe_ratio === null ? "n/a" : formatNumber(quote.pe_ratio, 1), "P/E")}
+            ${smallStat(spread, "Bid/ask spread")}
+            ${smallStat(quote.volume_vs_30d === null ? "n/a" : `${formatNumber(quote.volume_vs_30d, 2)}x`, "Volume pace")}
+          </div>
+          <div class="range-block">
+            <div class="range-labels">
+              <span>${escapeHtml(formatPrice(quote.low_52w))}</span>
+              <span>52w ${escapeHtml(formatNumber(range))}%</span>
+              <span>${escapeHtml(formatPrice(quote.high_52w))}</span>
+            </div>
+            <div class="range-track">
+              <span style="left: ${escapeHtml(range)}%"></span>
+            </div>
+          </div>
+        </article>
+      `;
+    })
+    .join("");
+}
+
+function renderCompanySelect(research) {
+  const select = document.querySelector("#companySelect");
+  const companies = research?.companies || [];
+  if (!companies.length) {
+    select.innerHTML = "";
+    return;
+  }
+
+  if (!state.selectedCompany || !companies.some((company) => company.symbol === state.selectedCompany)) {
+    state.selectedCompany = companies[0].symbol;
+  }
+
+  select.innerHTML = companies
+    .map((company) => `<option value="${escapeHtml(company.symbol)}">${escapeHtml(company.symbol)} - ${escapeHtml(company.name)}</option>`)
+    .join("");
+  select.value = state.selectedCompany;
+  select.onchange = () => {
+    state.selectedCompany = select.value;
+    renderCompanyDetail(research);
+  };
+}
+
+function metricTable(metrics) {
+  if (!metrics?.length) return `<div class="empty">No financial fact metrics exported for this company.</div>`;
+  return `
+    <div class="metric-grid">
+      ${metrics
+        .map(
+          (metric) => `
+            <div class="metric-item">
+              <strong>${escapeHtml(metric.unit === "USD/shares" ? formatPrice(metric.value) : formatMoneyCompact(metric.value))}</strong>
+              <span>${escapeHtml(metric.label)}</span>
+              <em>${escapeHtml([metric.fiscal_year, metric.period, metric.form, metric.filed].filter(Boolean).join(" | "))}</em>
+            </div>
+          `
+        )
+        .join("")}
+    </div>
+  `;
+}
+
+function renderCompanyDetail(research) {
+  const target = document.querySelector("#companyDetail");
+  const company = (research?.companies || []).find((item) => item.symbol === state.selectedCompany);
+  if (!company) {
+    target.innerHTML = `<div class="empty">No company selected.</div>`;
+    return;
+  }
+
+  const market = company.market || {};
+  const strategy = company.strategy || {};
+  const filings = company.recent_filings || [];
+  const trendBullets = company.summaries?.trend_bullets || [];
+  const themeTags = (company.themes || []).map((theme) => `<span>${escapeHtml(theme)}</span>`).join("");
+
+  target.innerHTML = `
+    <div class="company-hero">
+      <div>
+        <div class="company-title-row">
+          <h3>${escapeHtml(company.symbol)} ${escapeHtml(company.name)}</h3>
+          ${badge(strategy.role || "Watchlist", "info")}
+        </div>
+        <p class="company-meta">${escapeHtml([market.sector, market.industry, company.cik ? `CIK ${company.cik}` : null].filter(Boolean).join(" | "))}</p>
+        <div class="theme-row">${themeTags}</div>
+      </div>
+      <div class="company-price">
+        <strong>${escapeHtml(formatPrice(market.price))}</strong>
+        <span>${escapeHtml(formatPercent(market.day_change_pct))} today</span>
+      </div>
+    </div>
+
+    <div class="research-columns">
+      <section>
+        <h4>Extracted Trend Snapshot</h4>
+        ${
+          trendBullets.length
+            ? `<ul class="tight-list">${trendBullets.map((bullet) => `<li>${escapeHtml(bullet)}</li>`).join("")}</ul>`
+            : `<div class="empty">No trend bullets exported.</div>`
+        }
+      </section>
+      <section>
+        <h4>Strategy Context</h4>
+        <div class="strategy-block">
+          ${smallStat(strategy.priority ?? "n/a", "Priority")}
+          ${smallStat(strategy.notional_bias || "n/a", "Notional bias")}
+          ${smallStat(company.filings_count, "SEC filings")}
+          ${smallStat(market.range_52w_position_pct === null ? "n/a" : `${formatNumber(market.range_52w_position_pct, 0)}%`, "52w range position")}
+        </div>
+        <p class="strategy-theme">${escapeHtml(strategy.theme || "No strategy theme exported.")}</p>
+      </section>
+    </div>
+
+    <section>
+      <h4>Financial Fact Snapshot</h4>
+      ${metricTable(company.financial_metrics)}
+    </section>
+
+    <section>
+      <h4>Recent SEC Filings</h4>
+      <div class="mini-filings">
+        ${filings
+          .map(
+            (filing) => `
+              <a href="${escapeHtml(filing.url || "#")}">
+                <strong>${escapeHtml(filing.filing_date || "")} ${escapeHtml(filing.form || "")}</strong>
+                <span>${escapeHtml([filing.description, filing.items ? `Items ${filing.items}` : null].filter(Boolean).join(" | "))}</span>
+              </a>
+            `
+          )
+          .join("")}
+      </div>
+    </section>
+  `;
+}
+
+function renderFilings(research) {
+  const select = document.querySelector("#filingSelect");
+  const count = document.querySelector("#filingCount");
+  const target = document.querySelector("#filingsTable");
+  const companies = research?.companies || [];
+  const allFilings = research?.filings || [];
+
+  select.innerHTML = [
+    `<option value="all">All tickers</option>`,
+    ...companies.map((company) => `<option value="${escapeHtml(company.symbol)}">${escapeHtml(company.symbol)}</option>`)
+  ].join("");
+  select.value = state.filingSymbol;
+  select.onchange = () => {
+    state.filingSymbol = select.value;
+    renderFilings(research);
+  };
+
+  const filings = allFilings.filter((filing) => state.filingSymbol === "all" || filing.symbol === state.filingSymbol);
+  count.textContent = `${filings.length} filing rows`;
+  target.innerHTML = `
+    <table class="filings-table">
+      <thead>
+        <tr>
+          <th>Ticker</th>
+          <th>Filed</th>
+          <th>Form</th>
+          <th>Report</th>
+          <th>Description</th>
+          <th>Accession</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${filings
+          .map(
+            (filing) => `
+              <tr>
+                <td>${escapeHtml(filing.symbol)}</td>
+                <td>${escapeHtml(filing.filing_date || "")}</td>
+                <td><a href="${escapeHtml(filing.url || "#")}">${escapeHtml(filing.form || "")}</a></td>
+                <td>${escapeHtml(filing.report_date || "")}</td>
+                <td>${escapeHtml([filing.description, filing.items ? `Items ${filing.items}` : null].filter(Boolean).join(" | "))}</td>
+                <td>${escapeHtml(filing.accession_number || "")}</td>
+              </tr>
+            `
+          )
+          .join("")}
+      </tbody>
+    </table>
+  `;
+}
+
+function renderCoverageGaps(research) {
+  const target = document.querySelector("#coverageGaps");
+  const companies = research?.companies || [];
+  const missingMarket = companies.filter((company) => !company.market).map((company) => company.symbol);
+  const missingFacts = companies.filter((company) => !company.financial_metrics?.length).map((company) => company.symbol);
+  const items = [
+    `Static Pages snapshot: prices refresh only when the dashboard export is rebuilt and pushed.`,
+    `No full historical OHLC archive is published yet; current stock trend view uses day move, volume pace, and 52-week range position.`,
+    `No live VWAP/support/resistance chart is published yet; those are still assessed during monitor runs.`,
+    `Management-note tables are mostly placeholders until manual earnings-call notes are added.`,
+    missingMarket.length ? `Missing market snapshot: ${missingMarket.join(", ")}.` : `Market snapshot present for all ${companies.length} watchlist entries.`,
+    missingFacts.length ? `Missing SEC financial facts: ${missingFacts.join(", ")}.` : `SEC financial fact snapshots present for operating-company entries; SMH is ETF/benchmark context.`
+  ];
+
+  target.innerHTML = items.map((item) => `<div class="gap-item">${escapeHtml(item)}</div>`).join("");
+}
+
 function renderLinks(data) {
   const links = document.querySelector("#links");
   const reportLinks = (data.reports || []).map((report) => ({
@@ -316,19 +610,33 @@ function renderLinks(data) {
 }
 
 async function loadData() {
-  const response = await fetch(`./data/dashboard.json?cache=${Date.now()}`);
-  if (!response.ok) throw new Error(`Dashboard data failed: ${response.status}`);
-  return response.json();
+  const cache = Date.now();
+  const [dashboardResponse, researchResponse] = await Promise.all([
+    fetch(`./data/dashboard.json?cache=${cache}`),
+    fetch(`./data/research.json?cache=${cache}`)
+  ]);
+  if (!dashboardResponse.ok) throw new Error(`Dashboard data failed: ${dashboardResponse.status}`);
+  if (!researchResponse.ok) throw new Error(`Research data failed: ${researchResponse.status}`);
+  return {
+    dashboard: await dashboardResponse.json(),
+    research: await researchResponse.json()
+  };
 }
 
-function render(data) {
+function render({ dashboard: data, research }) {
   state.data = data;
+  state.research = research;
   renderStatus(data);
+  renderMarketSnapshot(research);
   renderFilters(data);
   renderTimeline(data);
   renderPipeline(data);
   renderWatchlist(data);
   renderRisk(data);
+  renderCompanySelect(research);
+  renderCompanyDetail(research);
+  renderFilings(research);
+  renderCoverageGaps(research);
   renderLinks(data);
 }
 

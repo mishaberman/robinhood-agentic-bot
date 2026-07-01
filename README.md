@@ -198,8 +198,11 @@ The project includes a static visual dashboard under `docs/` for GitHub Pages. I
 - latest monitor decision and run pipeline;
 - no-trade / trade-review / exit-review timeline;
 - watchlist candidate board;
+- Robinhood read-only quote/fundamental snapshot for watchlist symbols;
+- local SEC research summaries, financial fact snapshots, and all exported filing links;
+- explicit coverage gaps for anything not yet automated;
 - risk gates and score thresholds;
-- links to daily reports, dashboard JSON, and public-safe log exports.
+- links to daily reports, dashboard JSON, research JSON, and public-safe log exports.
 
 Build the dashboard data locally:
 
@@ -230,10 +233,13 @@ npm run dashboard:record -- \
 
 The dashboard builder also reads Turso monitor tables when `TURSO_DATABASE_URL` and `TURSO_AUTH_TOKEN` are present, so the hosted site can update from scheduled cloud monitor runs without committing private raw logs.
 
+Market data note: `research/market-snapshot.json` is a manually refreshed read-only market snapshot. It is included in `docs/data/research.json` by `scripts/dashboard/build-research-export.mjs`. It is not a live stream; rebuild and push the dashboard after refreshing the snapshot.
+
 Privacy boundary:
 
 - Raw `logs/`, `.env`, Robinhood tokens, Turso tokens, and `research/db/` stay ignored and should not be published.
 - The GitHub Pages site publishes redacted dashboard JSON, copied daily Markdown reports, and sanitized log exports only.
+- The GitHub Pages site also publishes a public research export with SEC filing links, generated summaries, strategy notes, and compact market snapshots.
 - Account numbers, long numeric identifiers, and token-like strings are redacted by `scripts/dashboard/build-dashboard.mjs`.
 
 For a simple GitHub Pages setup, publish from the `main` branch and `/docs` folder. That serves the current committed dashboard without requiring workflow permissions.

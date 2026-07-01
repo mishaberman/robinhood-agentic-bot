@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Agentic Trade Monitor</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%232e3238'/%3E%3Cpath d='M7 21h18v3H7zM9 16h3v4H9zm5-7h3v11h-3zm5 4h3v7h-3z' fill='%23dff2e9'/%3E%3C/svg%3E" />
     <link rel="stylesheet" href="./assets/styles.css" />
   </head>
   <body>
@@ -22,10 +23,25 @@
             <span aria-hidden="true">#</span>
             <span>Logs</span>
           </a>
+          <a class="icon-link" href="./data/research.json" title="Open research export">
+            <span aria-hidden="true">*</span>
+            <span>Research</span>
+          </a>
         </div>
       </section>
 
       <section id="status" class="status-grid" aria-live="polite"></section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Market Snapshot</p>
+            <h2>Prices And Stock Trends</h2>
+          </div>
+          <div id="marketMeta" class="panel-note"></div>
+        </div>
+        <div id="marketSnapshot" class="market-grid"></div>
+      </section>
 
       <section class="main-grid">
         <div class="panel timeline-panel">
@@ -71,6 +87,47 @@
           <div id="risk" class="risk-grid"></div>
           <div id="pulse" class="pulse"></div>
         </div>
+      </section>
+
+      <section class="main-grid research-grid">
+        <div class="panel">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Company Research</p>
+              <h2>SEC, Trends, And Thesis Context</h2>
+            </div>
+            <label class="select-label">
+              <span>Company</span>
+              <select id="companySelect"></select>
+            </label>
+          </div>
+          <div id="companyDetail" class="company-detail"></div>
+        </div>
+
+        <aside class="panel">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Coverage</p>
+              <h2>Missing Or Unfinished</h2>
+            </div>
+          </div>
+          <div id="coverageGaps" class="gap-list"></div>
+        </aside>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">SEC Filing Feed</p>
+            <h2>All Exported Filings</h2>
+          </div>
+          <label class="select-label">
+            <span>Ticker</span>
+            <select id="filingSelect"></select>
+          </label>
+        </div>
+        <div id="filingCount" class="panel-note"></div>
+        <div id="filingsTable" class="filings-wrap"></div>
       </section>
 
       <section class="panel">

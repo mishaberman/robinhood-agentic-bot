@@ -21,7 +21,7 @@
     "cloud:monitor-tick": "node scripts/cloud/monitor-tick.mjs",
     "cloud:daily-report": "node scripts/cloud/daily-report.mjs",
     "dashboard:record": "node scripts/dashboard/record-event.mjs",
-    "dashboard:build": "node scripts/dashboard/build-dashboard.mjs",
+    "dashboard:build": "node scripts/dashboard/build-dashboard.mjs && node scripts/dashboard/build-research-export.mjs",
     "dashboard:serve": "node scripts/dashboard/serve.mjs",
     "local:keep-awake": "bash scripts/local/start-keep-awake.sh",
     "local:stop-awake": "bash scripts/local/stop-keep-awake.sh",
