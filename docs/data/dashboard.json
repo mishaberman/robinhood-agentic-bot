@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-07-01T16:03:22.719Z",
+    "generated_at": "2026-07-01T16:13:53.997Z",
     "timezone": "America/Los_Angeles",
-    "repository_url": null,
+    "repository_url": "https://github.com/mishaberman/robinhood-agentic-bot",
     "source_mode": "local",
     "data_note": "Public-safe dashboard export. Account numbers, tokens, and long numeric identifiers are redacted before publishing."
   },
@@ -13,8 +13,8 @@
       500
     ],
     "max_daily_loss_usd": 60,
-    "max_position_notional_usd": 250,
-    "max_trades_per_day": 8,
+    "max_position_notional_usd": 500,
+    "max_trades_per_day": 3,
     "no_averaging_down": true
   },
   "latest": {
@@ -241,6 +241,6 @@
     "sanitized_decision_log": "./logs/monitor-decisions.jsonl",
     "sanitized_log_index": "./logs/index.json",
     "reports_dir": "./reports/daily/",
-    "repository": null
+    "repository": "https://github.com/mishaberman/robinhood-agentic-bot"
   }
 }

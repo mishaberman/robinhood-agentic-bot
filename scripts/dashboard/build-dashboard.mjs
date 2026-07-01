@@ -11,6 +11,14 @@ const logsDir = join(docsDir, "logs");
 const reportDir = join(docsDir, "reports", "daily");
 const localLogsDir = join(root, "logs");
 const localReportsDir = join(root, "reports", "daily");
+const ACTIVE_RISK_RULES = {
+  min_trade_review_score: 80,
+  default_notional_usd: [250, 500],
+  max_daily_loss_usd: 60,
+  max_position_notional_usd: 500,
+  max_trades_per_day: 3,
+  no_averaging_down: true
+};
 
 function redactText(value) {
   return String(value || "")
@@ -374,14 +382,7 @@ async function main() {
       data_note:
         "Public-safe dashboard export. Account numbers, tokens, and long numeric identifiers are redacted before publishing."
     },
-    risk_rules: {
-      min_trade_review_score: 80,
-      default_notional_usd: [250, 500],
-      max_daily_loss_usd: config.maxDailyLossUsd,
-      max_position_notional_usd: config.maxPositionNotionalUsd,
-      max_trades_per_day: config.maxTradesPerDay,
-      no_averaging_down: true
-    },
+    risk_rules: ACTIVE_RISK_RULES,
     latest: latestRun,
     stats,
     watchlist: watchlistBoard(runs, alerts),
