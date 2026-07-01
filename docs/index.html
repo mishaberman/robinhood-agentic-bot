@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Agentic Trade Monitor</title>
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="topbar" aria-label="Monitor overview">
+        <div>
+          <p class="eyebrow">Robinhood Agentic Monitor</p>
+          <h1>Decision Dashboard</h1>
+        </div>
+        <div class="top-actions">
+          <a class="icon-link" href="./data/dashboard.json" title="Open dashboard data">
+            <span aria-hidden="true">[ ]</span>
+            <span>Data</span>
+          </a>
+          <a class="icon-link" href="./logs/index.json" title="Open sanitized log index">
+            <span aria-hidden="true">#</span>
+            <span>Logs</span>
+          </a>
+        </div>
+      </section>
+
+      <section id="status" class="status-grid" aria-live="polite"></section>
+
+      <section class="main-grid">
+        <div class="panel timeline-panel">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Run History</p>
+              <h2>Decisions</h2>
+            </div>
+            <div id="filters" class="segmented" aria-label="Decision filters"></div>
+          </div>
+          <div id="timeline" class="timeline"></div>
+        </div>
+
+        <aside class="panel">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Current Process</p>
+              <h2>Run Pipeline</h2>
+            </div>
+          </div>
+          <div id="pipeline" class="pipeline"></div>
+        </aside>
+      </section>
+
+      <section class="main-grid secondary">
+        <div class="panel">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Watchlist</p>
+              <h2>Candidate Board</h2>
+            </div>
+          </div>
+          <div id="watchlist" class="watchlist"></div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Guardrails</p>
+              <h2>Risk Gates</h2>
+            </div>
+          </div>
+          <div id="risk" class="risk-grid"></div>
+          <div id="pulse" class="pulse"></div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Audit Trail</p>
+            <h2>Reports And Logs</h2>
+          </div>
+        </div>
+        <div id="links" class="link-grid"></div>
+      </section>
+    </main>
+
+    <script type="module" src="./assets/app.js"></script>
+  </body>
+</html>

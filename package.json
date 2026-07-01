@@ -1,0 +1,35 @@
+{
+  "name": "robinhood-agentic-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Human-confirmed Robinhood Agentic Trading bot scaffold using OpenAI Responses and Robinhood MCP.",
+  "scripts": {
+    "chat": "node src/chat.mjs",
+    "scan": "node src/agent.mjs",
+    "monitor": "node src/monitor.mjs",
+    "research:ingest-sec": "node scripts/research/ingest-sec.mjs",
+    "research:summarize": "node scripts/research/summarize-trends.mjs",
+    "research:index": "node scripts/research/build-sqlite-index.mjs",
+    "research:search": "node scripts/research/search-sqlite.mjs",
+    "research:apply-strategy-notes": "node scripts/research/apply-strategy-notes.mjs",
+    "research:build": "npm run research:ingest-sec && npm run research:summarize && npm run research:index",
+    "cloud:init": "node scripts/cloud/init-turso.mjs",
+    "cloud:push-research": "node scripts/cloud/push-research-to-turso.mjs",
+    "cloud:research-refresh": "npm run research:build && npm run cloud:push-research",
+    "cloud:search": "node scripts/cloud/search-turso.mjs",
+    "cloud:monitor-tick": "node scripts/cloud/monitor-tick.mjs",
+    "cloud:daily-report": "node scripts/cloud/daily-report.mjs",
+    "dashboard:record": "node scripts/dashboard/record-event.mjs",
+    "dashboard:build": "node scripts/dashboard/build-dashboard.mjs",
+    "dashboard:serve": "node scripts/dashboard/serve.mjs",
+    "local:keep-awake": "bash scripts/local/start-keep-awake.sh",
+    "local:stop-awake": "bash scripts/local/stop-keep-awake.sh",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.17.4",
+    "dotenv": "^16.4.7",
+    "openai": "^5.0.0"
+  }
+}

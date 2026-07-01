@@ -1,0 +1,173 @@
+{
+  "generated_at": "2026-07-01T06:10:00Z",
+  "purpose": "Compact watchlist priorities and trigger rules for the Robinhood Agentic monitor. Not investment advice or an order directive.",
+  "global_rules": {
+    "min_trade_review_score": 80,
+    "prefer_no_trade_over_weak_trade": true,
+    "max_trades_per_day": 3,
+    "default_notional_usd": [250, 500],
+    "normal_planned_loss_usd": [10, 20],
+    "max_daily_loss_usd": 60,
+    "no_averaging_down": true,
+    "reentry_requires_new_trigger": true
+  },
+  "sector_anchors": {
+    "semiconductors": ["SMH", "NVDA"],
+    "memory_storage": ["MU", "WDC", "STX"],
+    "ai_networking_custom_silicon": ["AVGO", "MRVL", "NVDA"],
+    "ai_servers": ["DELL", "HPE"],
+    "space_supply_chain_inferred": ["HON", "STM", "MRVL", "STX", "WDC", "NBIS"]
+  },
+  "symbols": {
+    "MU": {
+      "priority": 1,
+      "role": "primary trade candidate",
+      "theme": "HBM/DRAM/NAND memory scarcity and AI infrastructure",
+      "bull_triggers": ["HBM demand", "DRAM pricing", "NAND pricing", "Strategic Customer Agreements", "AI memory shortage", "Nvidia/AMD supply-chain sympathy"],
+      "confirmation": ["relative strength vs SMH", "WDC/STX sympathy", "VWAP reclaim or clean pullback base", "fresh source-backed catalyst"],
+      "disqualifiers": ["gap spike loses VWAP", "memory peers roll over", "stale catalyst", "stop wider than dollar-risk limit"],
+      "notional_bias": "normal",
+      "source_notes": ["Micron IR record Q3 and Anthropic strategic agreement", "local SEC trend summary shows large YoY acceleration and flat inventory"]
+    },
+    "WDC": {
+      "priority": 2,
+      "role": "primary trade candidate",
+      "theme": "AI data workload storage and cloud/hyperscaler capacity",
+      "bull_triggers": ["HDD capacity", "hyperscaler storage", "AI data workloads", "cloud storage economics", "memory/storage sympathy"],
+      "confirmation": ["STX confirms", "MU confirms", "holds VWAP", "volume expansion"],
+      "disqualifiers": ["sympathy-only move without volume", "MU fades", "wide stop"],
+      "notional_bias": "normal",
+      "source_notes": ["Western Digital IR emphasizes AI-driven data workloads and latest Q3 FY2026 results"]
+    },
+    "STX": {
+      "priority": 2,
+      "role": "primary trade candidate",
+      "theme": "mass-capacity HDD, exabyte data growth, data-center storage",
+      "bull_triggers": ["HAMR/Mozaic", "exabyte demand", "data-center demand", "storage capacity tightness"],
+      "confirmation": ["WDC confirms", "MU confirms", "pullback holds prior breakout", "sector breadth"],
+      "disqualifiers": ["sympathy-only move without own volume", "data-center/storage peers fade"],
+      "notional_bias": "normal",
+      "source_notes": ["Seagate Q2 FY2026 release highlights data-center demand and HAMR/Mozaic ramp"]
+    },
+    "DELL": {
+      "priority": 3,
+      "role": "primary trade candidate",
+      "theme": "AI server orders, revenue, backlog, enterprise infrastructure",
+      "bull_triggers": ["AI server orders", "AI backlog", "server supply tightness", "storage demand", "NVDA/AVGO/MRVL sector confirmation"],
+      "confirmation": ["margin concern absent", "SMH/QQQ stable", "breakout with volume"],
+      "disqualifiers": ["market focuses on low AI server margins", "inventory risk dominates", "failed opening breakout"],
+      "notional_bias": "normal",
+      "source_notes": ["Dell Q1 FY2027 transcript: AI server orders $24.4B, revenue $16.1B, backlog $51.3B"]
+    },
+    "AVGO": {
+      "priority": 4,
+      "role": "primary trade candidate",
+      "theme": "custom AI accelerators, AI networking, infrastructure software",
+      "bull_triggers": ["custom ASIC", "AI networking", "OpenAI/customer chip headlines", "cloud capex", "upward AI revenue guidance"],
+      "confirmation": ["NVDA stable", "MRVL confirms", "VWAP reclaim after expectation-driven gap"],
+      "disqualifiers": ["expectation-heavy headline fades", "lower highs after open", "broad AI trade rolling over"],
+      "notional_bias": "normal_to_smaller_if_extended",
+      "source_notes": ["Broadcom Q1 FY2026 release: AI revenue $8.4B, up 106% YoY"]
+    },
+    "MRVL": {
+      "priority": 4,
+      "role": "primary trade candidate",
+      "theme": "AI networking, optical interconnect, switches, custom silicon",
+      "bull_triggers": ["AI switch", "102.4 Tbps switch", "optical interconnect", "custom silicon", "cloud data-center infrastructure"],
+      "confirmation": ["AVGO confirms", "NVDA networking strength", "clean pullback/reclaim"],
+      "disqualifiers": ["headline already priced", "stock fails breakout on product news", "sector leaders weak"],
+      "notional_bias": "normal",
+      "source_notes": ["Marvell May 2026 press releases include 102.4 Tbps AI/cloud data-center switch and Q1 FY2027 results"]
+    },
+    "NVDA": {
+      "priority": 5,
+      "role": "sector anchor and occasional trade candidate",
+      "theme": "Blackwell, AI data center, networking, inference",
+      "bull_triggers": ["Blackwell demand", "GB300/NVL72", "networking growth", "hyperscaler/AI cloud capex", "sovereign AI"],
+      "confirmation": ["sets tone for AI infrastructure basket", "above VWAP", "sector breadth"],
+      "disqualifiers": ["below VWAP and dragging SMH lower", "broad AI reversal"],
+      "notional_bias": "normal_to_smaller_due_price_beta",
+      "source_notes": ["Nvidia Q1 FY2027 transcript: Data Center revenue $75B, up 92% YoY and 21% sequentially"]
+    },
+    "AMD": {
+      "priority": 5,
+      "role": "sector anchor and product-cycle candidate",
+      "theme": "EPYC CPUs, Instinct GPUs, MI450/Helios, agentic AI demand",
+      "bull_triggers": ["MI450/Helios", "EPYC demand", "Instinct ramp", "agentic/inference AI", "customer deployment pipeline"],
+      "confirmation": ["relative strength vs NVDA", "data-center catalyst", "clean VWAP reclaim"],
+      "disqualifiers": ["NVDA strong but AMD lagging", "product news without volume"],
+      "notional_bias": "normal",
+      "source_notes": ["AMD Q1 2026 release: revenue $10.3B, Data Center revenue $5.8B up 57% YoY"]
+    },
+    "ASML": {
+      "priority": 6,
+      "role": "secondary catalyst candidate",
+      "theme": "EUV/High-NA semiconductor equipment and advanced-node capacity",
+      "bull_triggers": ["bookings", "EUV", "High-NA", "guidance raise", "export-control clarity", "Europe semi equipment strength"],
+      "confirmation": ["ASML-specific catalyst", "European market/ADR alignment", "SMH breadth"],
+      "disqualifiers": ["generic AI sympathy only", "China restriction headline without positive price reaction"],
+      "notional_bias": "smaller",
+      "source_notes": ["ASML Q1 2026 release: sales €8.8B, gross margin 53.0%, 2026 sales guidance €36B-€40B"]
+    },
+    "HPE": {
+      "priority": 7,
+      "role": "secondary infrastructure candidate",
+      "theme": "Cloud & AI, networking, hybrid cloud infrastructure",
+      "bull_triggers": ["Cloud & AI growth", "data-center networking", "GreenLake/hybrid cloud", "AI infrastructure orders"],
+      "confirmation": ["DELL/SMCI/server peers strong", "margin not deteriorating", "networking strength"],
+      "disqualifiers": ["margin/integration concerns dominate", "weak relative strength vs DELL"],
+      "notional_bias": "smaller",
+      "source_notes": ["HPE Q2 FY2026 materials: Cloud & AI segment net revenue $7.707B; total segment net revenue $10.678B"]
+    },
+    "STM": {
+      "priority": 8,
+      "role": "secondary recovery and component candidate",
+      "theme": "power semis, microcontrollers, sensors, AI/datacenter upside",
+      "bull_triggers": ["bookings recovery", "normalized distribution inventory", "datacenter revenue target", "power/sensor catalyst"],
+      "confirmation": ["STM-specific volume", "European semi strength", "SMH positive"],
+      "disqualifiers": ["generic sympathy only", "industrial/auto weakness dominates"],
+      "notional_bias": "smaller",
+      "source_notes": ["ST Q1 2026 release: revenue $3.10B, improving demand, datacenter expectation above $500M for 2026 and above $1B for 2027"]
+    },
+    "NBIS": {
+      "priority": 9,
+      "role": "high-beta AI cloud candidate",
+      "theme": "GPU infrastructure, AI cloud, power/land capacity, AI factory buildout",
+      "bull_triggers": ["AI cloud capacity", "power/land", "GPU supply", "large customer", "financing", "Token Factory"],
+      "confirmation": ["unusual volume", "clean technical base", "NVDA/AI cloud peers positive"],
+      "disqualifiers": ["funding/buildout risk headlines", "profitability concerns", "wide spread or violent reversal"],
+      "notional_bias": "smaller",
+      "source_notes": ["Nebius Q1 2026 announcement: AI cloud company; secured up to 1.2 GW power and land for Pennsylvania AI factory"]
+    },
+    "HON": {
+      "priority": 10,
+      "role": "corporate-action/aerospace candidate",
+      "theme": "aerospace spin-off, automation, avionics, sensors, space-supply-chain inference",
+      "bull_triggers": ["spin-off news", "aerospace/avionics", "automation guidance", "direct source-supported supplier relationship"],
+      "confirmation": ["fresh HON-specific news", "clean liquidity", "not just SpaceX speculation"],
+      "disqualifiers": ["generic SpaceX excitement", "corporate-action confusion", "unclear ticker/entity after spin"],
+      "notional_bias": "smaller",
+      "source_notes": ["Honeywell IR: June 29, 2026 spin-off/completion and independent automation-company news"]
+    },
+    "HPQ": {
+      "priority": 11,
+      "role": "watch-only unless unusually strong",
+      "theme": "AI PCs, edge AI, workstations, PC refresh",
+      "bull_triggers": ["AI PC demand", "Windows refresh", "edge AI devices", "workstations"],
+      "confirmation": ["unusual volume", "PC/edge AI peers strong", "above VWAP with tight stop"],
+      "disqualifiers": ["commodity cost pressure", "low beta/no volume", "print weakness dominates"],
+      "notional_bias": "smallest",
+      "source_notes": ["HP Q2 FY2026 release: revenue $14.4B up 9%, AI PCs/edge AI/workstations mentioned"]
+    },
+    "SMH": {
+      "priority": 12,
+      "role": "benchmark and fallback ETF",
+      "theme": "semiconductor breadth",
+      "bull_triggers": ["broad semi strength", "single-stock conviction weak but sector strong"],
+      "confirmation": ["multiple components green", "above VWAP", "QQQ supportive"],
+      "disqualifiers": ["single-name catalyst better expressed directly", "sector breadth weak"],
+      "notional_bias": "normal",
+      "source_notes": ["ETF/benchmark; no operating-company SEC ingest"]
+    }
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "metadata": {
+    "generated_at": "2026-07-01T16:03:22.719Z",
+    "timezone": "America/Los_Angeles",
+    "repository_url": null,
+    "source_mode": "local",
+    "data_note": "Public-safe dashboard export. Account numbers, tokens, and long numeric identifiers are redacted before publishing."
+  },
+  "risk_rules": {
+    "min_trade_review_score": 80,
+    "default_notional_usd": [
+      250,
+      500
+    ],
+    "max_daily_loss_usd": 60,
+    "max_position_notional_usd": 250,
+    "max_trades_per_day": 8,
+    "no_averaging_down": true
+  },
+  "latest": {
+    "id": "ad069373-4686-4918-b5f8-f8e0019a3af2",
+    "started_at": "2026-07-01T16:01:43.803Z",
+    "finished_at": "2026-07-01T16:01:43.803Z",
+    "date": "2026-07-01",
+    "status": "ok",
+    "source": "codex-heartbeat",
+    "decision": "NO TRADE ALERT",
+    "severity": "quiet",
+    "ticker": null,
+    "score": null,
+    "message": "NO TRADE ALERT: 08:36 PT check found Agentic at $2,000 cash with no positions/orders; MU, SMH, NVDA, AMD, MRVL, and NBIS were below prior close and/or below opening ranges, so no setup reached the 80+ score gate.",
+    "output_text": "NO TRADE ALERT: 08:36 PT check found Agentic at $2,000 cash with no positions/orders; MU, SMH, NVDA, AMD, MRVL, and NBIS were below prior close and/or below opening ranges, so no setup reached the 80+ score gate.",
+    "account": {
+      "nickname": "Agentic",
+      "cash_usd": 2000,
+      "buying_power_usd": 2000,
+      "positions_count": 0,
+      "open_orders_count": 0,
+      "realized_pnl_usd": 0
+    },
+    "risk": {
+      "suggested_notional_usd": null,
+      "estimated_dollar_risk": null
+    },
+    "stages": [
+      {
+        "name": "Account gate",
+        "status": "done",
+        "summary": "Agentic account only; no other account used."
+      },
+      {
+        "name": "Portfolio check",
+        "status": "done",
+        "summary": "Cash, positions, orders, and realized P/L checked."
+      },
+      {
+        "name": "Market tape",
+        "status": "done",
+        "summary": "Watchlist quotes and broad semiconductor tape checked."
+      },
+      {
+        "name": "Catalyst scan",
+        "status": "done",
+        "summary": "Fresh catalyst/news context reviewed where available."
+      },
+      {
+        "name": "Rule scoring",
+        "status": "done",
+        "summary": "Setup compared with the intraday playbook and score gate."
+      },
+      {
+        "name": "Decision",
+        "status": "done",
+        "summary": "No qualifying trade setup"
+      }
+    ],
+    "links": []
+  },
+  "stats": {
+    "total_runs": 1,
+    "alerts": 0,
+    "trade_reviews": 0,
+    "exit_reviews": 0,
+    "no_trade_runs": 1,
+    "errors": 0,
+    "decision_counts": {
+      "NO TRADE ALERT": 1
+    },
+    "ticker_counts": {}
+  },
+  "watchlist": [
+    {
+      "symbol": "MU",
+      "priority": 1,
+      "state": null
+    },
+    {
+      "symbol": "WDC",
+      "priority": 2,
+      "state": null
+    },
+    {
+      "symbol": "STX",
+      "priority": 3,
+      "state": null
+    },
+    {
+      "symbol": "HON",
+      "priority": 4,
+      "state": null
+    },
+    {
+      "symbol": "STM",
+      "priority": 5,
+      "state": null
+    },
+    {
+      "symbol": "ASML",
+      "priority": 6,
+      "state": null
+    },
+    {
+      "symbol": "MRVL",
+      "priority": 7,
+      "state": null
+    },
+    {
+      "symbol": "NBIS",
+      "priority": 8,
+      "state": null
+    },
+    {
+      "symbol": "NVDA",
+      "priority": 9,
+      "state": null
+    },
+    {
+      "symbol": "AMD",
+      "priority": 10,
+      "state": null
+    },
+    {
+      "symbol": "AVGO",
+      "priority": 11,
+      "state": null
+    },
+    {
+      "symbol": "DELL",
+      "priority": 12,
+      "state": null
+    },
+    {
+      "symbol": "HPQ",
+      "priority": 13,
+      "state": null
+    },
+    {
+      "symbol": "HPE",
+      "priority": 14,
+      "state": null
+    },
+    {
+      "symbol": "SMH",
+      "priority": 15,
+      "state": null
+    }
+  ],
+  "runs": [
+    {
+      "id": "ad069373-4686-4918-b5f8-f8e0019a3af2",
+      "started_at": "2026-07-01T16:01:43.803Z",
+      "finished_at": "2026-07-01T16:01:43.803Z",
+      "date": "2026-07-01",
+      "status": "ok",
+      "source": "codex-heartbeat",
+      "decision": "NO TRADE ALERT",
+      "severity": "quiet",
+      "ticker": null,
+      "score": null,
+      "message": "NO TRADE ALERT: 08:36 PT check found Agentic at $2,000 cash with no positions/orders; MU, SMH, NVDA, AMD, MRVL, and NBIS were below prior close and/or below opening ranges, so no setup reached the 80+ score gate.",
+      "output_text": "NO TRADE ALERT: 08:36 PT check found Agentic at $2,000 cash with no positions/orders; MU, SMH, NVDA, AMD, MRVL, and NBIS were below prior close and/or below opening ranges, so no setup reached the 80+ score gate.",
+      "account": {
+        "nickname": "Agentic",
+        "cash_usd": 2000,
+        "buying_power_usd": 2000,
+        "positions_count": 0,
+        "open_orders_count": 0,
+        "realized_pnl_usd": 0
+      },
+      "risk": {
+        "suggested_notional_usd": null,
+        "estimated_dollar_risk": null
+      },
+      "stages": [
+        {
+          "name": "Account gate",
+          "status": "done",
+          "summary": "Agentic account only; no other account used."
+        },
+        {
+          "name": "Portfolio check",
+          "status": "done",
+          "summary": "Cash, positions, orders, and realized P/L checked."
+        },
+        {
+          "name": "Market tape",
+          "status": "done",
+          "summary": "Watchlist quotes and broad semiconductor tape checked."
+        },
+        {
+          "name": "Catalyst scan",
+          "status": "done",
+          "summary": "Fresh catalyst/news context reviewed where available."
+        },
+        {
+          "name": "Rule scoring",
+          "status": "done",
+          "summary": "Setup compared with the intraday playbook and score gate."
+        },
+        {
+          "name": "Decision",
+          "status": "done",
+          "summary": "No qualifying trade setup"
+        }
+      ],
+      "links": []
+    }
+  ],
+  "alerts": [],
+  "activity": [],
+  "reports": [
+    {
+      "date": "2026-07-01",
+      "title": "Robinhood Agentic Daily Log - 2026-07-01",
+      "href": "./reports/daily/2026-07-01.md",
+      "preview": "Generated: 2026-07-01 overnight prep ## Executive Snapshot - Local laptop mode is active. - macOS keep-awake is running through a LaunchAgent using `caffeinate`; verified with `launchctl` and `pmset`. - The active Codex heartbeat monitor remains the primary intraday workflow. - Cloud/Turso deployment was intentionally deferred to reduce complexity tonight. - No trades were placed. No order tools were enabled or used. ## Actions Taken By Codex - Fixed loca..."
+    }
+  ],
+  "links": {
+    "data_json": "./data/dashboard.json",
+    "sanitized_decision_log": "./logs/monitor-decisions.jsonl",
+    "sanitized_log_index": "./logs/index.json",
+    "reports_dir": "./reports/daily/",
+    "repository": null
+  }
+}

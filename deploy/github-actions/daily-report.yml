@@ -1,0 +1,25 @@
+name: Robinhood daily report
+
+on:
+  schedule:
+    # After US market close during daylight-saving time.
+    # GitHub cron is UTC; adjust if you want exact winter timing.
+    - cron: "30 21 * * 1-5"
+  workflow_dispatch:
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run cloud:daily-report
+        env:
+          TURSO_DATABASE_URL: ${{ secrets.TURSO_DATABASE_URL }}
+          TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
+          REPORT_TIME_ZONE: America/Los_Angeles

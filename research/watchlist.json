@@ -1,0 +1,82 @@
+{
+  "generated_for": "Robinhood semiconductor, AI hardware, storage, and space supply-chain trade monitor",
+  "lookback_years": 3,
+  "companies": [
+    {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "themes": ["memory", "HBM", "DRAM", "NAND", "AI infrastructure"]
+    },
+    {
+      "ticker": "WDC",
+      "name": "Western Digital",
+      "themes": ["storage", "NAND", "HDD", "data centers"]
+    },
+    {
+      "ticker": "STX",
+      "name": "Seagate Technology",
+      "themes": ["storage", "HDD", "mass capacity storage", "data centers", "satellite data infrastructure"]
+    },
+    {
+      "ticker": "HON",
+      "name": "Honeywell International",
+      "themes": ["aerospace", "avionics", "sensors", "space supply chain", "industrial automation"]
+    },
+    {
+      "ticker": "STM",
+      "name": "STMicroelectronics",
+      "themes": ["semiconductors", "power electronics", "microcontrollers", "sensors", "space supply chain"]
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML Holding",
+      "themes": ["semiconductor equipment", "EUV lithography", "chip supply chain", "advanced-node capacity"]
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "themes": ["data center networking", "custom silicon", "optical interconnect", "AI infrastructure", "satellite ground infrastructure"]
+    },
+    {
+      "ticker": "NBIS",
+      "name": "Nebius Group",
+      "themes": ["AI cloud", "GPU infrastructure", "data centers", "AI infrastructure", "satellite data workloads"]
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "themes": ["AI accelerators", "data centers", "networking", "AI software"]
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "themes": ["AI accelerators", "CPUs", "GPUs", "data centers"]
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "themes": ["AI networking", "custom silicon", "semiconductors", "infrastructure software"]
+    },
+    {
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "themes": ["AI servers", "enterprise hardware", "storage", "PCs"]
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc.",
+      "themes": ["PCs", "printing", "AI PCs"]
+    },
+    {
+      "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "themes": ["AI servers", "networking", "hybrid cloud", "enterprise infrastructure"]
+    },
+    {
+      "ticker": "SMH",
+      "name": "VanEck Semiconductor ETF",
+      "themes": ["semiconductor benchmark", "ETF"],
+      "skip_sec_operating_company_ingest": true
+    }
+  ]
+}

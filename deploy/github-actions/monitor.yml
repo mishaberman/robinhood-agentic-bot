@@ -1,0 +1,27 @@
+name: Robinhood cloud monitor
+
+on:
+  schedule:
+    # Every 5 minutes on weekdays during a broad US-market window in UTC.
+    # Adjust seasonally if you want tighter regular-market-only coverage.
+    - cron: "*/5 13-20 * * 1-5"
+  workflow_dispatch:
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run cloud:monitor-tick
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ROBINHOOD_OAUTH_ACCESS_TOKEN: ${{ secrets.ROBINHOOD_OAUTH_ACCESS_TOKEN }}
+          TURSO_DATABASE_URL: ${{ secrets.TURSO_DATABASE_URL }}
+          TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
+          ALERT_WEBHOOK_URL: ${{ secrets.ALERT_WEBHOOK_URL }}

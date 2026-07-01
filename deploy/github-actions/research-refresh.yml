@@ -1,0 +1,24 @@
+name: Robinhood research refresh
+
+on:
+  schedule:
+    # Weekdays around 5:15am Pacific during daylight-saving time.
+    # GitHub cron is UTC, so adjust this if you want exact winter timing.
+    - cron: "15 12 * * 1-5"
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run cloud:research-refresh
+        env:
+          TURSO_DATABASE_URL: ${{ secrets.TURSO_DATABASE_URL }}
+          TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
