@@ -115,6 +115,37 @@ Useful files:
 
 The database intentionally does not copy full earnings-call transcripts or paywalled article text from third-party publishers. Store source links and short notes instead.
 
+## Daily AI Intelligence Ledger
+
+The project also keeps a public-safe daily intelligence ledger for watchlist companies. It turns SEC filings, trend summaries, management notes, and short logged source notes from news/transcript/research sources into:
+
+- a daily company-level summary;
+- an estimated stock-impact note;
+- a falsifiable price/catalyst hypothesis with a review date;
+- a later mechanical fact check against price movement once the review date arrives.
+
+Generate today's ledger:
+
+```bash
+npm run research:ai-daily
+```
+
+Build the public dashboard export:
+
+```bash
+npm run dashboard:build
+```
+
+Useful files:
+
+- `research/intelligence/daily/<YYYY-MM-DD>.json` stores the full daily source digest, summary, prediction, and same-day fact-check additions.
+- `research/intelligence/predictions.jsonl` is the append-only hypothesis log.
+- `research/intelligence/fact-checks.jsonl` is the append-only prediction review log.
+- `research/intelligence/external-sources.jsonl` is the optional source-metadata input for third-party headlines, transcript links, Seeking Alpha metadata, TechCrunch links, investor-relations pages, and other non-SEC sources.
+- `docs/data/intelligence.json` is the compact public dashboard export.
+
+If `OPENAI_API_KEY` is present, `npm run research:ai-daily` uses the configured model for summaries. Without that key, it falls back to a deterministic summary so the ledger and dashboard still update, and marks the mode clearly.
+
 ## Strategy Pack
 
 The monitor also has a slow-thinking strategy layer under `research/strategy/`:
@@ -202,6 +233,7 @@ The project includes a static visual dashboard under `docs/` for GitHub Pages. I
 - watchlist candidate board;
 - Robinhood read-only quote/fundamental snapshot for watchlist symbols;
 - local SEC research summaries, financial fact snapshots, and all exported filing links;
+- daily AI intelligence summaries, stock-impact hypotheses, and prediction fact checks;
 - explicit coverage gaps for anything not yet automated;
 - risk gates and score thresholds;
 - links to daily reports, dashboard JSON, research JSON, and public-safe log exports.

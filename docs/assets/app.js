@@ -1,6 +1,7 @@
 const state = {
   data: null,
   research: null,
+  intelligence: null,
   filter: "all",
   selectedCompany: null,
   filingSymbol: "all",
@@ -97,12 +98,27 @@ function formatPercent(value, digits = 2) {
   return `${sign}${number.toFixed(digits)}%`;
 }
 
+function formatConfidence(value) {
+  const number = Number(value);
+  if (!Number.isFinite(number)) return "n/a";
+  const normalized = number > 1 ? number : number * 100;
+  return `${Math.round(normalized)}%`;
+}
+
 function trendMode(value) {
   const number = Number(value);
   if (!Number.isFinite(number)) return "info";
   if (number > 0.05) return "up";
   if (number < -0.05) return "down";
   return "flat";
+}
+
+function predictionMode(value) {
+  const direction = String(value || "").toLowerCase();
+  if (direction.includes("bull") || direction.includes("up")) return "up";
+  if (direction.includes("bear") || direction.includes("down")) return "down";
+  if (direction.includes("neutral") || direction.includes("flat")) return "flat";
+  return "info";
 }
 
 function percentChange(current, prior) {
@@ -799,6 +815,124 @@ function renderCoverageGaps(research) {
   target.innerHTML = items.map((item) => `<div class="gap-item">${escapeHtml(item)}</div>`).join("");
 }
 
+function renderIntelligence(intelligence) {
+  const meta = document.querySelector("#intelligenceMeta");
+  const summary = document.querySelector("#intelligenceSummary");
+  const predictions = document.querySelector("#predictionGrid");
+  const checks = document.querySelector("#factCheckGrid");
+
+  if (!meta || !summary || !predictions || !checks) return;
+
+  const latest = intelligence?.latest;
+  if (!latest) {
+    meta.textContent = "No daily intelligence export yet.";
+    summary.innerHTML = `<div class="empty">Run npm run research:ai-daily, then npm run dashboard:build to publish the first source-summary and prediction ledger.</div>`;
+    predictions.innerHTML = "";
+    checks.innerHTML = "";
+    return;
+  }
+
+  const scorecard = intelligence.scorecard || {};
+  const hitRate =
+    scorecard.hit_rate === null || scorecard.hit_rate === undefined ? "n/a" : `${Math.round(scorecard.hit_rate * 100)}%`;
+  meta.textContent = [
+    `Generated ${formatTime(latest.generated_at)}`,
+    `Mode ${latest.mode || "unknown"}`,
+    `${latest.companies?.length || 0} companies`,
+    latest.source_note
+  ]
+    .filter(Boolean)
+    .join(" | ");
+
+  summary.innerHTML = `
+    ${smallStat(latest.new_predictions ?? latest.companies?.length ?? 0, "Latest hypotheses")}
+    ${smallStat(scorecard.total ?? 0, "Completed fact checks")}
+    ${smallStat(hitRate, "Hit rate")}
+    ${smallStat(intelligence.history?.length ?? 0, "Daily snapshots")}
+  `;
+
+  predictions.innerHTML = (latest.companies || [])
+    .map((company) => {
+      const prediction = company.prediction || {};
+      const mode = predictionMode(prediction.direction);
+      const confidence = formatConfidence(prediction.confidence);
+      const sources = company.recent_sources?.length
+        ? company.recent_sources
+            .slice(0, 4)
+            .map(
+              (source) => `
+                <a class="source-mini" href="${escapeHtml(source.url || "#")}">
+                  <strong>${escapeHtml(source.type === "sec" ? `${source.date || ""} SEC` : source.source || "Source")}</strong>
+                  <span>${escapeHtml(source.title || source.note || "Source record")}</span>
+                </a>
+              `
+            )
+            .join("")
+        : `<div class="empty">No source links in this export.</div>`;
+
+      return `
+        <article class="prediction-card">
+          <div class="prediction-top">
+            <div>
+              <p class="ticker-line">${escapeHtml(company.symbol)}</p>
+              <p class="company-name">${escapeHtml(company.company || "")}</p>
+            </div>
+            ${badge(prediction.direction || "Watch", mode)}
+          </div>
+          <div class="prediction-meta">
+            ${smallStat(confidence, "Confidence")}
+            ${smallStat(prediction.horizon_days ? `${prediction.horizon_days}d` : "n/a", "Horizon")}
+            ${smallStat(formatTime(prediction.review_after), "Review after")}
+            ${smallStat(`${company.source_counts?.recent_filings || 0} / ${company.source_counts?.external_sources || 0}`, "SEC / news")}
+          </div>
+          <section>
+            <h4>Daily Summary</h4>
+            <p>${escapeHtml(company.ai_summary || "No summary generated.")}</p>
+          </section>
+          <section>
+            <h4>Stock Impact</h4>
+            <p>${escapeHtml(company.stock_impact || "No impact note generated.")}</p>
+          </section>
+          <section>
+            <h4>Prediction</h4>
+            <p>${escapeHtml(prediction.thesis || (prediction.rationale || []).join(" ")) || "No prediction rationale generated."}</p>
+            ${prediction.invalidation ? `<p class="caveat">Invalidation: ${escapeHtml(prediction.invalidation)}</p>` : ""}
+          </section>
+          ${company.caveat ? `<p class="caveat">${escapeHtml(company.caveat)}</p>` : ""}
+          <div class="source-strip">${sources}</div>
+        </article>
+      `;
+    })
+    .join("");
+
+  const factChecks = intelligence.fact_checks || [];
+  checks.innerHTML = factChecks.length
+    ? factChecks
+        .slice(0, 12)
+        .map((check) => {
+          const mode = check.outcome === "hit" ? "up" : check.outcome === "miss" ? "down" : "flat";
+          return `
+            <article class="factcheck-card">
+              <div class="prediction-top">
+                <div>
+                  <p class="ticker-line">${escapeHtml(check.symbol)}</p>
+                  <p class="company-name">${escapeHtml(formatTime(check.checked_at))}</p>
+                </div>
+                ${badge(check.outcome || "reviewed", mode)}
+              </div>
+              <p>${escapeHtml(check.lesson || "No lesson recorded.")}</p>
+              <div class="prediction-meta">
+                ${smallStat(check.predicted_direction || "n/a", "Predicted")}
+                ${smallStat(check.actual_change_pct === null ? "n/a" : formatPercent(check.actual_change_pct), "Actual move")}
+                ${smallStat(check.window_days ? `${check.window_days}d` : "n/a", "Window")}
+              </div>
+            </article>
+          `;
+        })
+        .join("")
+    : `<div class="empty">No predictions are old enough to fact-check yet. The ledger will populate after review dates pass.</div>`;
+}
+
 function renderLinks(data) {
   const links = document.querySelector("#links");
   const reportLinks = (data.reports || []).map((report) => ({
@@ -830,15 +964,18 @@ function renderLinks(data) {
 
 async function loadData() {
   const cache = Date.now();
-  const [dashboardResponse, researchResponse] = await Promise.all([
+  const [dashboardResponse, researchResponse, intelligenceResponse] = await Promise.all([
     fetch(`./data/dashboard.json?cache=${cache}`),
-    fetch(`./data/research.json?cache=${cache}`)
+    fetch(`./data/research.json?cache=${cache}`),
+    fetch(`./data/intelligence.json?cache=${cache}`)
   ]);
   if (!dashboardResponse.ok) throw new Error(`Dashboard data failed: ${dashboardResponse.status}`);
   if (!researchResponse.ok) throw new Error(`Research data failed: ${researchResponse.status}`);
+  if (!intelligenceResponse.ok) throw new Error(`Intelligence data failed: ${intelligenceResponse.status}`);
   return {
     dashboard: await dashboardResponse.json(),
-    research: await researchResponse.json()
+    research: await researchResponse.json(),
+    intelligence: await intelligenceResponse.json()
   };
 }
 
@@ -854,9 +991,10 @@ function renderLoadError(error) {
   `;
 }
 
-function render({ dashboard: data, research }) {
+function render({ dashboard: data, research, intelligence }) {
   state.data = data;
   state.research = research;
+  state.intelligence = intelligence;
   renderStatus(data);
   renderMarketSnapshot(research);
   renderFilters(data);
@@ -866,6 +1004,7 @@ function render({ dashboard: data, research }) {
   renderRisk(data);
   renderCompanySelect(research);
   renderCompanyDetail(research);
+  renderIntelligence(intelligence);
   renderFilings(research);
   renderCoverageGaps(research);
   renderLinks(data);
