@@ -49,7 +49,12 @@ function listValue(value) {
 }
 
 function inferKind(decision, message) {
-  const text = `${decision || ""} ${message || ""}`;
+  const normalizedDecision = String(decision || "").trim();
+  if (/^NO TRADE ALERT$/i.test(normalizedDecision)) return "NO TRADE ALERT";
+  if (/^TRADE REVIEW$/i.test(normalizedDecision)) return "TRADE REVIEW";
+  if (/^EXIT REVIEW$/i.test(normalizedDecision)) return "EXIT REVIEW";
+
+  const text = `${normalizedDecision} ${message || ""}`;
   if (/\bEXIT REVIEW\b/i.test(text)) return "EXIT REVIEW";
   if (/\bTRADE REVIEW\b/i.test(text)) return "TRADE REVIEW";
   if (/\bNO TRADE ALERT\b/i.test(text)) return "NO TRADE ALERT";

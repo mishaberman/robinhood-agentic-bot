@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-02T10:50:37.123Z",
+    "generated_at": "2026-07-02T10:51:15.137Z",
     "timezone": "America/Los_Angeles",
     "repository_url": "https://github.com/mishaberman/robinhood-agentic-bot",
     "source_mode": "local",
@@ -24,8 +24,8 @@
     "date": "2026-07-02",
     "status": "ok",
     "source": "codex-heartbeat",
-    "decision": "EXIT REVIEW",
-    "severity": "notify",
+    "decision": "NO TRADE ALERT",
+    "severity": "quiet",
     "ticker": null,
     "score": null,
     "message": "Outside regular market hours; Agentic account has cash only, no open positions, and no open/today equity orders, so no trade or exit review is actionable.",
@@ -34,8 +34,8 @@
       "nickname": "Agentic",
       "cash_usd": 2000,
       "buying_power_usd": 2000,
-      "positions_count": null,
-      "open_orders_count": null,
+      "positions_count": 0,
+      "open_orders_count": 0,
       "realized_pnl_usd": 0
     },
     "risk": {
@@ -71,7 +71,7 @@
       {
         "name": "Decision",
         "status": "done",
-        "summary": "Alert ready for user decision"
+        "summary": "No qualifying trade setup"
       }
     ],
     "links": []
@@ -81,11 +81,10 @@
     "alerts": 0,
     "trade_reviews": 0,
     "exit_reviews": 0,
-    "no_trade_runs": 1,
+    "no_trade_runs": 2,
     "errors": 0,
     "decision_counts": {
-      "EXIT REVIEW": 1,
-      "NO TRADE ALERT": 1
+      "NO TRADE ALERT": 2
     },
     "ticker_counts": {}
   },
@@ -184,8 +183,8 @@
       "date": "2026-07-02",
       "status": "ok",
       "source": "codex-heartbeat",
-      "decision": "EXIT REVIEW",
-      "severity": "notify",
+      "decision": "NO TRADE ALERT",
+      "severity": "quiet",
       "ticker": null,
       "score": null,
       "message": "Outside regular market hours; Agentic account has cash only, no open positions, and no open/today equity orders, so no trade or exit review is actionable.",
@@ -194,8 +193,8 @@
         "nickname": "Agentic",
         "cash_usd": 2000,
         "buying_power_usd": 2000,
-        "positions_count": null,
-        "open_orders_count": null,
+        "positions_count": 0,
+        "open_orders_count": 0,
         "realized_pnl_usd": 0
       },
       "risk": {
@@ -231,7 +230,7 @@
         {
           "name": "Decision",
           "status": "done",
-          "summary": "Alert ready for user decision"
+          "summary": "No qualifying trade setup"
         }
       ],
       "links": []
