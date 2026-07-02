@@ -19,7 +19,7 @@ const parseBoolean = (name, fallback = false) => {
 const parseWatchlist = () => {
   const raw =
     process.env.WATCHLIST ??
-    "MU,WDC,STX,HON,STM,ASML,MRVL,NBIS,NVDA,AMD,AVGO,DELL,HPQ,HPE,SMH";
+    "MU,WDC,SNDK,STX,HON,STM,ASML,MRVL,NBIS,APLD,NVDA,AMD,AVGO,DELL,HPQ,HPE,SMH";
   return raw
     .split(",")
     .map((symbol) => symbol.trim().toUpperCase())

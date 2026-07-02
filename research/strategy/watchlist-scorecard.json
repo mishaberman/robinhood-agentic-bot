@@ -13,10 +13,10 @@
   },
   "sector_anchors": {
     "semiconductors": ["SMH", "NVDA"],
-    "memory_storage": ["MU", "WDC", "STX"],
+    "memory_storage": ["MU", "WDC", "SNDK", "STX"],
     "ai_networking_custom_silicon": ["AVGO", "MRVL", "NVDA"],
-    "ai_servers": ["DELL", "HPE"],
-    "space_supply_chain_inferred": ["HON", "STM", "MRVL", "STX", "WDC", "NBIS"]
+    "ai_servers": ["DELL", "HPE", "APLD"],
+    "space_supply_chain_inferred": ["HON", "STM", "MRVL", "STX", "WDC", "SNDK", "NBIS", "APLD"]
   },
   "symbols": {
     "MU": {
@@ -38,6 +38,16 @@
       "disqualifiers": ["sympathy-only move without volume", "MU fades", "wide stop"],
       "notional_bias": "normal",
       "source_notes": ["Western Digital IR emphasizes AI-driven data workloads and latest Q3 FY2026 results"]
+    },
+    "SNDK": {
+      "priority": 2,
+      "role": "primary high-beta storage candidate",
+      "theme": "NAND/flash storage pure-play, AI data workload storage, memory/storage sympathy",
+      "bull_triggers": ["NAND pricing", "flash supply tightness", "AI data workloads", "storage pure-play rerating", "WDC/MU sympathy"],
+      "confirmation": ["relative strength vs WDC and MU", "tight bid/ask after open", "VWAP reclaim or controlled pullback", "volume expansion"],
+      "disqualifiers": ["wide spread", "thin liquidity pocket", "sympathy-only spike without volume", "WDC/MU fade", "stop wider than dollar-risk limit"],
+      "notional_bias": "smaller_due_high_price_and_spread",
+      "source_notes": ["SanDisk is a NAND/flash storage pure-play; use only after source-backed storage catalyst or clear tape confirmation"]
     },
     "STX": {
       "priority": 2,
@@ -138,6 +148,16 @@
       "disqualifiers": ["funding/buildout risk headlines", "profitability concerns", "wide spread or violent reversal"],
       "notional_bias": "smaller",
       "source_notes": ["Nebius Q1 2026 announcement: AI cloud company; secured up to 1.2 GW power and land for Pennsylvania AI factory"]
+    },
+    "APLD": {
+      "priority": 9,
+      "role": "high-beta AI data-center candidate",
+      "theme": "AI data-center hosting, HPC infrastructure, power-capacity optionality",
+      "bull_triggers": ["AI data-center lease", "HPC hosting demand", "power capacity", "GPU customer", "financing", "data-center construction milestone"],
+      "confirmation": ["unusual volume", "holds VWAP after first pullback", "NBIS/AI infrastructure peers confirm", "spread remains tight"],
+      "disqualifiers": ["funding or dilution risk headline", "construction/power delay", "profitability concern", "violent reversal", "stop wider than dollar-risk limit"],
+      "notional_bias": "smaller",
+      "source_notes": ["Applied Digital is high-beta AI infrastructure; require a fresh catalyst and tight risk because financing/buildout risk can dominate"]
     },
     "HON": {
       "priority": 10,

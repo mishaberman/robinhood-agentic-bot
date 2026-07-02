@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-02T05:14:20.960Z",
+    "generated_at": "2026-07-02T05:23:08.747Z",
     "timezone": "America/Los_Angeles",
     "repository_url": "https://github.com/mishaberman/robinhood-agentic-bot",
     "source_mode": "local",
@@ -100,68 +100,78 @@
       "state": null
     },
     {
-      "symbol": "STX",
+      "symbol": "SNDK",
       "priority": 3,
       "state": null
     },
     {
-      "symbol": "HON",
+      "symbol": "STX",
       "priority": 4,
       "state": null
     },
     {
-      "symbol": "STM",
+      "symbol": "HON",
       "priority": 5,
       "state": null
     },
     {
-      "symbol": "ASML",
+      "symbol": "STM",
       "priority": 6,
       "state": null
     },
     {
-      "symbol": "MRVL",
+      "symbol": "ASML",
       "priority": 7,
       "state": null
     },
     {
-      "symbol": "NBIS",
+      "symbol": "MRVL",
       "priority": 8,
       "state": null
     },
     {
-      "symbol": "NVDA",
+      "symbol": "NBIS",
       "priority": 9,
       "state": null
     },
     {
-      "symbol": "AMD",
+      "symbol": "APLD",
       "priority": 10,
       "state": null
     },
     {
-      "symbol": "AVGO",
+      "symbol": "NVDA",
       "priority": 11,
       "state": null
     },
     {
-      "symbol": "DELL",
+      "symbol": "AMD",
       "priority": 12,
       "state": null
     },
     {
-      "symbol": "HPQ",
+      "symbol": "AVGO",
       "priority": 13,
       "state": null
     },
     {
-      "symbol": "HPE",
+      "symbol": "DELL",
       "priority": 14,
       "state": null
     },
     {
-      "symbol": "SMH",
+      "symbol": "HPQ",
       "priority": 15,
+      "state": null
+    },
+    {
+      "symbol": "HPE",
+      "priority": 16,
+      "state": null
+    },
+    {
+      "symbol": "SMH",
+      "priority": 17,
       "state": null
     }
   ],

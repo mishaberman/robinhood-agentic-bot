@@ -129,6 +129,13 @@ a {
   line-height: 1.35;
 }
 
+.market-tools {
+  display: grid;
+  justify-items: end;
+  gap: 8px;
+  max-width: 560px;
+}
+
 .select-label {
   display: grid;
   gap: 5px;
@@ -493,7 +500,7 @@ a {
 .market-card {
   display: grid;
   gap: 12px;
-  min-height: 248px;
+  min-height: 352px;
   padding: 13px;
 }
 
@@ -532,6 +539,29 @@ a {
   font-size: 0.74rem;
   font-weight: 720;
   text-align: right;
+}
+
+.chart-block {
+  min-height: 106px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fffdf8;
+  overflow: hidden;
+}
+
+.spark-chart {
+  display: block;
+  width: 100%;
+  height: 106px;
+}
+
+.chart-empty {
+  display: grid;
+  place-items: center;
+  min-height: 106px;
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 760;
 }
 
 .mini-grid {
@@ -847,6 +877,11 @@ a {
   .segmented {
     justify-content: start;
     grid-auto-flow: row;
+  }
+
+  .market-tools {
+    justify-items: start;
+    max-width: none;
   }
 
   .segmented {

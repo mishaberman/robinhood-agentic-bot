@@ -206,7 +206,7 @@ The project includes a static visual dashboard under `docs/` for GitHub Pages. I
 - risk gates and score thresholds;
 - links to daily reports, dashboard JSON, research JSON, and public-safe log exports.
 
-The public site is static, so it does not stream authenticated Robinhood data directly to the browser. Instead, the local Codex monitor refreshes and publishes public-safe JSON snapshots every 5 minutes during the market window, and the browser checks the published JSON every 60 seconds. This keeps the ticker cards current without exposing Robinhood credentials, account identifiers, or raw private logs.
+The public site is static, so it does not stream authenticated Robinhood data directly to the browser. Instead, the local Codex monitor refreshes and publishes public-safe JSON snapshots every 5 minutes during the market window, and the browser checks the published JSON every 60 seconds. The browser also tries Yahoo Finance chart data through public CORS proxies for card-level price charts and range views (`1D`, `1W`, `1M`, `YTD`, `1Y`, `5Y`); if that public route is blocked, delayed, rate-limited, or changes format, the card falls back to the published Robinhood snapshot. This keeps the ticker cards useful without exposing Robinhood credentials, account identifiers, or raw private logs.
 
 Build the dashboard data locally:
 

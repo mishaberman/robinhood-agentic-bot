@@ -6,12 +6,12 @@ Purpose: durable context for the Robinhood Agentic monitor. Use this as backgrou
 
 ### 1. Memory / HBM / NAND Tightness
 
-Primary tickers: `MU`, `WDC`, `STX`
+Primary tickers: `MU`, `WDC`, `SNDK`, `STX`
 
 Thesis:
 - The strongest current cluster is memory and storage scarcity tied to AI infrastructure buildouts.
 - `MU` has the most direct HBM/DRAM/NAND leverage and the strongest local SEC trend acceleration.
-- `WDC` and `STX` are storage-capacity beneficiaries, especially where AI/data-center workloads need cheap capacity at scale.
+- `WDC`, `SNDK`, and `STX` are storage-capacity beneficiaries, especially where AI/data-center workloads need cheap capacity at scale. `SNDK` is the higher-beta NAND/flash pure-play and needs tighter risk controls.
 
 Evidence:
 - Micron IR lists a June 24, 2026 record fiscal Q3 release and a June 22, 2026 strategic agreement with Anthropic. Source: https://investors.micron.com/
@@ -22,13 +22,13 @@ Evidence:
 
 Monitor implications:
 - `MU` gets priority when the catalyst is HBM, DRAM pricing, NAND pricing, Strategic Customer Agreements, AI memory shortages, or Nvidia/AMD supply-chain sympathy.
-- `WDC`/`STX` get priority when the catalyst is HDD capacity, hyperscaler storage, exabyte demand, cloud/data-center storage, or a sympathy move from memory tightness.
+- `WDC`/`SNDK`/`STX` get priority when the catalyst is HDD capacity, NAND/flash pricing, hyperscaler storage, exabyte demand, cloud/data-center storage, or a sympathy move from memory tightness.
 - Avoid chasing if the stock gaps hard and immediately loses VWAP. Prefer pullback/reclaim setups.
 
 Bear checks:
 - Memory/storage stocks are extended after sharp 2026 moves; a good catalyst still needs a clean intraday base.
 - Reversal risk is high when headlines are already known before market open.
-- If `MU` reverses, expect sympathy pressure on `WDC`, `STX`, and sometimes `SMH`.
+- If `MU` reverses, expect sympathy pressure on `WDC`, `SNDK`, `STX`, and sometimes `SMH`.
 
 ## 2. AI Networking / Custom Silicon / Optical
 
@@ -57,11 +57,11 @@ Bear checks:
 
 ## 3. AI Servers / Enterprise Infrastructure / Edge AI
 
-Primary tickers: `DELL`, `HPE`, `HPQ`
+Primary tickers: `DELL`, `HPE`, `HPQ`, `APLD`
 
 Thesis:
 - AI server demand is real, but profit quality differs by vendor. The alert system should distinguish revenue/backlog strength from margin dilution.
-- `DELL` is the highest-beta AI-server watchlist name; `HPE` is infrastructure/networking/hybrid cloud; `HPQ` is mostly lower-beta edge AI/PC refresh.
+- `DELL` is the highest-beta liquid AI-server watchlist name; `HPE` is infrastructure/networking/hybrid cloud; `HPQ` is mostly lower-beta edge AI/PC refresh. `APLD` is a high-beta AI data-center/HPC hosting candidate where power, financing, construction milestones, and customer headlines matter more than generic AI enthusiasm.
 
 Evidence:
 - Dell Q1 FY2027 transcript reported AI server orders of $24.4B, AI server revenue of $16.1B, and ending backlog of $51.3B; traditional server/networking revenue was $8.5B and demand continued to outpace supply. Source: https://investors.delltechnologies.com/static-files/b63ffff9-b729-403b-a231-c6af05667759
@@ -73,10 +73,12 @@ Monitor implications:
 - `DELL` alert threshold should require both price strength and either AI server/backlog news or positive sector sympathy from `NVDA`, `AVGO`, or `MRVL`.
 - `HPE` can be considered when networking/cloud/AI infrastructure headlines are broad and `DELL` is too extended.
 - `HPQ` should usually be a secondary/defensive watch, not a primary day-trade target, unless there is a very specific AI PC/PC refresh catalyst plus unusual volume.
+- `APLD` can be considered only when the setup is catalyst-backed and the tape is unusually strong; use smaller notional because financing/buildout risk and reversals can be sharp.
 
 Bear checks:
 - AI server revenue can be low-margin; avoid buying only on backlog if market reaction is focused on profitability.
 - Inventory spikes matter for `DELL` and `HPQ`.
+- `APLD` can move on financing, dilution, construction, customer, and power-capacity headlines; avoid if the move is only generic AI sympathy.
 
 ## 4. Semiconductor Equipment / Foundry Capacity / Export Controls
 
@@ -99,7 +101,7 @@ Bear checks:
 
 ## 5. Space / Satellite / Aerospace Supply Chain
 
-Primary tickers: `HON`, `STM`, `MRVL`, `STX`, `WDC`, `NBIS`
+Primary tickers: `HON`, `STM`, `MRVL`, `STX`, `WDC`, `SNDK`, `NBIS`, `APLD`
 
 Thesis:
 - SpaceX is private. Treat SpaceX/Starlink/launch/satellite headlines as inferred context only unless a source directly names a public supplier.
@@ -114,6 +116,7 @@ Monitor implications:
 - `HON` is event/corporate-action driven right now; trade only on fresh spin-off/aerospace/automation news plus clean liquidity.
 - `STM` needs evidence that the market is rewarding Q1 recovery/AI datacenter upside, not just broad semi sympathy.
 - `NBIS` is high beta and infrastructure-heavy; require unusually strong volume and avoid oversized notional.
+- `APLD` is also high beta and infrastructure-heavy; require a specific AI data-center/power/customer catalyst and avoid oversized notional.
 - Do not state a direct SpaceX relationship unless the source explicitly supports it.
 
 Bear checks:
@@ -124,7 +127,7 @@ Bear checks:
 
 Primary candidates if live action aligns:
 1. `MU` - best current thesis strength, high beta, direct HBM/memory scarcity.
-2. `WDC` / `STX` - storage scarcity and AI data workload sympathy.
+2. `WDC` / `SNDK` / `STX` - storage scarcity and AI data workload sympathy.
 3. `DELL` - AI server backlog and high liquidity, but watch margins.
 4. `AVGO` / `MRVL` - custom silicon/networking catalysts.
 5. `NVDA` / `AMD` - sector anchors and product-cycle confirmation.
@@ -133,7 +136,7 @@ Secondary candidates:
 6. `ASML` - equipment/export-control/bookings setup only.
 7. `HPE` - infrastructure/networking setup only.
 8. `STM` - recovery/datacenter setup only.
-9. `NBIS` - high-beta AI cloud setup only with strong risk controls.
+9. `NBIS` / `APLD` - high-beta AI infrastructure setup only with strong risk controls.
 10. `HON` - corporate-action/aerospace setup only.
 11. `HPQ` - lower priority unless AI PC/edge AI news has unusual volume.
 

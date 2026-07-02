@@ -6,10 +6,24 @@ const state = {
   filingSymbol: "all",
   lastLoadedAt: null,
   lastRefreshError: null,
-  refreshTimer: null
+  refreshTimer: null,
+  marketRange: "1D",
+  liveMarket: {},
+  liveMarketLoadedAt: null,
+  liveMarketLoading: false,
+  liveMarketError: null
 };
 
 const CLIENT_REFRESH_MS = 60 * 1000;
+const PUBLIC_MARKET_SOURCE = "Yahoo Finance chart API via public CORS proxy";
+const MARKET_RANGES = {
+  "1D": { label: "1D", range: "1d", interval: "5m" },
+  "1W": { label: "1W", range: "5d", interval: "15m" },
+  "1M": { label: "1M", range: "1mo", interval: "1d" },
+  YTD: { label: "YTD", range: "ytd", interval: "1d" },
+  "1Y": { label: "1Y", range: "1y", interval: "1d" },
+  "5Y": { label: "5Y", range: "5y", interval: "1wk" }
+};
 
 const decisionLabels = {
   all: "All",
@@ -89,6 +103,59 @@ function trendMode(value) {
   if (number > 0.05) return "up";
   if (number < -0.05) return "down";
   return "flat";
+}
+
+function percentChange(current, prior) {
+  const currentNumber = Number(current);
+  const priorNumber = Number(prior);
+  if (!Number.isFinite(currentNumber) || !Number.isFinite(priorNumber) || priorNumber === 0) return null;
+  return ((currentNumber - priorNumber) / priorNumber) * 100;
+}
+
+function compactSource(value) {
+  return String(value || "")
+    .replace(/^https?:\/\//, "")
+    .replace(/\/$/, "");
+}
+
+function chartSvg(points, mode = "info") {
+  const cleaned = (points || [])
+    .map((point) => ({ time: Number(point.time), close: Number(point.close) }))
+    .filter((point) => Number.isFinite(point.time) && Number.isFinite(point.close));
+
+  if (cleaned.length < 2) {
+    return `<div class="chart-empty">Chart unavailable</div>`;
+  }
+
+  const width = 320;
+  const height = 96;
+  const padding = 8;
+  const minTime = cleaned[0].time;
+  const maxTime = cleaned.at(-1).time;
+  const prices = cleaned.map((point) => point.close);
+  const minPrice = Math.min(...prices);
+  const maxPrice = Math.max(...prices);
+  const timeSpan = Math.max(1, maxTime - minTime);
+  const priceSpan = Math.max(0.01, maxPrice - minPrice);
+  const color = mode === "down" ? "#b3342a" : mode === "up" ? "#1f7a55" : "#245b8f";
+
+  const path = cleaned
+    .map((point, index) => {
+      const x = padding + ((point.time - minTime) / timeSpan) * (width - padding * 2);
+      const y = height - padding - ((point.close - minPrice) / priceSpan) * (height - padding * 2);
+      return `${index === 0 ? "M" : "L"}${x.toFixed(1)} ${y.toFixed(1)}`;
+    })
+    .join(" ");
+
+  const area = `${path} L${width - padding} ${height - padding} L${padding} ${height - padding} Z`;
+
+  return `
+    <svg class="spark-chart" viewBox="0 0 ${width} ${height}" role="img" aria-label="Price trend chart">
+      <path d="${area}" fill="${color}" opacity="0.12"></path>
+      <path d="${path}" fill="none" stroke="${color}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+      <line x1="${padding}" x2="${width - padding}" y1="${height - padding}" y2="${height - padding}" stroke="#ded8cb"></line>
+    </svg>
+  `;
 }
 
 function classFor(run) {
@@ -345,20 +412,152 @@ function renderRisk(data) {
   `;
 }
 
+function renderMarketRangeControls() {
+  const target = document.querySelector("#rangeControls");
+  if (!target) return;
+
+  target.innerHTML = Object.keys(MARKET_RANGES)
+    .map(
+      (key) => `
+        <button type="button" class="${state.marketRange === key ? "active" : ""}" data-range="${escapeHtml(key)}">
+          ${escapeHtml(MARKET_RANGES[key].label)}
+        </button>
+      `
+    )
+    .join("");
+
+  target.querySelectorAll("button").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.marketRange = button.dataset.range;
+      renderMarketSnapshot(state.research);
+      updatePublicMarketData();
+    });
+  });
+}
+
+function latestPoint(points) {
+  return [...(points || [])]
+    .reverse()
+    .find((point) => Number.isFinite(Number(point.close)));
+}
+
+async function fetchPublicChart(symbol, rangeKey) {
+  const range = MARKET_RANGES[rangeKey] || MARKET_RANGES["1D"];
+  const url = new URL(`https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}`);
+  url.searchParams.set("range", range.range);
+  url.searchParams.set("interval", range.interval);
+  url.searchParams.set("includePrePost", rangeKey === "1D" ? "true" : "false");
+  url.searchParams.set("events", "div,splits");
+
+  const payload = await fetchPublicMarketJson(url.toString());
+  const result = payload?.chart?.result?.[0];
+  const quote = result?.indicators?.quote?.[0];
+  const timestamps = result?.timestamp || [];
+  const closes = quote?.close || [];
+  const points = timestamps
+    .map((timestamp, index) => ({
+      time: timestamp * 1000,
+      close: Number(closes[index])
+    }))
+    .filter((point) => Number.isFinite(point.close));
+  const latest = latestPoint(points);
+  const first = points[0];
+  const meta = result?.meta || {};
+  const price = Number(meta.regularMarketPrice ?? latest?.close);
+  const prior = Number(meta.previousClose ?? meta.chartPreviousClose ?? first?.close);
+  const rangePrior = first?.close ?? prior;
+  const asOfMs = Number(meta.regularMarketTime) ? Number(meta.regularMarketTime) * 1000 : latest?.time;
+
+  return {
+    symbol,
+    price,
+    previous_close: Number.isFinite(prior) ? prior : null,
+    as_of: asOfMs ? new Date(asOfMs).toISOString() : null,
+    day_change_pct: percentChange(price, prior),
+    range_change_pct: percentChange(price, rangePrior),
+    points,
+    source: PUBLIC_MARKET_SOURCE,
+    range: rangeKey
+  };
+}
+
+async function fetchPublicMarketJson(targetUrl) {
+  const urls = [
+    `https://corsproxy.io/?${encodeURIComponent(targetUrl)}`,
+    `https://api.allorigins.win/raw?url=${encodeURIComponent(targetUrl)}`,
+    targetUrl
+  ];
+  let lastError = null;
+
+  for (const url of urls) {
+    try {
+      const controller = new AbortController();
+      const timeout = window.setTimeout(() => controller.abort(), 8000);
+      const response = await fetch(url, { cache: "no-store", signal: controller.signal });
+      window.clearTimeout(timeout);
+      if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+      return response.json();
+    } catch (error) {
+      lastError = error;
+    }
+  }
+
+  throw lastError || new Error("Public market fetch failed");
+}
+
+async function updatePublicMarketData() {
+  const companies = state.research?.companies || [];
+  if (!companies.length) return;
+
+  state.liveMarketLoading = true;
+  state.liveMarketError = null;
+  renderMarketSnapshot(state.research);
+
+  const rangeKey = state.marketRange;
+  const results = await Promise.allSettled(companies.map((company) => fetchPublicChart(company.symbol, rangeKey)));
+  const liveMarket = {};
+  const failures = [];
+
+  results.forEach((result, index) => {
+    const symbol = companies[index]?.symbol;
+    if (result.status === "fulfilled") {
+      liveMarket[symbol] = result.value;
+    } else {
+      failures.push(symbol);
+    }
+  });
+
+  if (state.marketRange === rangeKey) {
+    state.liveMarket = liveMarket;
+    state.liveMarketLoadedAt = new Date().toISOString();
+    state.liveMarketLoading = false;
+    state.liveMarketError = failures.length ? `Public chart fallback for ${failures.join(", ")}` : null;
+    renderMarketSnapshot(state.research);
+  }
+}
+
 function renderMarketSnapshot(research) {
   const meta = document.querySelector("#marketMeta");
   const market = research?.market_snapshot || {};
   const refreshState = state.lastRefreshError
     ? `Last browser refresh failed: ${state.lastRefreshError}`
     : `Browser checks every ${Math.round(CLIENT_REFRESH_MS / 1000)}s`;
+  const liveState = state.liveMarketLoading
+    ? `Loading ${state.marketRange} public charts`
+    : state.liveMarketLoadedAt
+      ? `${state.marketRange} public charts ${formatTime(state.liveMarketLoadedAt)}`
+      : "Public charts pending";
   meta.textContent = [
     market.generated_at ? `Market ${formatTime(market.generated_at)}` : "No market snapshot",
     research?.metadata?.generated_at ? `Export ${formatTime(research.metadata.generated_at)}` : null,
     state.lastLoadedAt ? `Browser checked ${formatTime(state.lastLoadedAt)}` : null,
+    liveState,
+    state.liveMarketError,
     refreshState
   ]
     .filter(Boolean)
     .join(" | ");
+  renderMarketRangeControls();
 
   const target = document.querySelector("#marketSnapshot");
   const companies = research?.companies || [];
@@ -369,10 +568,14 @@ function renderMarketSnapshot(research) {
 
   target.innerHTML = companies
     .map((company) => {
-      const quote = company.market || {};
-      const mode = trendMode(quote.day_change_pct);
+      const snapshot = company.market || {};
+      const live = state.liveMarket?.[company.symbol] || null;
+      const quote = live ? { ...snapshot, ...live } : snapshot;
+      const rangeChange = live?.range_change_pct ?? quote.day_change_pct;
+      const mode = trendMode(rangeChange);
       const range = Math.round(Number(quote.range_52w_position_pct || 0));
       const spread = quote.spread_pct === null || quote.spread_pct === undefined ? "n/a" : formatPercent(quote.spread_pct, 3);
+      const source = live ? `${PUBLIC_MARKET_SOURCE} | ${state.marketRange}` : "Published snapshot";
       return `
         <article class="market-card">
           <div class="market-head">
@@ -380,11 +583,14 @@ function renderMarketSnapshot(research) {
               <p class="ticker-line">${escapeHtml(company.symbol)}</p>
               <p class="company-name">${escapeHtml(company.name)}</p>
             </div>
-            ${badge(formatPercent(quote.day_change_pct), mode)}
+            ${badge(formatPercent(rangeChange), mode)}
           </div>
           <div class="price-row">
             <strong>${escapeHtml(formatPrice(quote.price))}</strong>
-            <span>${escapeHtml(formatTime(quote.as_of))}</span>
+            <span>${escapeHtml(formatTime(quote.as_of))}<br>${escapeHtml(compactSource(source))}</span>
+          </div>
+          <div class="chart-block">
+            ${chartSvg(live?.points, mode)}
           </div>
           <div class="mini-grid">
             ${smallStat(formatPrice(quote.previous_close), "Prev close")}
@@ -582,8 +788,8 @@ function renderCoverageGaps(research) {
   const missingMarket = companies.filter((company) => !company.market).map((company) => company.symbol);
   const missingFacts = companies.filter((company) => !company.financial_metrics?.length).map((company) => company.symbol);
   const items = [
-    `Static Pages snapshot: prices refresh when the 5-minute Codex monitor rebuilds and pushes the dashboard export.`,
-    `No full historical OHLC archive is published yet; current stock trend view uses day move, volume pace, and 52-week range position.`,
+    `Public chart cards try ${PUBLIC_MARKET_SOURCE} on each browser refresh; if that fails, they fall back to the 5-minute published Robinhood snapshot.`,
+    `No private authenticated Robinhood stream is exposed to the browser; public API availability can vary by provider, CORS, and rate limits.`,
     `No live VWAP/support/resistance chart is published yet; those are still assessed during monitor runs.`,
     `Management-note tables are mostly placeholders until manual earnings-call notes are added.`,
     missingMarket.length ? `Missing market snapshot: ${missingMarket.join(", ")}.` : `Market snapshot present for all ${companies.length} watchlist entries.`,
@@ -671,6 +877,7 @@ async function refreshData() {
     state.lastLoadedAt = new Date().toISOString();
     state.lastRefreshError = null;
     render(payload);
+    updatePublicMarketData();
   } catch (error) {
     state.lastRefreshError = error.message;
     if (!state.data || !state.research) {

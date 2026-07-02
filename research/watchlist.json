@@ -13,6 +13,11 @@
       "themes": ["storage", "NAND", "HDD", "data centers"]
     },
     {
+      "ticker": "SNDK",
+      "name": "SanDisk",
+      "themes": ["storage", "NAND", "flash memory", "AI data workloads"]
+    },
+    {
       "ticker": "STX",
       "name": "Seagate Technology",
       "themes": ["storage", "HDD", "mass capacity storage", "data centers", "satellite data infrastructure"]
@@ -41,6 +46,11 @@
       "ticker": "NBIS",
       "name": "Nebius Group",
       "themes": ["AI cloud", "GPU infrastructure", "data centers", "AI infrastructure", "satellite data workloads"]
+    },
+    {
+      "ticker": "APLD",
+      "name": "Applied Digital",
+      "themes": ["AI data centers", "HPC hosting", "power capacity", "GPU infrastructure"]
     },
     {
       "ticker": "NVDA",
