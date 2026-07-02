@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-02T15:40:03.728Z",
+    "generated_at": "2026-07-02T15:41:59.004Z",
     "timezone": "America/Los_Angeles",
     "repository_url": "https://github.com/mishaberman/robinhood-agentic-bot",
     "source_mode": "local",
@@ -28,8 +28,8 @@
     "severity": "quiet",
     "ticker": null,
     "score": null,
-    "message": "Premarket-only check before the regular session: Agentic has $2,000 cash/buying power, no positions, no open/today equity orders, and no regular-session setup can be scored yet.",
-    "output_text": "Premarket-only check before the regular session: Agentic has $2,000 cash/buying power, no positions, no open/today equity orders, and no regular-session setup can be scored yet.",
+    "message": "Regular-session refresh: Agentic has $2,000 cash/buying power, no positions, no open/today equity orders, and the watchlist tape is broadly red, so no long setup clears the 80+ score gate.",
+    "output_text": "Regular-session refresh: Agentic has $2,000 cash/buying power, no positions, no open/today equity orders, and the watchlist tape is broadly red, so no long setup clears the 80+ score gate.",
     "account": {
       "nickname": "Agentic",
       "cash_usd": 2000,
@@ -187,8 +187,8 @@
       "severity": "quiet",
       "ticker": null,
       "score": null,
-      "message": "Premarket-only check before the regular session: Agentic has $2,000 cash/buying power, no positions, no open/today equity orders, and no regular-session setup can be scored yet.",
-      "output_text": "Premarket-only check before the regular session: Agentic has $2,000 cash/buying power, no positions, no open/today equity orders, and no regular-session setup can be scored yet.",
+      "message": "Regular-session refresh: Agentic has $2,000 cash/buying power, no positions, no open/today equity orders, and the watchlist tape is broadly red, so no long setup clears the 80+ score gate.",
+      "output_text": "Regular-session refresh: Agentic has $2,000 cash/buying power, no positions, no open/today equity orders, and the watchlist tape is broadly red, so no long setup clears the 80+ score gate.",
       "account": {
         "nickname": "Agentic",
         "cash_usd": 2000,
