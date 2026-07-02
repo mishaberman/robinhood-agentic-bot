@@ -3,8 +3,13 @@ const state = {
   research: null,
   filter: "all",
   selectedCompany: null,
-  filingSymbol: "all"
+  filingSymbol: "all",
+  lastLoadedAt: null,
+  lastRefreshError: null,
+  refreshTimer: null
 };
+
+const CLIENT_REFRESH_MS = 60 * 1000;
 
 const decisionLabels = {
   all: "All",
@@ -343,9 +348,17 @@ function renderRisk(data) {
 function renderMarketSnapshot(research) {
   const meta = document.querySelector("#marketMeta");
   const market = research?.market_snapshot || {};
-  meta.textContent = market.generated_at
-    ? `Snapshot ${formatTime(market.generated_at)}`
-    : "No market snapshot";
+  const refreshState = state.lastRefreshError
+    ? `Last browser refresh failed: ${state.lastRefreshError}`
+    : `Browser checks every ${Math.round(CLIENT_REFRESH_MS / 1000)}s`;
+  meta.textContent = [
+    market.generated_at ? `Market ${formatTime(market.generated_at)}` : "No market snapshot",
+    research?.metadata?.generated_at ? `Export ${formatTime(research.metadata.generated_at)}` : null,
+    state.lastLoadedAt ? `Browser checked ${formatTime(state.lastLoadedAt)}` : null,
+    refreshState
+  ]
+    .filter(Boolean)
+    .join(" | ");
 
   const target = document.querySelector("#marketSnapshot");
   const companies = research?.companies || [];
@@ -569,7 +582,7 @@ function renderCoverageGaps(research) {
   const missingMarket = companies.filter((company) => !company.market).map((company) => company.symbol);
   const missingFacts = companies.filter((company) => !company.financial_metrics?.length).map((company) => company.symbol);
   const items = [
-    `Static Pages snapshot: prices refresh only when the dashboard export is rebuilt and pushed.`,
+    `Static Pages snapshot: prices refresh when the 5-minute Codex monitor rebuilds and pushes the dashboard export.`,
     `No full historical OHLC archive is published yet; current stock trend view uses day move, volume pace, and 52-week range position.`,
     `No live VWAP/support/resistance chart is published yet; those are still assessed during monitor runs.`,
     `Management-note tables are mostly placeholders until manual earnings-call notes are added.`,
@@ -623,6 +636,18 @@ async function loadData() {
   };
 }
 
+function renderLoadError(error) {
+  document.querySelector("#status").innerHTML = `
+    <article class="status-card primary">
+      <div>
+        ${badge("ERROR", "error")}
+        <h3>Dashboard data unavailable</h3>
+        <p class="status-copy">${escapeHtml(error.message)}</p>
+      </div>
+    </article>
+  `;
+}
+
 function render({ dashboard: data, research }) {
   state.data = data;
   state.research = research;
@@ -640,16 +665,21 @@ function render({ dashboard: data, research }) {
   renderLinks(data);
 }
 
-loadData()
-  .then(render)
-  .catch((error) => {
-    document.querySelector("#status").innerHTML = `
-      <article class="status-card primary">
-        <div>
-          ${badge("ERROR", "error")}
-          <h3>Dashboard data unavailable</h3>
-          <p class="status-copy">${escapeHtml(error.message)}</p>
-        </div>
-      </article>
-    `;
-  });
+async function refreshData() {
+  try {
+    const payload = await loadData();
+    state.lastLoadedAt = new Date().toISOString();
+    state.lastRefreshError = null;
+    render(payload);
+  } catch (error) {
+    state.lastRefreshError = error.message;
+    if (!state.data || !state.research) {
+      renderLoadError(error);
+      return;
+    }
+    renderMarketSnapshot(state.research);
+  }
+}
+
+refreshData();
+state.refreshTimer = window.setInterval(refreshData, CLIENT_REFRESH_MS);

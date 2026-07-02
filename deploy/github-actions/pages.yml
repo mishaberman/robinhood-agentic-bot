@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # Refresh the static dashboard while US markets are active.
-    - cron: "*/10 13-21 * * 1-5"
+    - cron: "*/5 13-21 * * 1-5"
 
 permissions:
   contents: read

@@ -125,6 +125,8 @@ The monitor also has a slow-thinking strategy layer under `research/strategy/`:
 
 The active Codex heartbeat monitor is configured to consult this pack before raising `TRADE REVIEW` or `EXIT REVIEW`.
 
+Each 5-minute monitor run also updates the public-safe dashboard snapshot when new account, quote, research, or decision data is available. It must call Robinhood `get_accounts` first, use only the Agentic account, and never place or cancel orders.
+
 ## Turso Cloud Database
 
 Turso is used as the cloud copy of the research database plus monitor/alert history. Keep credentials in environment variables or your cloud host's secret manager:
@@ -203,6 +205,8 @@ The project includes a static visual dashboard under `docs/` for GitHub Pages. I
 - explicit coverage gaps for anything not yet automated;
 - risk gates and score thresholds;
 - links to daily reports, dashboard JSON, research JSON, and public-safe log exports.
+
+The public site is static, so it does not stream authenticated Robinhood data directly to the browser. Instead, the local Codex monitor refreshes and publishes public-safe JSON snapshots every 5 minutes during the market window, and the browser checks the published JSON every 60 seconds. This keeps the ticker cards current without exposing Robinhood credentials, account identifiers, or raw private logs.
 
 Build the dashboard data locally:
 
