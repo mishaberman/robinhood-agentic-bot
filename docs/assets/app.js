@@ -2,6 +2,7 @@ const state = {
   data: null,
   research: null,
   intelligence: null,
+  logs: null,
   filter: "all",
   selectedCompany: null,
   filingSymbol: "all",
@@ -53,6 +54,33 @@ function formatTime(iso) {
     minute: "2-digit",
     second: "2-digit"
   }).format(date);
+}
+
+function minutesSince(iso) {
+  if (!iso) return null;
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) return null;
+  return Math.max(0, Math.round((Date.now() - date.getTime()) / 60000));
+}
+
+function ageLabel(iso) {
+  const minutes = minutesSince(iso);
+  if (minutes === null) return "unknown";
+  if (minutes < 1) return "just now";
+  if (minutes < 60) return `${minutes}m ago`;
+  const hours = Math.floor(minutes / 60);
+  const remainder = minutes % 60;
+  if (hours < 24) return remainder ? `${hours}h ${remainder}m ago` : `${hours}h ago`;
+  const days = Math.floor(hours / 24);
+  return `${days}d ago`;
+}
+
+function freshnessMode(iso, warningMinutes = 10, staleMinutes = 30) {
+  const minutes = minutesSince(iso);
+  if (minutes === null) return "info";
+  if (minutes > staleMinutes) return "down";
+  if (minutes > warningMinutes) return "notify";
+  return "up";
 }
 
 function formatMoney(value) {
@@ -198,6 +226,79 @@ function smallStat(value, label, mode = "") {
 function latestAccount(data) {
   const withAccount = data.runs?.find((run) => run.account && Object.keys(run.account).length);
   return withAccount?.account || {};
+}
+
+function renderUpdateHealth(data, research, intelligence, logs) {
+  const meta = document.querySelector("#freshnessMeta");
+  const target = document.querySelector("#updateHealth");
+  if (!meta || !target) return;
+
+  const dashboardAt = data?.metadata?.generated_at;
+  const marketAt = research?.market_snapshot?.generated_at;
+  const intelligenceAt = intelligence?.latest?.generated_at;
+  const latestRunAt = data?.latest?.started_at;
+  const logsAt = logs?.generated_at;
+  const browserAt = state.lastLoadedAt;
+
+  meta.textContent = [
+    browserAt ? `This browser checked ${formatTime(browserAt)}` : "Browser check pending",
+    `Site auto-checks every ${Math.round(CLIENT_REFRESH_MS / 1000)}s`,
+    "Published data changes only after a job rebuilds and pushes GitHub Pages"
+  ].join(" | ");
+
+  const rows = [
+    {
+      label: "Browser refresh",
+      value: ageLabel(browserAt),
+      detail: browserAt ? `Loaded page JSON at ${formatTime(browserAt)}` : "Waiting for first load.",
+      mode: freshnessMode(browserAt, 2, 5)
+    },
+    {
+      label: "Published dashboard",
+      value: ageLabel(dashboardAt),
+      detail: dashboardAt ? `Last built at ${formatTime(dashboardAt)}` : "No dashboard build timestamp.",
+      mode: freshnessMode(dashboardAt, 10, 20)
+    },
+    {
+      label: "Market snapshot",
+      value: ageLabel(marketAt),
+      detail: marketAt ? `${research?.market_snapshot?.source || "Market source"} at ${formatTime(marketAt)}` : "No market snapshot.",
+      mode: freshnessMode(marketAt, 10, 20)
+    },
+    {
+      label: "Last monitor run",
+      value: ageLabel(latestRunAt),
+      detail: latestRunAt ? `${data?.latest?.decision || "Run"} at ${formatTime(latestRunAt)}` : "No monitor run recorded.",
+      mode: freshnessMode(latestRunAt, 10, 20)
+    },
+    {
+      label: "AI ledger",
+      value: ageLabel(intelligenceAt),
+      detail: intelligenceAt ? `${intelligence?.latest?.companies?.length || 0} companies, mode ${intelligence?.latest?.mode || "unknown"}` : "No ledger yet.",
+      mode: freshnessMode(intelligenceAt, 24 * 60, 48 * 60)
+    },
+    {
+      label: "Log export",
+      value: ageLabel(logsAt),
+      detail: logsAt ? `Sanitized log index at ${formatTime(logsAt)}` : "No log export timestamp.",
+      mode: freshnessMode(logsAt, 10, 20)
+    }
+  ];
+
+  target.innerHTML = rows
+    .map(
+      (row) => `
+        <article class="health-card ${escapeHtml(row.mode)}">
+          <div class="health-top">
+            <span>${escapeHtml(row.label)}</span>
+            ${badge(row.mode === "down" ? "STALE" : row.mode === "notify" ? "LAGGING" : "OK", row.mode)}
+          </div>
+          <strong>${escapeHtml(row.value)}</strong>
+          <p>${escapeHtml(row.detail)}</p>
+        </article>
+      `
+    )
+    .join("");
 }
 
 function renderStatus(data) {
@@ -933,23 +1034,84 @@ function renderIntelligence(intelligence) {
     : `<div class="empty">No predictions are old enough to fact-check yet. The ledger will populate after review dates pass.</div>`;
 }
 
-function renderLinks(data) {
+function renderAudit(data, logs) {
+  const overview = document.querySelector("#auditOverview");
+  const reports = document.querySelector("#reportCards");
   const links = document.querySelector("#links");
+  if (!overview || !reports || !links) return;
+
+  const recentRuns = (data.runs || []).slice(0, 6);
+  const logFiles = logs?.files || [];
+  const preview = logs?.local_audit_preview || [];
+
+  overview.innerHTML = `
+    <article class="audit-card wide">
+      <div class="prediction-top">
+        <div>
+          <p class="eyebrow">Recent Decision Log</p>
+          <h3>Monitor Runs</h3>
+        </div>
+        ${badge(`${recentRuns.length} shown`, "info")}
+      </div>
+      <div class="audit-list">
+        ${
+          recentRuns.length
+            ? recentRuns
+                .map(
+                  (run) => `
+                    <div class="audit-row">
+                      <span>${escapeHtml(formatTime(run.started_at))}</span>
+                      <strong>${escapeHtml(run.decision || "STATUS")}</strong>
+                      <p>${escapeHtml(run.message || "No message recorded.")}</p>
+                    </div>
+                  `
+                )
+                .join("")
+            : `<div class="empty">No monitor decisions have been exported yet.</div>`
+        }
+      </div>
+    </article>
+    <article class="audit-card">
+      <p class="eyebrow">Log Export</p>
+      <h3>${escapeHtml(ageLabel(logs?.generated_at))}</h3>
+      <p>${escapeHtml(logs?.note || "No sanitized log index loaded.")}</p>
+      <div class="mini-grid">
+        ${smallStat(logFiles.length, "Export files")}
+        ${smallStat(preview.length, "Audit previews")}
+      </div>
+    </article>
+  `;
+
   const reportLinks = (data.reports || []).map((report) => ({
     title: report.title,
     href: report.href,
     detail: report.preview
   }));
+  reports.innerHTML = reportLinks.length
+    ? reportLinks
+        .map(
+          (link) => `
+            <a class="source-link report-link" href="${escapeHtml(link.href)}">
+              <strong>${escapeHtml(link.title)}</strong>
+              <span>${escapeHtml(link.detail || "")}</span>
+            </a>
+          `
+        )
+        .join("")
+    : `<div class="empty">No daily reports have been exported yet.</div>`;
+
   const baseLinks = [
     { title: "Dashboard JSON", href: data.links?.data_json, detail: data.metadata?.data_note },
-    { title: "Sanitized Decision Log", href: data.links?.sanitized_decision_log, detail: "One public-safe JSONL row per locally recorded monitor decision." },
+    { title: "Research JSON", href: "./data/research.json", detail: "Compact SEC, trend, strategy, filing, and market snapshot export." },
+    { title: "AI Ledger JSON", href: "./data/intelligence.json", detail: "Compact daily summary, prediction, and fact-check export." },
+    { title: "Sanitized Decision JSONL", href: data.links?.sanitized_decision_log, detail: "One public-safe JSONL row per locally recorded monitor decision." },
     { title: "Sanitized Log Index", href: data.links?.sanitized_log_index, detail: "Public-safe index of exported logs and local audit previews." },
     data.links?.repository
       ? { title: "GitHub Repository", href: data.links.repository, detail: "Source, workflows, and Pages deployment history." }
       : null
   ].filter(Boolean);
 
-  links.innerHTML = [...reportLinks, ...baseLinks]
+  links.innerHTML = baseLinks
     .filter((link) => link.href)
     .map(
       (link) => `
@@ -964,18 +1126,21 @@ function renderLinks(data) {
 
 async function loadData() {
   const cache = Date.now();
-  const [dashboardResponse, researchResponse, intelligenceResponse] = await Promise.all([
+  const [dashboardResponse, researchResponse, intelligenceResponse, logsResponse] = await Promise.all([
     fetch(`./data/dashboard.json?cache=${cache}`),
     fetch(`./data/research.json?cache=${cache}`),
-    fetch(`./data/intelligence.json?cache=${cache}`)
+    fetch(`./data/intelligence.json?cache=${cache}`),
+    fetch(`./logs/index.json?cache=${cache}`)
   ]);
   if (!dashboardResponse.ok) throw new Error(`Dashboard data failed: ${dashboardResponse.status}`);
   if (!researchResponse.ok) throw new Error(`Research data failed: ${researchResponse.status}`);
   if (!intelligenceResponse.ok) throw new Error(`Intelligence data failed: ${intelligenceResponse.status}`);
+  if (!logsResponse.ok) throw new Error(`Log index failed: ${logsResponse.status}`);
   return {
     dashboard: await dashboardResponse.json(),
     research: await researchResponse.json(),
-    intelligence: await intelligenceResponse.json()
+    intelligence: await intelligenceResponse.json(),
+    logs: await logsResponse.json()
   };
 }
 
@@ -991,11 +1156,13 @@ function renderLoadError(error) {
   `;
 }
 
-function render({ dashboard: data, research, intelligence }) {
+function render({ dashboard: data, research, intelligence, logs }) {
   state.data = data;
   state.research = research;
   state.intelligence = intelligence;
+  state.logs = logs;
   renderStatus(data);
+  renderUpdateHealth(data, research, intelligence, logs);
   renderMarketSnapshot(research);
   renderFilters(data);
   renderTimeline(data);
@@ -1007,7 +1174,7 @@ function render({ dashboard: data, research, intelligence }) {
   renderIntelligence(intelligence);
   renderFilings(research);
   renderCoverageGaps(research);
-  renderLinks(data);
+  renderAudit(data, logs);
 }
 
 async function refreshData() {

@@ -14,29 +14,49 @@
           <p class="eyebrow">Robinhood Agentic Monitor</p>
           <h1>Decision Dashboard</h1>
         </div>
-        <div class="top-actions">
-          <a class="icon-link" href="./data/dashboard.json" title="Open dashboard data">
-            <span aria-hidden="true">[ ]</span>
-            <span>Data</span>
+        <nav class="top-actions" aria-label="Dashboard views">
+          <a class="icon-link" href="#overview" title="Open overview view">
+            <span aria-hidden="true">^</span>
+            <span>Overview</span>
           </a>
-          <a class="icon-link" href="./logs/index.json" title="Open sanitized log index">
-            <span aria-hidden="true">#</span>
-            <span>Logs</span>
+          <a class="icon-link" href="#markets" title="Open market view">
+            <span aria-hidden="true">$</span>
+            <span>Markets</span>
           </a>
-          <a class="icon-link" href="./data/research.json" title="Open research export">
+          <a class="icon-link" href="#research" title="Open research view">
             <span aria-hidden="true">*</span>
             <span>Research</span>
           </a>
-          <a class="icon-link" href="./data/intelligence.json" title="Open daily intelligence export">
+          <a class="icon-link" href="#intelligence" title="Open AI ledger view">
             <span aria-hidden="true">!</span>
             <span>AI Ledger</span>
           </a>
-        </div>
+          <a class="icon-link" href="#filings" title="Open filings view">
+            <span aria-hidden="true">F</span>
+            <span>Filings</span>
+          </a>
+          <a class="icon-link" href="#audit" title="Open logs view">
+            <span aria-hidden="true">#</span>
+            <span>Logs</span>
+          </a>
+        </nav>
       </section>
 
-      <section id="status" class="status-grid" aria-live="polite"></section>
+      <section id="overview" class="view-anchor">
+        <section id="status" class="status-grid" aria-live="polite"></section>
+        <section class="panel">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Update Health</p>
+              <h2>Automation Freshness</h2>
+            </div>
+            <div id="freshnessMeta" class="panel-note"></div>
+          </div>
+          <div id="updateHealth" class="health-grid"></div>
+        </section>
+      </section>
 
-      <section class="panel">
+      <section id="markets" class="panel view-anchor">
         <div class="panel-head">
           <div>
             <p class="eyebrow">Market Snapshot</p>
@@ -50,7 +70,7 @@
         <div id="marketSnapshot" class="market-grid"></div>
       </section>
 
-      <section class="main-grid">
+      <section id="decisions" class="main-grid view-anchor">
         <div class="panel timeline-panel">
           <div class="panel-head">
             <div>
@@ -73,7 +93,7 @@
         </aside>
       </section>
 
-      <section class="main-grid secondary">
+      <section id="watch" class="main-grid secondary view-anchor">
         <div class="panel">
           <div class="panel-head">
             <div>
@@ -96,7 +116,7 @@
         </div>
       </section>
 
-      <section class="main-grid research-grid">
+      <section id="research" class="main-grid research-grid view-anchor">
         <div class="panel">
           <div class="panel-head">
             <div>
@@ -122,7 +142,7 @@
         </aside>
       </section>
 
-      <section class="panel">
+      <section id="intelligence" class="panel view-anchor">
         <div class="panel-head">
           <div>
             <p class="eyebrow">Daily AI Intelligence</p>
@@ -139,7 +159,7 @@
         <div id="factCheckGrid" class="factcheck-grid"></div>
       </section>
 
-      <section class="panel">
+      <section id="filings" class="panel view-anchor">
         <div class="panel-head">
           <div>
             <p class="eyebrow">SEC Filing Feed</p>
@@ -154,12 +174,22 @@
         <div id="filingsTable" class="filings-wrap"></div>
       </section>
 
-      <section class="panel">
+      <section id="audit" class="panel view-anchor">
         <div class="panel-head">
           <div>
             <p class="eyebrow">Audit Trail</p>
-            <h2>Reports And Logs</h2>
+            <h2>Reports, Logs, And Raw Exports</h2>
           </div>
+        </div>
+        <div id="auditOverview" class="audit-grid"></div>
+        <div class="factcheck-head">
+          <h3>Recent Reports</h3>
+          <p>Markdown reports are shown as readable previews with links to the full public-safe file.</p>
+        </div>
+        <div id="reportCards" class="link-grid"></div>
+        <div class="factcheck-head">
+          <h3>Raw Exports</h3>
+          <p>These are for debugging or downloads, not the main way to use the dashboard.</p>
         </div>
         <div id="links" class="link-grid"></div>
       </section>
