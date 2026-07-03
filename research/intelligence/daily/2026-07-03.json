@@ -1,0 +1,3054 @@
+{
+  "date": "2026-07-03",
+  "generated_at": "2026-07-03T05:20:11.779Z",
+  "mode": "deterministic-fallback",
+  "source_note": "Public-safe daily intelligence. External third-party sources are summarized from metadata/short notes only; no full paywalled articles or transcripts are copied.",
+  "companies": [
+    {
+      "symbol": "MU",
+      "company": "Micron Technology",
+      "generated_at": "2026-07-03T05:20:11.766Z",
+      "market_snapshot": {
+        "price": 1009.8200073242188,
+        "as_of": "2026-07-02T15:41:13.000Z",
+        "previous_close": 1032.28,
+        "bid": null,
+        "ask": null,
+        "open": null,
+        "high": 1064.64,
+        "low": 977.06,
+        "volume": 27691370,
+        "avg_volume_30d": 57436738.644,
+        "high_52w": 1255,
+        "low_52w": 103.38,
+        "market_cap": 1166990601079.2268,
+        "pe_ratio": 26.131653,
+        "pb_ratio": 12.9383,
+        "sector": "Electronic Technology",
+        "industry": "EQUITY",
+        "ceo": "Sanjay Mehrotra",
+        "employees": 53000
+      },
+      "strategy": {
+        "priority": 1,
+        "role": "primary trade candidate",
+        "theme": "HBM/DRAM/NAND memory scarcity and AI infrastructure",
+        "bull_triggers": [
+          "HBM demand",
+          "DRAM pricing",
+          "NAND pricing",
+          "Strategic Customer Agreements",
+          "AI memory shortage",
+          "Nvidia/AMD supply-chain sympathy"
+        ],
+        "disqualifiers": [
+          "gap spike loses VWAP",
+          "memory peers roll over",
+          "stale catalyst",
+          "stop wider than dollar-risk limit"
+        ]
+      },
+      "trend_bullets": [
+        "Revenue: $41.46B in 2026 Q3 (CY2026Q2), +345.7% vs 2025 Q3.",
+        "Gross profit: $35.06B in 2026 Q3 (CY2026Q2), +899.3% vs 2025 Q3.",
+        "Operating income: $33.32B in 2026 Q3 (CY2026Q2), +1436.1% vs 2025 Q3.",
+        "Net income: $28.24B in 2026 Q3 (CY2026Q2), +1684.1% vs 2025 Q3.",
+        "Diluted EPS: $24.67 in 2026 Q3 (CY2026Q2), +1368.5% vs 2025 Q3.",
+        "Operating cash flow: $45.70B in 2026 Q3, +287.5% vs 2025 Q3.",
+        "Capital expenditures: $19.60B in 2026 Q3, +92.2% vs 2025 Q3.",
+        "Cash: $25.00B in 2026 Q3 (CY2026Q2I), +145.9% vs 2025 Q3 (CY2025Q2I)."
+      ],
+      "recent_filings": [
+        {
+          "date": "2026-06-25",
+          "form": "10-Q",
+          "description": "10-Q",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000015/mu-20260528.htm"
+        },
+        {
+          "date": "2026-06-24",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "2.02,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000013/mu-20260624.htm"
+        },
+        {
+          "date": "2026-06-09",
+          "form": "8-K",
+          "description": "FORM 8-K",
+          "items": "5.02,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926071845/tm2617112d1_8k.htm"
+        },
+        {
+          "date": "2026-04-01",
+          "form": "8-K",
+          "description": "FORM 8-K",
+          "items": "8.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926038249/tm2610810d1_8k.htm"
+        },
+        {
+          "date": "2026-03-25",
+          "form": "8-K",
+          "description": "FORM 8-K",
+          "items": "8.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926034174/tm269755d1_8k.htm"
+        },
+        {
+          "date": "2026-03-19",
+          "form": "10-Q",
+          "description": "10-Q",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000006/mu-20260226.htm"
+        }
+      ],
+      "management_note_excerpt": "# MU Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-06-24 | FQ3 2026 | [Micron IR earnings release](https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-record-results-third-quarter); [Micron IR home / Anthropic release](https://investors.micron.com/) | Record quarter and AI-driven HBM/DRAM/NAND demand; Anthropic agreement reinforces memory/storage role in frontier AI infrastructure. | Extremely strong pricing backdrop; record capex and large cash generation point to supply expansion without immediate demand softening. | Q4...",
+      "external_sources": [
+        {
+          "date": "2026-06-24",
+          "source": "Micron Investor Relations",
+          "title": "Micron Technology, Inc. Reports Record Results for the Third Quarter of Fiscal 2026",
+          "url": "https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-record-results-third-quarter",
+          "note": "Primary IR release confirms record FQ3, large cash generation, high capex, and AI memory scarcity read-through for HBM/DRAM/NAND peers."
+        },
+        {
+          "date": "2026-07-01",
+          "source": "Micron Investor Relations",
+          "title": "Micron and General Motors Sign Strategic Agreement to Secure Supply and Accelerate Innovation",
+          "url": "https://investors.micron.com/",
+          "note": "IR homepage lists GM supply agreement after the Anthropic agreement; strengthens theme that large customers are seeking longer-term memory supply certainty."
+        }
+      ],
+      "assessment": {
+        "ai_summary": "MU: HBM/DRAM/NAND memory scarcity and AI infrastructure; Revenue: $41.46B in 2026 Q3 (CY2026Q2), +345.7% vs 2025 Q3.. Latest source mix includes 2026-06-25 10-Q, 2026-06-24 8-K, 2026-06-09 8-K and 2 logged external source(s).",
+        "stock_impact": "Current snapshot shows -2.18% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "prediction": {
+          "horizon_days": 5,
+          "direction": "bullish",
+          "confidence": 0.58,
+          "expected_move_pct_range": [
+            -2,
+            5
+          ],
+          "price_reference": 1009.8200073242188,
+          "price_reference_as_of": "2026-07-02T15:41:13.000Z",
+          "review_after": "2026-07-08",
+          "rationale": [
+            "Revenue: $41.46B in 2026 Q3 (CY2026Q2), +345.7% vs 2025 Q3.",
+            "Gross profit: $35.06B in 2026 Q3 (CY2026Q2), +899.3% vs 2025 Q3.",
+            "Strategy theme: HBM/DRAM/NAND memory scarcity and AI infrastructure",
+            "External source notes present in the source log."
+          ],
+          "invalidation": "gap spike loses VWAP"
+        },
+        "model": "deterministic-fallback",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present."
+      },
+      "prediction": {
+        "id": "ca10f60e489cfbd2d03f",
+        "created_at": "2026-07-03T05:20:11.772Z",
+        "date": "2026-07-03",
+        "symbol": "MU",
+        "company": "Micron Technology",
+        "model": "deterministic-fallback",
+        "source_count": 8,
+        "ai_summary": "MU: HBM/DRAM/NAND memory scarcity and AI infrastructure; Revenue: $41.46B in 2026 Q3 (CY2026Q2), +345.7% vs 2025 Q3.. Latest source mix includes 2026-06-25 10-Q, 2026-06-24 8-K, 2026-06-09 8-K and 2 logged external source(s).",
+        "stock_impact": "Current snapshot shows -2.18% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+        "horizon_days": 5,
+        "direction": "bullish",
+        "confidence": 0.58,
+        "expected_move_pct_range": [
+          -2,
+          5
+        ],
+        "price_reference": 1009.8200073242188,
+        "price_reference_as_of": "2026-07-02T15:41:13.000Z",
+        "review_after": "2026-07-08",
+        "rationale": [
+          "Revenue: $41.46B in 2026 Q3 (CY2026Q2), +345.7% vs 2025 Q3.",
+          "Gross profit: $35.06B in 2026 Q3 (CY2026Q2), +899.3% vs 2025 Q3.",
+          "Strategy theme: HBM/DRAM/NAND memory scarcity and AI infrastructure",
+          "External source notes present in the source log."
+        ],
+        "invalidation": "gap spike loses VWAP"
+      }
+    },
+    {
+      "symbol": "WDC",
+      "company": "Western Digital",
+      "generated_at": "2026-07-03T05:20:11.772Z",
+      "market_snapshot": {
+        "price": 562,
+        "as_of": "2026-07-02T15:41:12.000Z",
+        "previous_close": 598.37,
+        "bid": null,
+        "ask": null,
+        "open": null,
+        "high": 609.465,
+        "low": 552.12,
+        "volume": 3319494,
+        "avg_volume_30d": 10371900.5263,
+        "high_52w": 799.87,
+        "low_52w": 63.67,
+        "market_cap": 206247436013.5563,
+        "pe_ratio": 38.127757,
+        "pb_ratio": 22.7643,
+        "sector": "Electronic Technology",
+        "industry": "EQUITY",
+        "ceo": "Tiang Yew Tan",
+        "employees": 40000
+      },
+      "strategy": {
+        "priority": 2,
+        "role": "primary trade candidate",
+        "theme": "AI data workload storage and cloud/hyperscaler capacity",
+        "bull_triggers": [
+          "HDD capacity",
+          "hyperscaler storage",
+          "AI data workloads",
+          "cloud storage economics",
+          "memory/storage sympathy"
+        ],
+        "disqualifiers": [
+          "sympathy-only move without volume",
+          "MU fades",
+          "wide stop"
+        ]
+      },
+      "trend_bullets": [
+        "Revenue: $3.34B in 2026 Q3 (CY2026Q1), +45.5% vs 2025 Q3.",
+        "Gross profit: $1.68B in 2026 Q3 (CY2026Q1), +83.8% vs 2025 Q3.",
+        "Operating income: $1.19B in 2026 Q3 (CY2026Q1), +56.6% vs 2025 Q3.",
+        "Net income: $3.21B in 2026 Q3 (CY2026Q1), +74.0% vs 2026 Q3 (CY2025Q4).",
+        "Diluted EPS: $8.20 in 2026 Q3 (CY2026Q1), +477.5% vs 2025 Q3.",
+        "Operating cash flow: $2.54B in 2026 Q3, +168.8% vs 2025 Q3.",
+        "Capital expenditures: $310.0M in 2026 Q3, -9.1% vs 2025 Q3.",
+        "Cash: $2.05B in 2026 Q3 (CY2026Q1I), -41.0% vs 2025 Q3 (CY2025Q1I)."
+      ],
+      "recent_filings": [
+        {
+          "date": "2026-06-11",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "8.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/106040/000119312526267514/d83915d8k.htm"
+        },
+        {
+          "date": "2026-06-03",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "3.02,8.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/106040/000119312526254621/d106828d8k.htm"
+        },
+        {
+          "date": "2026-05-28",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "5.02,7.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026038632/wdc-20260526.htm"
+        },
+        {
+          "date": "2026-05-01",
+          "form": "10-Q",
+          "description": "10-Q",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026029054/wdc-20260403.htm"
+        },
+        {
+          "date": "2026-04-30",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "2.02,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026028878/wdc-20260430.htm"
+        },
+        {
+          "date": "2026-02-24",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "5.03,8.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/106040/000119312526067035/d41636d8k.htm"
+        }
+      ],
+      "management_note_excerpt": "# WDC Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-04-30 | FQ3 2026 | [WD IR earnings release](https://investor.wdc.com/news-releases/news-release-details/wd-reports-fiscal-third-quarter-2026-financial-results); [WD IR presentation](https://investor.wdc.com/static-files/5b2d41c1-7d45-4575-b9ea-c51424dbffeb) | Revenue up 45% YoY; nearline capacity and cloud storage remain the core AI infrastructure read-through. | Non-GAAP gross margin above 50%; pricing/mix improving. | Q4 revenue guide implies 36%-44% YoY growth and 51%-52% non-GAAP GM. | HDD cycle can reverse ...",
+      "external_sources": [],
+      "assessment": {
+        "ai_summary": "WDC: AI data workload storage and cloud/hyperscaler capacity; Revenue: $3.34B in 2026 Q3 (CY2026Q1), +45.5% vs 2025 Q3.. Latest source mix includes 2026-06-11 8-K, 2026-06-03 8-K, 2026-05-28 8-K and 0 logged external source(s).",
+        "stock_impact": "Current snapshot shows -6.08% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "prediction": {
+          "horizon_days": 5,
+          "direction": "bullish",
+          "confidence": 0.58,
+          "expected_move_pct_range": [
+            -2,
+            5
+          ],
+          "price_reference": 562,
+          "price_reference_as_of": "2026-07-02T15:41:12.000Z",
+          "review_after": "2026-07-08",
+          "rationale": [
+            "Revenue: $3.34B in 2026 Q3 (CY2026Q1), +45.5% vs 2025 Q3.",
+            "Gross profit: $1.68B in 2026 Q3 (CY2026Q1), +83.8% vs 2025 Q3.",
+            "Strategy theme: AI data workload storage and cloud/hyperscaler capacity"
+          ],
+          "invalidation": "sympathy-only move without volume"
+        },
+        "model": "deterministic-fallback",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present."
+      },
+      "prediction": {
+        "id": "39763ad80c06abc2578f",
+        "created_at": "2026-07-03T05:20:11.772Z",
+        "date": "2026-07-03",
+        "symbol": "WDC",
+        "company": "Western Digital",
+        "model": "deterministic-fallback",
+        "source_count": 6,
+        "ai_summary": "WDC: AI data workload storage and cloud/hyperscaler capacity; Revenue: $3.34B in 2026 Q3 (CY2026Q1), +45.5% vs 2025 Q3.. Latest source mix includes 2026-06-11 8-K, 2026-06-03 8-K, 2026-05-28 8-K and 0 logged external source(s).",
+        "stock_impact": "Current snapshot shows -6.08% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+        "horizon_days": 5,
+        "direction": "bullish",
+        "confidence": 0.58,
+        "expected_move_pct_range": [
+          -2,
+          5
+        ],
+        "price_reference": 562,
+        "price_reference_as_of": "2026-07-02T15:41:12.000Z",
+        "review_after": "2026-07-08",
+        "rationale": [
+          "Revenue: $3.34B in 2026 Q3 (CY2026Q1), +45.5% vs 2025 Q3.",
+          "Gross profit: $1.68B in 2026 Q3 (CY2026Q1), +83.8% vs 2025 Q3.",
+          "Strategy theme: AI data workload storage and cloud/hyperscaler capacity"
+        ],
+        "invalidation": "sympathy-only move without volume"
+      }
+    },
+    {
+      "symbol": "SNDK",
+      "company": "SanDisk",
+      "generated_at": "2026-07-03T05:20:11.773Z",
+      "market_snapshot": {
+        "price": 1847.0999755859375,
+        "as_of": "2026-07-02T15:41:12.000Z",
+        "previous_close": 2032.22,
+        "bid": null,
+        "ask": null,
+        "open": null,
+        "high": 2052.54,
+        "low": 1780,
+        "volume": 7975560,
+        "avg_volume_30d": 11473313.4436,
+        "high_52w": 2354.39,
+        "low_52w": 40.1,
+        "market_cap": 301373040467.5844,
+        "pe_ratio": 79.03925,
+        "pb_ratio": 24.4256,
+        "sector": "Electronic Technology",
+        "industry": "EQUITY",
+        "ceo": "David V. Goeckeler",
+        "employees": 11000
+      },
+      "strategy": {
+        "priority": 2,
+        "role": "primary high-beta storage candidate",
+        "theme": "NAND/flash storage pure-play, AI data workload storage, memory/storage sympathy",
+        "bull_triggers": [
+          "NAND pricing",
+          "flash supply tightness",
+          "AI data workloads",
+          "storage pure-play rerating",
+          "WDC/MU sympathy"
+        ],
+        "disqualifiers": [
+          "wide spread",
+          "thin liquidity pocket",
+          "sympathy-only spike without volume",
+          "WDC/MU fade",
+          "stop wider than dollar-risk limit"
+        ]
+      },
+      "trend_bullets": [
+        "Revenue: $5.95B in 2026 Q3 (CY2026Q1), +251.0% vs 2025 Q3.",
+        "Gross profit: $4.66B in 2026 Q3 (CY2026Q1), +1120.4% vs 2025 Q3.",
+        "Operating income: $4.11B in 2026 Q3 (CY2026Q1), +318.6% vs 2025 Q3.",
+        "Net income: $3.62B in 2026 Q3 (CY2026Q1), +350.2% vs 2026 Q3 (CY2025Q4).",
+        "Diluted EPS: $23.03 in 2026 Q3 (CY2026Q1), +272.8% vs 2025 Q3.",
+        "Operating cash flow: $4.54B in 2026 Q3, +45550.0% vs 2025 Q3.",
+        "Capital expenditures: $134.0M in 2026 Q3, -15.7% vs 2025 Q3.",
+        "Cash: $3.73B in 2026 Q3 (CY2026Q1I), +147.8% vs 2025 Q3 (CY2025Q1I)."
+      ],
+      "recent_filings": [
+        {
+          "date": "2026-05-15",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "8.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/2023554/000119312526224694/d157363d8k.htm"
+        },
+        {
+          "date": "2026-05-01",
+          "form": "10-Q",
+          "description": "10-Q",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026029401/sndk-20260403.htm"
+        },
+        {
+          "date": "2026-04-30",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "2.02,8.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026028879/sndk-20260430.htm"
+        },
+        {
+          "date": "2026-03-25",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "1.01,8.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/2023554/000119312526122705/d136592d8k.htm"
+        },
+        {
+          "date": "2026-01-30",
+          "form": "10-Q",
+          "description": "10-Q",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026004407/sndk-20260102.htm"
+        },
+        {
+          "date": "2026-01-29",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "2.02,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026004121/sndk-20260129.htm"
+        }
+      ],
+      "management_note_excerpt": "# SNDK Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-04-30 | FQ3 2026 | [Nasdaq / Sandisk release wire](https://www.nasdaq.com/press-release/sandisk-reports-fiscal-third-quarter-2026-financial-results-2026-04-30); [Sandisk IR home](https://investor.sandisk.com/) | Datacenter revenue up sharply and enterprise SSD/NAND demand benefits from AI data workloads. | Very strong pricing/mix; gross margin expansion signals NAND scarcity and favorable customer mix. | Q4 setup appears strong in public secondary coverage; new long-term agreement structures may improve visibil...",
+      "external_sources": [
+        {
+          "date": "2026-07-01",
+          "source": "MarketWatch",
+          "title": "Sandisk's stock could follow record-breaking quarter with another big jump, analysts say",
+          "url": "https://www.marketwatch.com/story/sandisks-stock-could-follow-record-breaking-quarter-with-another-big-jump-analysts-say-433bbbef",
+          "note": "Accessible summary says analysts focused on more favorable long-term agreement structures, stronger pricing lock-in, and enterprise SSD/datacenter demand; treat as secondary sentiment, not primary company guidance."
+        }
+      ],
+      "assessment": {
+        "ai_summary": "SNDK: NAND/flash storage pure-play, AI data workload storage, memory/storage sympathy; Revenue: $5.95B in 2026 Q3 (CY2026Q1), +251.0% vs 2025 Q3.. Latest source mix includes 2026-05-15 8-K, 2026-05-01 10-Q, 2026-04-30 8-K and 1 logged external source(s).",
+        "stock_impact": "Current snapshot shows -9.11% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "prediction": {
+          "horizon_days": 5,
+          "direction": "bullish",
+          "confidence": 0.58,
+          "expected_move_pct_range": [
+            -2,
+            5
+          ],
+          "price_reference": 1847.0999755859375,
+          "price_reference_as_of": "2026-07-02T15:41:12.000Z",
+          "review_after": "2026-07-08",
+          "rationale": [
+            "Revenue: $5.95B in 2026 Q3 (CY2026Q1), +251.0% vs 2025 Q3.",
+            "Gross profit: $4.66B in 2026 Q3 (CY2026Q1), +1120.4% vs 2025 Q3.",
+            "Strategy theme: NAND/flash storage pure-play, AI data workload storage, memory/storage sympathy",
+            "External source notes present in the source log."
+          ],
+          "invalidation": "wide spread"
+        },
+        "model": "deterministic-fallback",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present."
+      },
+      "prediction": {
+        "id": "e3efaed6e47d4e620cf8",
+        "created_at": "2026-07-03T05:20:11.773Z",
+        "date": "2026-07-03",
+        "symbol": "SNDK",
+        "company": "SanDisk",
+        "model": "deterministic-fallback",
+        "source_count": 7,
+        "ai_summary": "SNDK: NAND/flash storage pure-play, AI data workload storage, memory/storage sympathy; Revenue: $5.95B in 2026 Q3 (CY2026Q1), +251.0% vs 2025 Q3.. Latest source mix includes 2026-05-15 8-K, 2026-05-01 10-Q, 2026-04-30 8-K and 1 logged external source(s).",
+        "stock_impact": "Current snapshot shows -9.11% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+        "horizon_days": 5,
+        "direction": "bullish",
+        "confidence": 0.58,
+        "expected_move_pct_range": [
+          -2,
+          5
+        ],
+        "price_reference": 1847.0999755859375,
+        "price_reference_as_of": "2026-07-02T15:41:12.000Z",
+        "review_after": "2026-07-08",
+        "rationale": [
+          "Revenue: $5.95B in 2026 Q3 (CY2026Q1), +251.0% vs 2025 Q3.",
+          "Gross profit: $4.66B in 2026 Q3 (CY2026Q1), +1120.4% vs 2025 Q3.",
+          "Strategy theme: NAND/flash storage pure-play, AI data workload storage, memory/storage sympathy",
+          "External source notes present in the source log."
+        ],
+        "invalidation": "wide spread"
+      }
+    },
+    {
+      "symbol": "STX",
+      "company": "Seagate Technology",
+      "generated_at": "2026-07-03T05:20:11.773Z",
+      "market_snapshot": {
+        "price": 858.1950073242188,
+        "as_of": "2026-07-02T15:41:13.000Z",
+        "previous_close": 915.19,
+        "bid": null,
+        "ask": null,
+        "open": null,
+        "high": 923.06,
+        "low": 845.01,
+        "volume": 1804307,
+        "avg_volume_30d": 4552768.07754,
+        "high_52w": 1145,
+        "low_52w": 138.3,
+        "market_cap": 205225592250,
+        "pe_ratio": 91.59943,
+        "pb_ratio": 197.766,
+        "sector": "Electronic Technology",
+        "industry": "EQUITY",
+        "ceo": "William David Mosley",
+        "employees": 30000
+      },
+      "strategy": {
+        "priority": 2,
+        "role": "primary trade candidate",
+        "theme": "mass-capacity HDD, exabyte data growth, data-center storage",
+        "bull_triggers": [
+          "HAMR/Mozaic",
+          "exabyte demand",
+          "data-center demand",
+          "storage capacity tightness"
+        ],
+        "disqualifiers": [
+          "sympathy-only move without own volume",
+          "data-center/storage peers fade"
+        ]
+      },
+      "trend_bullets": [
+        "Revenue: $3.11B in 2026 Q3 (CY2026Q1), +44.1% vs 2025 Q3.",
+        "Gross profit: not available in extracted SEC facts.",
+        "Operating income: $998.0M in 2026 Q3 (CY2026Q1), +131.6% vs 2025 Q3.",
+        "Net income: $748.0M in 2026 Q3 (CY2026Q1), +120.0% vs 2025 Q3.",
+        "Diluted EPS: $3.27 in 2026 Q3 (CY2026Q1), +108.3% vs 2025 Q3.",
+        "Operating cash flow: $2.37B in 2026 Q3, +312.0% vs 2025 Q3.",
+        "Capital expenditures: $382.0M in 2026 Q3, +109.9% vs 2025 Q3.",
+        "Cash: $1.15B in 2026 Q3 (CY2026Q1I), +40.8% vs 2025 Q3 (CY2025Q1I)."
+      ],
+      "recent_filings": [
+        {
+          "date": "2026-06-12",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "7.01,8.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1137789/000119312526268170/d24300d8k.htm"
+        },
+        {
+          "date": "2026-05-28",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "3.02,7.01,8.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1137789/000119312526243110/d106085d8k.htm"
+        },
+        {
+          "date": "2026-05-21",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "3.02,7.01,8.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1137789/000119312526233588/d72241d8k.htm"
+        },
+        {
+          "date": "2026-05-06",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "5.02,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000093/stx-20260505.htm"
+        },
+        {
+          "date": "2026-04-29",
+          "form": "10-Q",
+          "description": "10-Q",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000088/stx-20260403.htm"
+        },
+        {
+          "date": "2026-04-28",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "2.02,7.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000084/stx-20260428.htm"
+        }
+      ],
+      "management_note_excerpt": "# STX Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-04-28 | FQ3 2026 | [Seagate IR earnings release](https://investors.seagate.com/news/news-details/2026/Seagate-Technology-Reports-Fiscal-Third-Quarter-2026-Financial-Results/default.aspx); [Seagate call transcript PDF](https://s24.q4cdn.com/101481333/files/doc_financials/2026/q3/CORRECTED-TRANSCRIPT_-Seagate-Technology-Holdings-Plc-STX-US-Q3-2026-Earnings-Call-28-April-2026-5_00-PM-ET.pdf) | Strong demand environment for data center capacity; HAMR/high-capacity drives remain key cloud AI storage lever. | GAAP GM ...",
+      "external_sources": [],
+      "assessment": {
+        "ai_summary": "STX: mass-capacity HDD, exabyte data growth, data-center storage; Revenue: $3.11B in 2026 Q3 (CY2026Q1), +44.1% vs 2025 Q3.. Latest source mix includes 2026-06-12 8-K, 2026-05-28 8-K, 2026-05-21 8-K and 0 logged external source(s).",
+        "stock_impact": "Current snapshot shows -6.23% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "prediction": {
+          "horizon_days": 5,
+          "direction": "bullish",
+          "confidence": 0.58,
+          "expected_move_pct_range": [
+            -2,
+            5
+          ],
+          "price_reference": 858.1950073242188,
+          "price_reference_as_of": "2026-07-02T15:41:13.000Z",
+          "review_after": "2026-07-08",
+          "rationale": [
+            "Revenue: $3.11B in 2026 Q3 (CY2026Q1), +44.1% vs 2025 Q3.",
+            "Gross profit: not available in extracted SEC facts.",
+            "Strategy theme: mass-capacity HDD, exabyte data growth, data-center storage"
+          ],
+          "invalidation": "sympathy-only move without own volume"
+        },
+        "model": "deterministic-fallback",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present."
+      },
+      "prediction": {
+        "id": "e3bb62cf62c84b2b5a03",
+        "created_at": "2026-07-03T05:20:11.773Z",
+        "date": "2026-07-03",
+        "symbol": "STX",
+        "company": "Seagate Technology",
+        "model": "deterministic-fallback",
+        "source_count": 6,
+        "ai_summary": "STX: mass-capacity HDD, exabyte data growth, data-center storage; Revenue: $3.11B in 2026 Q3 (CY2026Q1), +44.1% vs 2025 Q3.. Latest source mix includes 2026-06-12 8-K, 2026-05-28 8-K, 2026-05-21 8-K and 0 logged external source(s).",
+        "stock_impact": "Current snapshot shows -6.23% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+        "horizon_days": 5,
+        "direction": "bullish",
+        "confidence": 0.58,
+        "expected_move_pct_range": [
+          -2,
+          5
+        ],
+        "price_reference": 858.1950073242188,
+        "price_reference_as_of": "2026-07-02T15:41:13.000Z",
+        "review_after": "2026-07-08",
+        "rationale": [
+          "Revenue: $3.11B in 2026 Q3 (CY2026Q1), +44.1% vs 2025 Q3.",
+          "Gross profit: not available in extracted SEC facts.",
+          "Strategy theme: mass-capacity HDD, exabyte data growth, data-center storage"
+        ],
+        "invalidation": "sympathy-only move without own volume"
+      }
+    },
+    {
+      "symbol": "HON",
+      "company": "Honeywell International",
+      "generated_at": "2026-07-03T05:20:11.773Z",
+      "market_snapshot": {
+        "price": 221.13999938964844,
+        "as_of": "2026-07-02T15:41:06.000Z",
+        "previous_close": 221.75,
+        "bid": null,
+        "ask": null,
+        "open": null,
+        "high": 224.35,
+        "low": 220.24,
+        "volume": 1077736,
+        "avg_volume_30d": 3666097.928,
+        "high_52w": 260.283,
+        "low_52w": 195.868,
+        "market_cap": 70262723790,
+        "pe_ratio": 15.869078,
+        "pb_ratio": 5.21983,
+        "sector": "Electronic Technology",
+        "industry": "EQUITY",
+        "ceo": "Vimal M. Kapur",
+        "employees": 101000
+      },
+      "strategy": {
+        "priority": 10,
+        "role": "corporate-action/aerospace candidate",
+        "theme": "aerospace spin-off, automation, avionics, sensors, space-supply-chain inference",
+        "bull_triggers": [
+          "spin-off news",
+          "aerospace/avionics",
+          "automation guidance",
+          "direct source-supported supplier relationship"
+        ],
+        "disqualifiers": [
+          "generic SpaceX excitement",
+          "corporate-action confusion",
+          "unclear ticker/entity after spin"
+        ]
+      },
+      "trend_bullets": [
+        "Revenue: $9.14B in 2026 Q1 (CY2026Q1), -75.6% vs 2025 FY (CY2025).",
+        "Gross profit: $3.47B in 2025 FY (CY2025Q4), +7.3% vs 2025 FY (CY2025Q3).",
+        "Operating income: $2.13B in 2026 Q1 (CY2026Q1), -5.7% vs 2025 Q1.",
+        "Net income: $821.0M in 2026 Q1 (CY2026Q1), -82.6% vs 2025 FY (CY2025).",
+        "Diluted EPS: $1.29 in 2026 Q1 (CY2026Q1), -82.5% vs 2025 FY (CY2025).",
+        "Operating cash flow: $-650.0M in 2026 Q1 (CY2026Q1), -208.9% vs 2025 Q1.",
+        "Capital expenditures: $223.0M in 2026 Q1 (CY2026Q1), -11.2% vs 2025 Q1.",
+        "Cash: $11.98B in 2026 Q1 (CY2026Q1I), +24.0% vs 2025 Q1 (CY2025Q1I)."
+      ],
+      "recent_filings": [
+        {
+          "date": "2026-06-29",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "1.01,2.01,2.02,3.03,5.02,5.03,7.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/hon-20260625.htm"
+        },
+        {
+          "date": "2026-06-15",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "5.02,7.01,8.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000080/hon-20260615.htm"
+        },
+        {
+          "date": "2026-06-05",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "7.01,8.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000072/hon-20260605.htm"
+        },
+        {
+          "date": "2026-06-02",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "5.02,7.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000068/hon-20260601.htm"
+        },
+        {
+          "date": "2026-05-27",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "5.07",
+          "url": "https://www.sec.gov/Archives/edgar/data/773840/000119312526242011/d35048d8k.htm"
+        },
+        {
+          "date": "2026-04-23",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "8.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000058/hon-20260423_d2.htm"
+        }
+      ],
+      "management_note_excerpt": "# HON Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-04-23 | Q1 2026 | [Honeywell quarterly results page](https://investor.honeywell.com/financial-information/quarterly-results); [Q1 earnings presentation PDF](https://investor.honeywell.com/static-files/6ff901cd-a05a-46a7-8d74-393f1417e1e9) | Orders up 7%; aerospace and automation demand broad-based, relevant to avionics/sensors/industrial supply chain. | Portfolio execution and backlog support margin durability, but aerospace supply disruptions are a drag. | FY26 organic growth guide maintained at 3%-6% per publi...",
+      "external_sources": [
+        {
+          "date": "2026-06-29",
+          "source": "Honeywell Investor Relations",
+          "title": "Honeywell Technologies Launches as Independent, Pure-Play Automation Company Following Completion of Honeywell Aerospace Spin-Off",
+          "url": "https://investor.honeywell.com/news-releases/news-release-details/honeywell-technologies-launches-independent-pure-play-automation",
+          "note": "Primary IR update confirms post-spin HON is automation-focused; aerospace and space-supply-chain exposure now sits mainly with separately traded Honeywell Aerospace, so monitor HON/HONA entity confusion."
+        },
+        {
+          "date": "2026-06-29",
+          "source": "Honeywell Aerospace Newsroom",
+          "title": "Honeywell Aerospace completes spin-off from Honeywell Technologies and begins trading on Nasdaq",
+          "url": "https://www.honeywellaerospace.com/us/en/company/newsroom/2026/06/honeywell-aerospace-spin-off-begins-trading-nasdaq",
+          "note": "Primary aerospace-company release says HONA is the independent aerospace and defense supplier; legacy HON space/avionics read-through should be treated cautiously after spin."
+        }
+      ],
+      "assessment": {
+        "ai_summary": "HON: aerospace spin-off, automation, avionics, sensors, space-supply-chain inference; Revenue: $9.14B in 2026 Q1 (CY2026Q1), -75.6% vs 2025 FY (CY2025).. Latest source mix includes 2026-06-29 8-K, 2026-06-15 8-K, 2026-06-05 8-K and 2 logged external source(s).",
+        "stock_impact": "Current snapshot shows -0.28% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "prediction": {
+          "horizon_days": 5,
+          "direction": "bullish",
+          "confidence": 0.58,
+          "expected_move_pct_range": [
+            -2,
+            5
+          ],
+          "price_reference": 221.13999938964844,
+          "price_reference_as_of": "2026-07-02T15:41:06.000Z",
+          "review_after": "2026-07-08",
+          "rationale": [
+            "Revenue: $9.14B in 2026 Q1 (CY2026Q1), -75.6% vs 2025 FY (CY2025).",
+            "Gross profit: $3.47B in 2025 FY (CY2025Q4), +7.3% vs 2025 FY (CY2025Q3).",
+            "Strategy theme: aerospace spin-off, automation, avionics, sensors, space-supply-chain inference",
+            "External source notes present in the source log."
+          ],
+          "invalidation": "generic SpaceX excitement"
+        },
+        "model": "deterministic-fallback",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present."
+      },
+      "prediction": {
+        "id": "28ccfac1fd61e112b750",
+        "created_at": "2026-07-03T05:20:11.773Z",
+        "date": "2026-07-03",
+        "symbol": "HON",
+        "company": "Honeywell International",
+        "model": "deterministic-fallback",
+        "source_count": 8,
+        "ai_summary": "HON: aerospace spin-off, automation, avionics, sensors, space-supply-chain inference; Revenue: $9.14B in 2026 Q1 (CY2026Q1), -75.6% vs 2025 FY (CY2025).. Latest source mix includes 2026-06-29 8-K, 2026-06-15 8-K, 2026-06-05 8-K and 2 logged external source(s).",
+        "stock_impact": "Current snapshot shows -0.28% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+        "horizon_days": 5,
+        "direction": "bullish",
+        "confidence": 0.58,
+        "expected_move_pct_range": [
+          -2,
+          5
+        ],
+        "price_reference": 221.13999938964844,
+        "price_reference_as_of": "2026-07-02T15:41:06.000Z",
+        "review_after": "2026-07-08",
+        "rationale": [
+          "Revenue: $9.14B in 2026 Q1 (CY2026Q1), -75.6% vs 2025 FY (CY2025).",
+          "Gross profit: $3.47B in 2025 FY (CY2025Q4), +7.3% vs 2025 FY (CY2025Q3).",
+          "Strategy theme: aerospace spin-off, automation, avionics, sensors, space-supply-chain inference",
+          "External source notes present in the source log."
+        ],
+        "invalidation": "generic SpaceX excitement"
+      }
+    },
+    {
+      "symbol": "STM",
+      "company": "STMicroelectronics",
+      "generated_at": "2026-07-03T05:20:11.774Z",
+      "market_snapshot": {
+        "price": 70.43000030517578,
+        "as_of": "2026-07-02T15:41:12.000Z",
+        "previous_close": 70.72,
+        "bid": null,
+        "ask": null,
+        "open": null,
+        "high": 73.37,
+        "low": 70.12,
+        "volume": 6542404,
+        "avg_volume_30d": 13929610.3505,
+        "high_52w": 81.42,
+        "low_52w": 21.11,
+        "market_cap": 63478361180.4791,
+        "pe_ratio": 483.473209,
+        "pb_ratio": 3.74567,
+        "sector": "Electronic Technology",
+        "industry": "EQUITY",
+        "ceo": "Jean-Marc Chery",
+        "employees": 49157
+      },
+      "strategy": {
+        "priority": 8,
+        "role": "secondary recovery and component candidate",
+        "theme": "power semis, microcontrollers, sensors, AI/datacenter upside",
+        "bull_triggers": [
+          "bookings recovery",
+          "normalized distribution inventory",
+          "datacenter revenue target",
+          "power/sensor catalyst"
+        ],
+        "disqualifiers": [
+          "generic sympathy only",
+          "industrial/auto weakness dominates"
+        ]
+      },
+      "trend_bullets": [
+        "Revenue: $11.80B in 2025 FY (CY2025), -31.7% vs 2024 FY.",
+        "Gross profit: $4.00B in 2025 FY (CY2025), -51.7% vs 2024 FY.",
+        "Operating income: $175.0M in 2025 FY (CY2025), -96.2% vs 2024 FY.",
+        "Net income: $166.0M in 2025 FY (CY2025), -96.1% vs 2024 FY.",
+        "Diluted EPS: $0.18 in 2025 FY (CY2025), -96.0% vs 2024 FY.",
+        "Operating cash flow: $2.15B in 2025 FY (CY2025), -64.1% vs 2024 FY.",
+        "Capital expenditures: not available in extracted SEC facts.",
+        "Cash: $2.84B in 2025 FY (CY2025Q4I), -11.9% vs 2024 FY (CY2023Q4I)."
+      ],
+      "recent_filings": [
+        {
+          "date": "2026-06-16",
+          "form": "6-K",
+          "description": "REPORT OF FOREIGN PRIVATE ISSUER",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/932787/000094787126000632/ss6466922_6k.htm"
+        },
+        {
+          "date": "2026-06-16",
+          "form": "6-K",
+          "description": "REPORT OF FOREIGN PRIVATE ISSUER",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/932787/000094787126000630/ss6463904_6k.htm"
+        },
+        {
+          "date": "2026-06-02",
+          "form": "6-K",
+          "description": "6-K",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/932787/000093278726000040/stmicroelectronicsraisesit.htm"
+        },
+        {
+          "date": "2026-05-27",
+          "form": "6-K",
+          "description": "6-K",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/932787/000093278726000037/c3395c-stboardstatement27m.htm"
+        },
+        {
+          "date": "2026-05-27",
+          "form": "6-K",
+          "description": "6-K",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/932787/000093278726000034/c3394c-stprxallresolutions.htm"
+        },
+        {
+          "date": "2026-05-04",
+          "form": "6-K",
+          "description": "6-K",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/932787/000093278726000025/stm-6k_q1x2026.htm"
+        }
+      ],
+      "management_note_excerpt": "# STM Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-04-24 | Q1 2026 | [STMicro newsroom release](https://newsroom.st.com/media-center/press-item.html/c3392.html); [ST / SpaceX Starlink collaboration release](https://newsroom.st.com/media-center/press-item.html/t4741.html); [Via Satellite space-business context](https://www.satellitetoday.com/technology/2026/05/04/stmicroelectronics-expects-its-space-business-to-reach-more-than-3b-over-three-years/) | Demand improving; distribution inventory normalized; communications/peripherals, power, sensors, AI data center an...",
+      "external_sources": [],
+      "assessment": {
+        "ai_summary": "STM: power semis, microcontrollers, sensors, AI/datacenter upside; Revenue: $11.80B in 2025 FY (CY2025), -31.7% vs 2024 FY.. Latest source mix includes 2026-06-16 6-K, 2026-06-16 6-K, 2026-06-02 6-K and 0 logged external source(s).",
+        "stock_impact": "Current snapshot shows -0.41% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "prediction": {
+          "horizon_days": 5,
+          "direction": "neutral",
+          "confidence": 0.42,
+          "expected_move_pct_range": [
+            -3,
+            3
+          ],
+          "price_reference": 70.43000030517578,
+          "price_reference_as_of": "2026-07-02T15:41:12.000Z",
+          "review_after": "2026-07-08",
+          "rationale": [
+            "Revenue: $11.80B in 2025 FY (CY2025), -31.7% vs 2024 FY.",
+            "Gross profit: $4.00B in 2025 FY (CY2025), -51.7% vs 2024 FY.",
+            "Strategy theme: power semis, microcontrollers, sensors, AI/datacenter upside"
+          ],
+          "invalidation": "generic sympathy only"
+        },
+        "model": "deterministic-fallback",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present."
+      },
+      "prediction": {
+        "id": "e828354ab41cbe93448e",
+        "created_at": "2026-07-03T05:20:11.774Z",
+        "date": "2026-07-03",
+        "symbol": "STM",
+        "company": "STMicroelectronics",
+        "model": "deterministic-fallback",
+        "source_count": 6,
+        "ai_summary": "STM: power semis, microcontrollers, sensors, AI/datacenter upside; Revenue: $11.80B in 2025 FY (CY2025), -31.7% vs 2024 FY.. Latest source mix includes 2026-06-16 6-K, 2026-06-16 6-K, 2026-06-02 6-K and 0 logged external source(s).",
+        "stock_impact": "Current snapshot shows -0.41% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+        "horizon_days": 5,
+        "direction": "neutral",
+        "confidence": 0.42,
+        "expected_move_pct_range": [
+          -3,
+          3
+        ],
+        "price_reference": 70.43000030517578,
+        "price_reference_as_of": "2026-07-02T15:41:12.000Z",
+        "review_after": "2026-07-08",
+        "rationale": [
+          "Revenue: $11.80B in 2025 FY (CY2025), -31.7% vs 2024 FY.",
+          "Gross profit: $4.00B in 2025 FY (CY2025), -51.7% vs 2024 FY.",
+          "Strategy theme: power semis, microcontrollers, sensors, AI/datacenter upside"
+        ],
+        "invalidation": "generic sympathy only"
+      }
+    },
+    {
+      "symbol": "ASML",
+      "company": "ASML Holding",
+      "generated_at": "2026-07-03T05:20:11.774Z",
+      "market_snapshot": {
+        "price": 1806.4000244140625,
+        "as_of": "2026-07-02T15:41:12.000Z",
+        "previous_close": 1843.04,
+        "bid": null,
+        "ask": null,
+        "open": null,
+        "high": 1858.395,
+        "low": 1791,
+        "volume": 1191148,
+        "avg_volume_30d": 2323233.4078,
+        "high_52w": 1999.96,
+        "low_52w": 683.48,
+        "market_cap": 710267544714.35,
+        "pe_ratio": 66.276668,
+        "pb_ratio": 31.9489,
+        "sector": "Electronic Technology",
+        "industry": "EQUITY",
+        "ceo": "Christophe D. Fouquet",
+        "employees": 44209
+      },
+      "strategy": {
+        "priority": 6,
+        "role": "secondary catalyst candidate",
+        "theme": "EUV/High-NA semiconductor equipment and advanced-node capacity",
+        "bull_triggers": [
+          "bookings",
+          "EUV",
+          "High-NA",
+          "guidance raise",
+          "export-control clarity",
+          "Europe semi equipment strength"
+        ],
+        "disqualifiers": [
+          "generic AI sympathy only",
+          "China restriction headline without positive price reaction"
+        ]
+      },
+      "trend_bullets": [
+        "Revenue: $32.67B in 2025 FY (CY2025), +18.5% vs 2024 FY.",
+        "Gross profit: $17.26B in 2025 FY (CY2025), +22.1% vs 2024 FY.",
+        "Operating income: $11.30B in 2025 FY (CY2025), +25.0% vs 2024 FY.",
+        "Net income: $9.61B in 2025 FY (CY2025), +22.6% vs 2024 FY.",
+        "Diluted EPS: $24.71 in 2025 FY (CY2025), +24.2% vs 2024 FY.",
+        "Operating cash flow: $12.66B in 2025 FY (CY2025), +132.5% vs 2024 FY.",
+        "Capital expenditures: $1.57B in 2025 FY (CY2025), -27.0% vs 2024 FY.",
+        "Cash: $12.92B in 2025 FY (CY2025Q4I), +84.4% vs 2024 FY (CY2023Q4I)."
+      ],
+      "recent_filings": [
+        {
+          "date": "2026-04-23",
+          "form": "6-K",
+          "description": "6-K",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026026703/form6-kagmdisclosureofagmr.htm"
+        },
+        {
+          "date": "2026-04-15",
+          "form": "6-K",
+          "description": "6-K",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026025147/form6-kquarterlyfilings.htm"
+        },
+        {
+          "date": "2026-03-11",
+          "form": "6-K",
+          "description": "6-K",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026016671/form6-kagm.htm"
+        },
+        {
+          "date": "2026-02-25",
+          "form": "20-F",
+          "description": "20-F",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/asml-20251231.htm"
+        },
+        {
+          "date": "2026-02-25",
+          "form": "6-K",
+          "description": "6-K",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026011377/form6-kannualreportbasedon.htm"
+        },
+        {
+          "date": "2026-01-28",
+          "form": "6-K",
+          "description": "6-K",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026003701/form6-kquarterlyfilings.htm"
+        }
+      ],
+      "management_note_excerpt": "# ASML Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-04-15 | Q1 2026 | [ASML financial results page](https://www.asml.com/investors/financial-results/q1-2026); [ASML press release](https://www.asml.com/news/press-releases/2026/q1-2026-financial-results) | AI-driven leading-edge capacity supports EUV demand; Q1 sales EUR8.8B. | Gross margin 53.0%; R&D investment remains high. | FY26 net sales outlook raised/updated to EUR36B-EUR40B with 51%-53% GM; Q2 sales guide EUR8.4B-EUR9.0B. | Export controls, China mix, customer timing, and tool shipment lumpiness. | Sector-...",
+      "external_sources": [],
+      "assessment": {
+        "ai_summary": "ASML: EUV/High-NA semiconductor equipment and advanced-node capacity; Revenue: $32.67B in 2025 FY (CY2025), +18.5% vs 2024 FY.. Latest source mix includes 2026-04-23 6-K, 2026-04-15 6-K, 2026-03-11 6-K and 0 logged external source(s).",
+        "stock_impact": "Current snapshot shows -1.99% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "prediction": {
+          "horizon_days": 5,
+          "direction": "bullish",
+          "confidence": 0.58,
+          "expected_move_pct_range": [
+            -2,
+            5
+          ],
+          "price_reference": 1806.4000244140625,
+          "price_reference_as_of": "2026-07-02T15:41:12.000Z",
+          "review_after": "2026-07-08",
+          "rationale": [
+            "Revenue: $32.67B in 2025 FY (CY2025), +18.5% vs 2024 FY.",
+            "Gross profit: $17.26B in 2025 FY (CY2025), +22.1% vs 2024 FY.",
+            "Strategy theme: EUV/High-NA semiconductor equipment and advanced-node capacity"
+          ],
+          "invalidation": "generic AI sympathy only"
+        },
+        "model": "deterministic-fallback",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present."
+      },
+      "prediction": {
+        "id": "877fca9eb084d2fa677a",
+        "created_at": "2026-07-03T05:20:11.774Z",
+        "date": "2026-07-03",
+        "symbol": "ASML",
+        "company": "ASML Holding",
+        "model": "deterministic-fallback",
+        "source_count": 6,
+        "ai_summary": "ASML: EUV/High-NA semiconductor equipment and advanced-node capacity; Revenue: $32.67B in 2025 FY (CY2025), +18.5% vs 2024 FY.. Latest source mix includes 2026-04-23 6-K, 2026-04-15 6-K, 2026-03-11 6-K and 0 logged external source(s).",
+        "stock_impact": "Current snapshot shows -1.99% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+        "horizon_days": 5,
+        "direction": "bullish",
+        "confidence": 0.58,
+        "expected_move_pct_range": [
+          -2,
+          5
+        ],
+        "price_reference": 1806.4000244140625,
+        "price_reference_as_of": "2026-07-02T15:41:12.000Z",
+        "review_after": "2026-07-08",
+        "rationale": [
+          "Revenue: $32.67B in 2025 FY (CY2025), +18.5% vs 2024 FY.",
+          "Gross profit: $17.26B in 2025 FY (CY2025), +22.1% vs 2024 FY.",
+          "Strategy theme: EUV/High-NA semiconductor equipment and advanced-node capacity"
+        ],
+        "invalidation": "generic AI sympathy only"
+      }
+    },
+    {
+      "symbol": "MRVL",
+      "company": "Marvell Technology",
+      "generated_at": "2026-07-03T05:20:11.775Z",
+      "market_snapshot": {
+        "price": 255.1199951171875,
+        "as_of": "2026-07-02T15:41:13.000Z",
+        "previous_close": 272.05,
+        "bid": null,
+        "ask": null,
+        "open": null,
+        "high": 274.95,
+        "low": 250.17,
+        "volume": 13441418,
+        "avg_volume_30d": 70120592.4308,
+        "high_52w": 329.88,
+        "low_52w": 61.44,
+        "market_cap": 237901868378.7879,
+        "pe_ratio": 101.794013,
+        "pb_ratio": 14.319,
+        "sector": "Electronic Technology",
+        "industry": "EQUITY",
+        "ceo": "Matthew J. Murphy",
+        "employees": 7480
+      },
+      "strategy": {
+        "priority": 4,
+        "role": "primary trade candidate",
+        "theme": "AI networking, optical interconnect, switches, custom silicon",
+        "bull_triggers": [
+          "AI switch",
+          "102.4 Tbps switch",
+          "optical interconnect",
+          "custom silicon",
+          "cloud data-center infrastructure"
+        ],
+        "disqualifiers": [
+          "headline already priced",
+          "stock fails breakout on product news",
+          "sector leaders weak"
+        ]
+      },
+      "trend_bullets": [
+        "Revenue: $2.42B in 2027 Q1 (CY2026Q1), +27.6% vs 2026 Q1.",
+        "Gross profit: $1.26B in 2027 Q1 (CY2026Q1), +32.4% vs 2026 Q1.",
+        "Operating income: $339.4M in 2027 Q1 (CY2026Q1), +25.4% vs 2026 Q1.",
+        "Net income: $34.5M in 2027 Q1 (CY2026Q1), -98.7% vs 2026 FY.",
+        "Diluted EPS: $0.04 in 2027 Q1 (CY2026Q1), -80.0% vs 2026 Q1.",
+        "Operating cash flow: $638.8M in 2027 Q1 (CY2026Q1), +91.9% vs 2026 Q1.",
+        "Capital expenditures: $155.7M in 2027 Q1 (CY2026Q1), +31.1% vs 2026 Q1.",
+        "Cash: $3.84B in 2027 Q1 (CY2026Q1I), +333.9% vs 2026 Q1 (CY2025Q1I)."
+      ],
+      "recent_filings": [
+        {
+          "date": "2026-06-25",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "5.07,8.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026045564/mrvl-20260625.htm"
+        },
+        {
+          "date": "2026-06-11",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "5.02,7.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526267688/d151562d8k.htm"
+        },
+        {
+          "date": "2026-05-28",
+          "form": "10-Q",
+          "description": "FORM 10-Q",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000019/mrvl-20260502.htm"
+        },
+        {
+          "date": "2026-05-27",
+          "form": "8-K",
+          "description": "FORM 8-K",
+          "items": "2.02,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000014/mrvl-20260527.htm"
+        },
+        {
+          "date": "2026-04-15",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "1.01,8.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526157134/d123910d8k.htm"
+        },
+        {
+          "date": "2026-03-31",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "3.02,5.03,7.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526134462/d113606d8k.htm"
+        }
+      ],
+      "management_note_excerpt": "# MRVL Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-05-26 | FQ1 2027 | [Marvell IR press releases](https://investor.marvell.com/news-events/press-releases); [Marvell IR home](https://investor.marvell.com/) | AI bookings strong; custom silicon, 800G/1.6T optics, Ethernet switches, and cloud data-center connectivity are the demand center. | Mix benefits from data-center AI content; acquisitions add growth but integration risk. | Q2 guide above Street in secondary summaries; management raised AI-related expectations for FY27/FY28. | Customer concentration, custom A...",
+      "external_sources": [],
+      "assessment": {
+        "ai_summary": "MRVL: AI networking, optical interconnect, switches, custom silicon; Revenue: $2.42B in 2027 Q1 (CY2026Q1), +27.6% vs 2026 Q1.. Latest source mix includes 2026-06-25 8-K, 2026-06-11 8-K, 2026-05-28 10-Q and 0 logged external source(s).",
+        "stock_impact": "Current snapshot shows -6.22% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "prediction": {
+          "horizon_days": 5,
+          "direction": "bullish",
+          "confidence": 0.58,
+          "expected_move_pct_range": [
+            -2,
+            5
+          ],
+          "price_reference": 255.1199951171875,
+          "price_reference_as_of": "2026-07-02T15:41:13.000Z",
+          "review_after": "2026-07-08",
+          "rationale": [
+            "Revenue: $2.42B in 2027 Q1 (CY2026Q1), +27.6% vs 2026 Q1.",
+            "Gross profit: $1.26B in 2027 Q1 (CY2026Q1), +32.4% vs 2026 Q1.",
+            "Strategy theme: AI networking, optical interconnect, switches, custom silicon"
+          ],
+          "invalidation": "headline already priced"
+        },
+        "model": "deterministic-fallback",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present."
+      },
+      "prediction": {
+        "id": "aa34211bc3609dc3f07f",
+        "created_at": "2026-07-03T05:20:11.775Z",
+        "date": "2026-07-03",
+        "symbol": "MRVL",
+        "company": "Marvell Technology",
+        "model": "deterministic-fallback",
+        "source_count": 6,
+        "ai_summary": "MRVL: AI networking, optical interconnect, switches, custom silicon; Revenue: $2.42B in 2027 Q1 (CY2026Q1), +27.6% vs 2026 Q1.. Latest source mix includes 2026-06-25 8-K, 2026-06-11 8-K, 2026-05-28 10-Q and 0 logged external source(s).",
+        "stock_impact": "Current snapshot shows -6.22% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+        "horizon_days": 5,
+        "direction": "bullish",
+        "confidence": 0.58,
+        "expected_move_pct_range": [
+          -2,
+          5
+        ],
+        "price_reference": 255.1199951171875,
+        "price_reference_as_of": "2026-07-02T15:41:13.000Z",
+        "review_after": "2026-07-08",
+        "rationale": [
+          "Revenue: $2.42B in 2027 Q1 (CY2026Q1), +27.6% vs 2026 Q1.",
+          "Gross profit: $1.26B in 2027 Q1 (CY2026Q1), +32.4% vs 2026 Q1.",
+          "Strategy theme: AI networking, optical interconnect, switches, custom silicon"
+        ],
+        "invalidation": "headline already priced"
+      }
+    },
+    {
+      "symbol": "NBIS",
+      "company": "Nebius Group",
+      "generated_at": "2026-07-03T05:20:11.775Z",
+      "market_snapshot": {
+        "price": 217.34500122070312,
+        "as_of": "2026-07-02T15:41:12.000Z",
+        "previous_close": 229.18,
+        "bid": null,
+        "ask": null,
+        "open": null,
+        "high": 237.26,
+        "low": 209.71,
+        "volume": 12384568,
+        "avg_volume_30d": 17544523.1385,
+        "high_52w": 299.86,
+        "low_52w": 43.89,
+        "market_cap": 57673324200.8517,
+        "pe_ratio": 81.425244,
+        "pb_ratio": 9.68375,
+        "sector": "Technology Services",
+        "industry": "EQUITY",
+        "ceo": "Arkady Volozh",
+        "employees": 1543
+      },
+      "strategy": {
+        "priority": 9,
+        "role": "high-beta AI cloud candidate",
+        "theme": "GPU infrastructure, AI cloud, power/land capacity, AI factory buildout",
+        "bull_triggers": [
+          "AI cloud capacity",
+          "power/land",
+          "GPU supply",
+          "large customer",
+          "financing",
+          "Token Factory"
+        ],
+        "disqualifiers": [
+          "funding/buildout risk headlines",
+          "profitability concerns",
+          "wide spread or violent reversal"
+        ]
+      },
+      "trend_bullets": [
+        "Revenue: $529.8M in 2025 FY (CY2025), +2434.9% vs 2024 FY.",
+        "Gross profit: not available in extracted SEC facts.",
+        "Operating income: $-611.7M in 2025 FY (CY2025), -86.8% vs 2024 FY.",
+        "Net income: $82.5M in 2025 FY (CY2025), -65.8% vs 2024 FY.",
+        "Diluted EPS: $0.33 in 2025 FY (CY2025), -49.2% vs 2024 FY.",
+        "Operating cash flow: $384.8M in 2025 FY (CY2025), -53.6% vs 2024 FY.",
+        "Capital expenditures: $4.07B in 2025 FY (CY2025), +4775.3% vs 2024 FY.",
+        "Cash: $3.68B in 2025 FY (CY2025Q4I), +3068.0% vs 2024 FY."
+      ],
+      "recent_filings": [
+        {
+          "date": "2026-06-16",
+          "form": "6-K",
+          "description": "FORM 6-K",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926074352/tm2618059d1_6k.htm"
+        },
+        {
+          "date": "2026-05-20",
+          "form": "6-K",
+          "description": "6-K",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926064092/nbis-20260331x6k.htm"
+        },
+        {
+          "date": "2026-05-13",
+          "form": "6-K",
+          "description": "FORM 6-K",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926059872/tm2614392d1_6k.htm"
+        },
+        {
+          "date": "2026-05-01",
+          "form": "6-K",
+          "description": "FORM 6-K",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926053464/tm2613296d1_6k.htm"
+        },
+        {
+          "date": "2026-04-30",
+          "form": "20-F",
+          "description": "20-F",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/nbis-20251231x20f.htm"
+        },
+        {
+          "date": "2026-03-20",
+          "form": "6-K",
+          "description": "FORM 6-K",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926032735/tm268409d4_6k.htm"
+        }
+      ],
+      "management_note_excerpt": "# NBIS Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-05-13 | Q1 2026 | [Nebius newsroom release](https://nebius.com/newsroom/nebius-reports-first-quarter-2026-financial-results); [shareholder letter PDF](https://assets.nebius.com/assets/aa1bc2e6-df83-40cd-a6a2-95e7cda3d16c/Nebius%20SHL_Q1%202026.pdf?cache-buster=2026-05-13T14%3A00%3A35.352Z); [MarketWatch Meta cloud context](https://www.marketwatch.com/story/coreweave-nebius-shares-tumble-as-meta-stands-to-become-a-fresh-threat-in-the-cloud-a47c3616) | AI cloud revenue scaled sharply; pipeline up strongly and GPU...",
+      "external_sources": [],
+      "assessment": {
+        "ai_summary": "NBIS: GPU infrastructure, AI cloud, power/land capacity, AI factory buildout; Revenue: $529.8M in 2025 FY (CY2025), +2434.9% vs 2024 FY.. Latest source mix includes 2026-06-16 6-K, 2026-05-20 6-K, 2026-05-13 6-K and 0 logged external source(s).",
+        "stock_impact": "Current snapshot shows -5.16% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "prediction": {
+          "horizon_days": 5,
+          "direction": "bullish",
+          "confidence": 0.58,
+          "expected_move_pct_range": [
+            -2,
+            5
+          ],
+          "price_reference": 217.34500122070312,
+          "price_reference_as_of": "2026-07-02T15:41:12.000Z",
+          "review_after": "2026-07-08",
+          "rationale": [
+            "Revenue: $529.8M in 2025 FY (CY2025), +2434.9% vs 2024 FY.",
+            "Gross profit: not available in extracted SEC facts.",
+            "Strategy theme: GPU infrastructure, AI cloud, power/land capacity, AI factory buildout"
+          ],
+          "invalidation": "funding/buildout risk headlines"
+        },
+        "model": "deterministic-fallback",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present."
+      },
+      "prediction": {
+        "id": "527fce1b317256557721",
+        "created_at": "2026-07-03T05:20:11.775Z",
+        "date": "2026-07-03",
+        "symbol": "NBIS",
+        "company": "Nebius Group",
+        "model": "deterministic-fallback",
+        "source_count": 6,
+        "ai_summary": "NBIS: GPU infrastructure, AI cloud, power/land capacity, AI factory buildout; Revenue: $529.8M in 2025 FY (CY2025), +2434.9% vs 2024 FY.. Latest source mix includes 2026-06-16 6-K, 2026-05-20 6-K, 2026-05-13 6-K and 0 logged external source(s).",
+        "stock_impact": "Current snapshot shows -5.16% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+        "horizon_days": 5,
+        "direction": "bullish",
+        "confidence": 0.58,
+        "expected_move_pct_range": [
+          -2,
+          5
+        ],
+        "price_reference": 217.34500122070312,
+        "price_reference_as_of": "2026-07-02T15:41:12.000Z",
+        "review_after": "2026-07-08",
+        "rationale": [
+          "Revenue: $529.8M in 2025 FY (CY2025), +2434.9% vs 2024 FY.",
+          "Gross profit: not available in extracted SEC facts.",
+          "Strategy theme: GPU infrastructure, AI cloud, power/land capacity, AI factory buildout"
+        ],
+        "invalidation": "funding/buildout risk headlines"
+      }
+    },
+    {
+      "symbol": "APLD",
+      "company": "Applied Digital",
+      "generated_at": "2026-07-03T05:20:11.776Z",
+      "market_snapshot": {
+        "price": 33.08539962768555,
+        "as_of": "2026-07-02T15:41:14.000Z",
+        "previous_close": 35.52,
+        "bid": null,
+        "ask": null,
+        "open": null,
+        "high": 35.8,
+        "low": 32.35,
+        "volume": 10449791,
+        "avg_volume_30d": 20888619.3076,
+        "high_52w": 50.725,
+        "low_52w": 9.02,
+        "market_cap": 10150533705.6,
+        "pe_ratio": -48.05,
+        "pb_ratio": 6.73203,
+        "sector": "Technology Services",
+        "industry": "EQUITY",
+        "ceo": "Wesley Carl Cummins",
+        "employees": 205
+      },
+      "strategy": {
+        "priority": 9,
+        "role": "high-beta AI data-center candidate",
+        "theme": "AI data-center hosting, HPC infrastructure, power-capacity optionality",
+        "bull_triggers": [
+          "AI data-center lease",
+          "HPC hosting demand",
+          "power capacity",
+          "GPU customer",
+          "financing",
+          "data-center construction milestone"
+        ],
+        "disqualifiers": [
+          "funding or dilution risk headline",
+          "construction/power delay",
+          "profitability concern",
+          "violent reversal",
+          "stop wider than dollar-risk limit"
+        ]
+      },
+      "trend_bullets": [
+        "Revenue: $126.6M in 2026 Q3 (CY2026Q1), +139.3% vs 2025 Q3.",
+        "Gross profit: not available in extracted SEC facts.",
+        "Operating income: $-85.7M in 2026 Q3 (CY2026Q1), -352.2% vs 2025 Q3.",
+        "Net income: $-70.6M in 2026 Q3 (CY2026Q1), -98.4% vs 2025 Q3.",
+        "Diluted EPS: $-0.36 in 2026 Q3 (CY2026Q1), -125.0% vs 2025 Q3.",
+        "Operating cash flow: $-42.9M in 2026 Q3, +64.9% vs 2025 Q3.",
+        "Capital expenditures: $1.58B in 2026 Q3, +226.2% vs 2025 Q3.",
+        "Cash: $1.73B in 2026 Q3 (CY2026Q1I), +2417.3% vs 2025 Q3 (CY2025Q1I)."
+      ],
+      "recent_filings": [
+        {
+          "date": "2026-06-26",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "1.01,2.03,3.02,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226030333/form8-k.htm"
+        },
+        {
+          "date": "2026-06-16",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "1.01,2.03,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226028899/form8-k.htm"
+        },
+        {
+          "date": "2026-06-09",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "7.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226027984/form8-k.htm"
+        },
+        {
+          "date": "2026-06-09",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "8.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226027979/form8-k.htm"
+        },
+        {
+          "date": "2026-06-09",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "7.01,8.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226027857/form8-k.htm"
+        },
+        {
+          "date": "2026-05-05",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "1.01,2.01,7.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226021333/form8-k.htm"
+        }
+      ],
+      "management_note_excerpt": "# APLD Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-04-09 | FQ3 2026 | [Applied Digital IR home](https://ir.applieddigital.com/); [IBD data-center supply-chain context](https://www.investors.com/research/the-new-america/ai-data-centers-aaon-stock-applied-digital-coreweave/) | AI/HPC data-center infrastructure demand remains the core driver; North Dakota campus and cooling/power ecosystem are active supply-chain themes. | Profitability still depends on lease-up, utilization, financing cost, and construction execution. | Watch for new customer, financing, energiza...",
+      "external_sources": [
+        {
+          "date": "2026-06-27",
+          "source": "Investor's Business Daily",
+          "title": "AI Data Centers In North Dakota? That's No Problem For AAON Stock.",
+          "url": "https://www.investors.com/research/the-new-america/ai-data-centers-aaon-stock-applied-digital-coreweave/",
+          "note": "Accessible secondary source ties AAON cooling demand to Applied Digital North Dakota AI data centers; useful supply-chain context for cooling/power infrastructure, not company guidance."
+        }
+      ],
+      "assessment": {
+        "ai_summary": "APLD: AI data-center hosting, HPC infrastructure, power-capacity optionality; Revenue: $126.6M in 2026 Q3 (CY2026Q1), +139.3% vs 2025 Q3.. Latest source mix includes 2026-06-26 8-K, 2026-06-16 8-K, 2026-06-09 8-K and 1 logged external source(s).",
+        "stock_impact": "Current snapshot shows -6.85% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "prediction": {
+          "horizon_days": 5,
+          "direction": "bullish",
+          "confidence": 0.58,
+          "expected_move_pct_range": [
+            -2,
+            5
+          ],
+          "price_reference": 33.08539962768555,
+          "price_reference_as_of": "2026-07-02T15:41:14.000Z",
+          "review_after": "2026-07-08",
+          "rationale": [
+            "Revenue: $126.6M in 2026 Q3 (CY2026Q1), +139.3% vs 2025 Q3.",
+            "Gross profit: not available in extracted SEC facts.",
+            "Strategy theme: AI data-center hosting, HPC infrastructure, power-capacity optionality",
+            "External source notes present in the source log."
+          ],
+          "invalidation": "funding or dilution risk headline"
+        },
+        "model": "deterministic-fallback",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present."
+      },
+      "prediction": {
+        "id": "e15021465129be7408d1",
+        "created_at": "2026-07-03T05:20:11.776Z",
+        "date": "2026-07-03",
+        "symbol": "APLD",
+        "company": "Applied Digital",
+        "model": "deterministic-fallback",
+        "source_count": 7,
+        "ai_summary": "APLD: AI data-center hosting, HPC infrastructure, power-capacity optionality; Revenue: $126.6M in 2026 Q3 (CY2026Q1), +139.3% vs 2025 Q3.. Latest source mix includes 2026-06-26 8-K, 2026-06-16 8-K, 2026-06-09 8-K and 1 logged external source(s).",
+        "stock_impact": "Current snapshot shows -6.85% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+        "horizon_days": 5,
+        "direction": "bullish",
+        "confidence": 0.58,
+        "expected_move_pct_range": [
+          -2,
+          5
+        ],
+        "price_reference": 33.08539962768555,
+        "price_reference_as_of": "2026-07-02T15:41:14.000Z",
+        "review_after": "2026-07-08",
+        "rationale": [
+          "Revenue: $126.6M in 2026 Q3 (CY2026Q1), +139.3% vs 2025 Q3.",
+          "Gross profit: not available in extracted SEC facts.",
+          "Strategy theme: AI data-center hosting, HPC infrastructure, power-capacity optionality",
+          "External source notes present in the source log."
+        ],
+        "invalidation": "funding or dilution risk headline"
+      }
+    },
+    {
+      "symbol": "NVDA",
+      "company": "NVIDIA",
+      "generated_at": "2026-07-03T05:20:11.776Z",
+      "market_snapshot": {
+        "price": 195.64500427246094,
+        "as_of": "2026-07-02T15:41:14.000Z",
+        "previous_close": 197.58,
+        "bid": null,
+        "ask": null,
+        "open": null,
+        "high": 200.055,
+        "low": 194.42,
+        "volume": 49030577,
+        "avg_volume_30d": 163109783.354,
+        "high_52w": 236.54,
+        "low_52w": 157.34,
+        "market_cap": 4860132114000,
+        "pe_ratio": 30.642592,
+        "pb_ratio": 24.793,
+        "sector": "Electronic Technology",
+        "industry": "EQUITY",
+        "ceo": "Jen Hsun Huang",
+        "employees": 42000
+      },
+      "strategy": {
+        "priority": 5,
+        "role": "sector anchor and occasional trade candidate",
+        "theme": "Blackwell, AI data center, networking, inference",
+        "bull_triggers": [
+          "Blackwell demand",
+          "GB300/NVL72",
+          "networking growth",
+          "hyperscaler/AI cloud capex",
+          "sovereign AI"
+        ],
+        "disqualifiers": [
+          "below VWAP and dragging SMH lower",
+          "broad AI reversal"
+        ]
+      },
+      "trend_bullets": [
+        "Revenue: $81.61B in 2027 Q1 (CY2026Q1), +85.2% vs 2026 Q1.",
+        "Gross profit: $61.16B in 2027 Q1 (CY2026Q1), +129.3% vs 2026 Q1.",
+        "Operating income: $53.54B in 2027 Q1 (CY2026Q1), +147.4% vs 2026 Q1.",
+        "Net income: $58.32B in 2027 Q1 (CY2026Q1), +210.6% vs 2026 Q1.",
+        "Diluted EPS: $2.39 in 2027 Q1 (CY2026Q1), +214.5% vs 2026 Q1.",
+        "Operating cash flow: $50.34B in 2027 Q1 (CY2026Q1), +83.6% vs 2026 Q1.",
+        "Capital expenditures: $1.76B in 2027 Q1 (CY2026Q1), +43.2% vs 2026 Q1.",
+        "Cash: $13.24B in 2027 Q1 (CY2026Q1I), -13.1% vs 2026 Q1 (CY2025Q1I)."
+      ],
+      "recent_filings": [
+        {
+          "date": "2026-07-02",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "5.02",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000060/nvda-20260628.htm"
+        },
+        {
+          "date": "2026-06-30",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "5.07",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000056/nvda-20260624.htm"
+        },
+        {
+          "date": "2026-06-18",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "8.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119312526275783/d48176d8k.htm"
+        },
+        {
+          "date": "2026-05-20",
+          "form": "10-Q",
+          "description": "10-Q",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm"
+        },
+        {
+          "date": "2026-05-20",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "2.02,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/nvda-20260520.htm"
+        },
+        {
+          "date": "2026-05-08",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "5.02",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000028/nvda-20260507.htm"
+        }
+      ],
+      "management_note_excerpt": "# NVDA Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-05-20 | FQ1 2027 | [NVIDIA news release](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027); [NVIDIA IR financial reports](https://investor.nvidia.com/financial-info/financial-reports/default.aspx); [call transcript PDF](https://s201.q4cdn.com/141608511/files/doc_financials/2027/q1/NVDA-Q1-2027-Earnings-Call-20-May-2026-5_00-PM-ET.pdf) | Record revenue $81.6B and Data Center $75.2B; Blackwell/frontier AI demand broad across hyperscalers, AI clouds, sovereign and...",
+      "external_sources": [],
+      "assessment": {
+        "ai_summary": "NVDA: Blackwell, AI data center, networking, inference; Revenue: $81.61B in 2027 Q1 (CY2026Q1), +85.2% vs 2026 Q1.. Latest source mix includes 2026-07-02 8-K, 2026-06-30 8-K, 2026-06-18 8-K and 0 logged external source(s).",
+        "stock_impact": "Current snapshot shows -0.98% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "prediction": {
+          "horizon_days": 5,
+          "direction": "bullish",
+          "confidence": 0.58,
+          "expected_move_pct_range": [
+            -2,
+            5
+          ],
+          "price_reference": 195.64500427246094,
+          "price_reference_as_of": "2026-07-02T15:41:14.000Z",
+          "review_after": "2026-07-08",
+          "rationale": [
+            "Revenue: $81.61B in 2027 Q1 (CY2026Q1), +85.2% vs 2026 Q1.",
+            "Gross profit: $61.16B in 2027 Q1 (CY2026Q1), +129.3% vs 2026 Q1.",
+            "Strategy theme: Blackwell, AI data center, networking, inference"
+          ],
+          "invalidation": "below VWAP and dragging SMH lower"
+        },
+        "model": "deterministic-fallback",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present."
+      },
+      "prediction": {
+        "id": "85370bfcd0f1c591c486",
+        "created_at": "2026-07-03T05:20:11.776Z",
+        "date": "2026-07-03",
+        "symbol": "NVDA",
+        "company": "NVIDIA",
+        "model": "deterministic-fallback",
+        "source_count": 6,
+        "ai_summary": "NVDA: Blackwell, AI data center, networking, inference; Revenue: $81.61B in 2027 Q1 (CY2026Q1), +85.2% vs 2026 Q1.. Latest source mix includes 2026-07-02 8-K, 2026-06-30 8-K, 2026-06-18 8-K and 0 logged external source(s).",
+        "stock_impact": "Current snapshot shows -0.98% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+        "horizon_days": 5,
+        "direction": "bullish",
+        "confidence": 0.58,
+        "expected_move_pct_range": [
+          -2,
+          5
+        ],
+        "price_reference": 195.64500427246094,
+        "price_reference_as_of": "2026-07-02T15:41:14.000Z",
+        "review_after": "2026-07-08",
+        "rationale": [
+          "Revenue: $81.61B in 2027 Q1 (CY2026Q1), +85.2% vs 2026 Q1.",
+          "Gross profit: $61.16B in 2027 Q1 (CY2026Q1), +129.3% vs 2026 Q1.",
+          "Strategy theme: Blackwell, AI data center, networking, inference"
+        ],
+        "invalidation": "below VWAP and dragging SMH lower"
+      }
+    },
+    {
+      "symbol": "AMD",
+      "company": "Advanced Micro Devices",
+      "generated_at": "2026-07-03T05:20:11.776Z",
+      "market_snapshot": {
+        "price": 525.1649780273438,
+        "as_of": "2026-07-02T15:41:13.000Z",
+        "previous_close": 540.88,
+        "bid": null,
+        "ask": null,
+        "open": null,
+        "high": 547.65,
+        "low": 514.2,
+        "volume": 11148644,
+        "avg_volume_30d": 31758238.7656,
+        "high_52w": 584.73,
+        "low_52w": 133.5,
+        "market_cap": 881975510153.6239,
+        "pe_ratio": 190.656077,
+        "pb_ratio": 14.689,
+        "sector": "Electronic Technology",
+        "industry": "EQUITY",
+        "ceo": "Lisa T. Su",
+        "employees": 31000
+      },
+      "strategy": {
+        "priority": 5,
+        "role": "sector anchor and product-cycle candidate",
+        "theme": "EPYC CPUs, Instinct GPUs, MI450/Helios, agentic AI demand",
+        "bull_triggers": [
+          "MI450/Helios",
+          "EPYC demand",
+          "Instinct ramp",
+          "agentic/inference AI",
+          "customer deployment pipeline"
+        ],
+        "disqualifiers": [
+          "NVDA strong but AMD lagging",
+          "product news without volume"
+        ]
+      },
+      "trend_bullets": [
+        "Revenue: $10.25B in 2026 Q1 (CY2026Q1), +37.8% vs 2025 Q1.",
+        "Gross profit: $5.42B in 2026 Q1 (CY2026Q1), +45.0% vs 2025 Q1.",
+        "Operating income: $1.48B in 2026 Q1 (CY2026Q1), +83.1% vs 2025 Q1.",
+        "Net income: $1.38B in 2026 Q1 (CY2026Q1), +95.1% vs 2025 Q1.",
+        "Diluted EPS: $0.84 in 2026 Q1 (CY2026Q1), +90.9% vs 2025 Q1.",
+        "Operating cash flow: $2.96B in 2026 Q1 (CY2026Q1), +214.7% vs 2025 Q1.",
+        "Capital expenditures: $389.0M in 2026 Q1 (CY2026Q1), +83.5% vs 2025 Q1.",
+        "Cash: $5.58B in 2026 Q1 (CY2026Q1I), -7.7% vs 2025 Q1 (CY2025Q1I)."
+      ],
+      "recent_filings": [
+        {
+          "date": "2026-07-01",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "5.02",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000115/amd-20260626.htm"
+        },
+        {
+          "date": "2026-05-15",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "1.01,1.02,2.03,5.02,5.07,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526226746/d118163d8k.htm"
+        },
+        {
+          "date": "2026-05-06",
+          "form": "10-Q",
+          "description": "10-Q",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000076/amd-20260328.htm"
+        },
+        {
+          "date": "2026-05-05",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "2.02,7.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000072/amd-20260505.htm"
+        },
+        {
+          "date": "2026-02-24",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "1.01,3.02,7.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000045/amd-20260223.htm"
+        },
+        {
+          "date": "2026-02-17",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "5.02",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000029/amd-20260210.htm"
+        }
+      ],
+      "management_note_excerpt": "# AMD Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-05-05 | Q1 2026 | [AMD IR home](https://ir.amd.com/); [Yahoo Finance call summary](https://finance.yahoo.com/quote/AMD/earnings/AMD-Q1-2026-earnings_call-551290.html/) | Data Center growth led results; EPYC plus Instinct/MI350 AI accelerator demand drives the thesis. | Mix improves with data-center growth, but AI accelerator ramp can pressure near-term margins. | Management raised full-year expectations in public summaries and expects sequential data-center growth. | Execution versus NVIDIA, supply allocation, a...",
+      "external_sources": [],
+      "assessment": {
+        "ai_summary": "AMD: EPYC CPUs, Instinct GPUs, MI450/Helios, agentic AI demand; Revenue: $10.25B in 2026 Q1 (CY2026Q1), +37.8% vs 2025 Q1.. Latest source mix includes 2026-07-01 8-K, 2026-05-15 8-K, 2026-05-06 10-Q and 0 logged external source(s).",
+        "stock_impact": "Current snapshot shows -2.91% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "prediction": {
+          "horizon_days": 5,
+          "direction": "bullish",
+          "confidence": 0.58,
+          "expected_move_pct_range": [
+            -2,
+            5
+          ],
+          "price_reference": 525.1649780273438,
+          "price_reference_as_of": "2026-07-02T15:41:13.000Z",
+          "review_after": "2026-07-08",
+          "rationale": [
+            "Revenue: $10.25B in 2026 Q1 (CY2026Q1), +37.8% vs 2025 Q1.",
+            "Gross profit: $5.42B in 2026 Q1 (CY2026Q1), +45.0% vs 2025 Q1.",
+            "Strategy theme: EPYC CPUs, Instinct GPUs, MI450/Helios, agentic AI demand"
+          ],
+          "invalidation": "NVDA strong but AMD lagging"
+        },
+        "model": "deterministic-fallback",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present."
+      },
+      "prediction": {
+        "id": "10eac4dae9745353c2a2",
+        "created_at": "2026-07-03T05:20:11.776Z",
+        "date": "2026-07-03",
+        "symbol": "AMD",
+        "company": "Advanced Micro Devices",
+        "model": "deterministic-fallback",
+        "source_count": 6,
+        "ai_summary": "AMD: EPYC CPUs, Instinct GPUs, MI450/Helios, agentic AI demand; Revenue: $10.25B in 2026 Q1 (CY2026Q1), +37.8% vs 2025 Q1.. Latest source mix includes 2026-07-01 8-K, 2026-05-15 8-K, 2026-05-06 10-Q and 0 logged external source(s).",
+        "stock_impact": "Current snapshot shows -2.91% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+        "horizon_days": 5,
+        "direction": "bullish",
+        "confidence": 0.58,
+        "expected_move_pct_range": [
+          -2,
+          5
+        ],
+        "price_reference": 525.1649780273438,
+        "price_reference_as_of": "2026-07-02T15:41:13.000Z",
+        "review_after": "2026-07-08",
+        "rationale": [
+          "Revenue: $10.25B in 2026 Q1 (CY2026Q1), +37.8% vs 2025 Q1.",
+          "Gross profit: $5.42B in 2026 Q1 (CY2026Q1), +45.0% vs 2025 Q1.",
+          "Strategy theme: EPYC CPUs, Instinct GPUs, MI450/Helios, agentic AI demand"
+        ],
+        "invalidation": "NVDA strong but AMD lagging"
+      }
+    },
+    {
+      "symbol": "AVGO",
+      "company": "Broadcom",
+      "generated_at": "2026-07-03T05:20:11.777Z",
+      "market_snapshot": {
+        "price": 365.9949951171875,
+        "as_of": "2026-07-02T15:41:13.000Z",
+        "previous_close": 369.34,
+        "bid": null,
+        "ask": null,
+        "open": null,
+        "high": 374,
+        "low": 362.78,
+        "volume": 7944412,
+        "avg_volume_30d": 36595233.2636,
+        "high_52w": 495,
+        "low_52w": 269.58,
+        "market_cap": 1757212201855.744,
+        "pe_ratio": 62.884968,
+        "pb_ratio": 20.4962,
+        "sector": "Electronic Technology",
+        "industry": "EQUITY",
+        "ceo": "Hock E. Tan",
+        "employees": 33000
+      },
+      "strategy": {
+        "priority": 4,
+        "role": "primary trade candidate",
+        "theme": "custom AI accelerators, AI networking, infrastructure software",
+        "bull_triggers": [
+          "custom ASIC",
+          "AI networking",
+          "OpenAI/customer chip headlines",
+          "cloud capex",
+          "upward AI revenue guidance"
+        ],
+        "disqualifiers": [
+          "expectation-heavy headline fades",
+          "lower highs after open",
+          "broad AI trade rolling over"
+        ]
+      },
+      "trend_bullets": [
+        "Revenue: $22.19B in 2026 Q2 (CY2026Q1), +47.9% vs 2025 Q2.",
+        "Gross profit: $15.41B in 2026 Q2 (CY2026Q1), +51.2% vs 2025 Q2.",
+        "Operating income: $10.79B in 2026 Q2 (CY2026Q1), +85.1% vs 2025 Q2.",
+        "Net income: $9.31B in 2026 Q2 (CY2026Q1), +87.5% vs 2025 Q2.",
+        "Diluted EPS: $1.91 in 2026 Q2 (CY2026Q1), +85.4% vs 2025 Q2.",
+        "Operating cash flow: $18.75B in 2026 Q2, +48.0% vs 2025 Q2.",
+        "Capital expenditures: $481.0M in 2026 Q2, +97.1% vs 2025 Q2.",
+        "Cash: $19.63B in 2026 Q2 (CY2026Q1I), +107.2% vs 2025 Q2 (CY2025Q1I)."
+      ],
+      "recent_filings": [
+        {
+          "date": "2026-06-18",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "8.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526275077/d149683d8k.htm"
+        },
+        {
+          "date": "2026-06-11",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "8.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526266777/d152717d8k.htm"
+        },
+        {
+          "date": "2026-06-09",
+          "form": "10-Q",
+          "description": "10-Q",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm"
+        },
+        {
+          "date": "2026-06-03",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "2.02,8.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000051/avgo-20260603.htm"
+        },
+        {
+          "date": "2026-04-21",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "5.07",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000039/avgo-20260420.htm"
+        },
+        {
+          "date": "2026-04-06",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "8.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526144028/d87999d8k.htm"
+        }
+      ],
+      "management_note_excerpt": "# AVGO Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-06-04 | FQ2 2026 | [Broadcom Q2 release via PRNewswire](https://www.prnewswire.com/news-releases/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial-results-and-quarterly-dividend-302790698.html); [Broadcom Q1 IR release](https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-first-quarter-fiscal-year-2026-financial) | AI semiconductor revenue accelerated; custom AI accelerators and AI networking remain core. | Record operating profit/free cash flow in Q2 supports ...",
+      "external_sources": [],
+      "assessment": {
+        "ai_summary": "AVGO: custom AI accelerators, AI networking, infrastructure software; Revenue: $22.19B in 2026 Q2 (CY2026Q1), +47.9% vs 2025 Q2.. Latest source mix includes 2026-06-18 8-K, 2026-06-11 8-K, 2026-06-09 10-Q and 0 logged external source(s).",
+        "stock_impact": "Current snapshot shows -0.91% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "prediction": {
+          "horizon_days": 5,
+          "direction": "bullish",
+          "confidence": 0.58,
+          "expected_move_pct_range": [
+            -2,
+            5
+          ],
+          "price_reference": 365.9949951171875,
+          "price_reference_as_of": "2026-07-02T15:41:13.000Z",
+          "review_after": "2026-07-08",
+          "rationale": [
+            "Revenue: $22.19B in 2026 Q2 (CY2026Q1), +47.9% vs 2025 Q2.",
+            "Gross profit: $15.41B in 2026 Q2 (CY2026Q1), +51.2% vs 2025 Q2.",
+            "Strategy theme: custom AI accelerators, AI networking, infrastructure software"
+          ],
+          "invalidation": "expectation-heavy headline fades"
+        },
+        "model": "deterministic-fallback",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present."
+      },
+      "prediction": {
+        "id": "440deb4c2b3752f3b9e2",
+        "created_at": "2026-07-03T05:20:11.777Z",
+        "date": "2026-07-03",
+        "symbol": "AVGO",
+        "company": "Broadcom",
+        "model": "deterministic-fallback",
+        "source_count": 6,
+        "ai_summary": "AVGO: custom AI accelerators, AI networking, infrastructure software; Revenue: $22.19B in 2026 Q2 (CY2026Q1), +47.9% vs 2025 Q2.. Latest source mix includes 2026-06-18 8-K, 2026-06-11 8-K, 2026-06-09 10-Q and 0 logged external source(s).",
+        "stock_impact": "Current snapshot shows -0.91% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+        "horizon_days": 5,
+        "direction": "bullish",
+        "confidence": 0.58,
+        "expected_move_pct_range": [
+          -2,
+          5
+        ],
+        "price_reference": 365.9949951171875,
+        "price_reference_as_of": "2026-07-02T15:41:13.000Z",
+        "review_after": "2026-07-08",
+        "rationale": [
+          "Revenue: $22.19B in 2026 Q2 (CY2026Q1), +47.9% vs 2025 Q2.",
+          "Gross profit: $15.41B in 2026 Q2 (CY2026Q1), +51.2% vs 2025 Q2.",
+          "Strategy theme: custom AI accelerators, AI networking, infrastructure software"
+        ],
+        "invalidation": "expectation-heavy headline fades"
+      }
+    },
+    {
+      "symbol": "DELL",
+      "company": "Dell Technologies",
+      "generated_at": "2026-07-03T05:20:11.777Z",
+      "market_snapshot": {
+        "price": 398.2680969238281,
+        "as_of": "2026-07-02T15:41:14.000Z",
+        "previous_close": 425.25,
+        "bid": null,
+        "ask": null,
+        "open": null,
+        "high": 422.545,
+        "low": 393.509,
+        "volume": 2993106,
+        "avg_volume_30d": 10102295.9918,
+        "high_52w": 469.47,
+        "low_52w": 110.22,
+        "market_cap": 275973371120.7,
+        "pe_ratio": 34.286123,
+        "pb_ratio": -196.572,
+        "sector": "Electronic Technology",
+        "industry": "EQUITY",
+        "ceo": "Michael Saul Dell",
+        "employees": 97000
+      },
+      "strategy": {
+        "priority": 3,
+        "role": "primary trade candidate",
+        "theme": "AI server orders, revenue, backlog, enterprise infrastructure",
+        "bull_triggers": [
+          "AI server orders",
+          "AI backlog",
+          "server supply tightness",
+          "storage demand",
+          "NVDA/AVGO/MRVL sector confirmation"
+        ],
+        "disqualifiers": [
+          "market focuses on low AI server margins",
+          "inventory risk dominates",
+          "failed opening breakout"
+        ]
+      },
+      "trend_bullets": [
+        "Revenue: $43.84B in 2027 Q1 (CY2026Q1), +87.5% vs 2026 Q1.",
+        "Gross profit: $7.78B in 2027 Q1 (CY2026Q1), +57.6% vs 2026 Q1.",
+        "Operating income: $3.66B in 2027 Q1 (CY2026Q1), +213.8% vs 2026 Q1.",
+        "Net income: $3.44B in 2027 Q1 (CY2026Q1), +256.3% vs 2026 Q1.",
+        "Diluted EPS: $5.24 in 2027 Q1 (CY2026Q1), +282.5% vs 2026 Q1.",
+        "Operating cash flow: $4.08B in 2027 Q1 (CY2026Q1), +46.0% vs 2026 Q1.",
+        "Capital expenditures: $963.0M in 2027 Q1 (CY2026Q1), +69.5% vs 2026 Q1.",
+        "Cash: $11.58B in 2027 Q1 (CY2026Q1I), +50.4% vs 2026 Q1 (CY2025Q1I)."
+      ],
+      "recent_filings": [
+        {
+          "date": "2026-07-01",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "3.03,5.07,8.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000036/dell-20260625.htm"
+        },
+        {
+          "date": "2026-06-17",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "3.02",
+          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000032/dell-20260611.htm"
+        },
+        {
+          "date": "2026-06-16",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "1.01,2.03,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526272720/d20600d8k.htm"
+        },
+        {
+          "date": "2026-06-12",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "8.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526269594/d131151d8k.htm"
+        },
+        {
+          "date": "2026-06-10",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "1.01,1.02,2.03,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526265877/d98058d8k.htm"
+        },
+        {
+          "date": "2026-06-09",
+          "form": "10-Q",
+          "description": "10-Q",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000030/dell-20260501.htm"
+        }
+      ],
+      "management_note_excerpt": "# DELL Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-05-29 | FQ1 2027 | [Dell IR home](https://investors.delltechnologies.com/); [Dell newsroom release](https://www.dell.com/en-us/dt/corporate/newsroom/announcements/detailpage.press-releases~usa~2026~05~dell-technologies-delivers-first-quarter-fiscal-2027-financial-results.htm); [Dell IR release PDF](https://investors.delltechnologies.com/static-files/ef369f17-2b83-4fd4-9a37-6b6ab53ac9c5) | AI server revenue and orders surged; demand extends to traditional servers/networking and storage. | Operating income strong...",
+      "external_sources": [],
+      "assessment": {
+        "ai_summary": "DELL: AI server orders, revenue, backlog, enterprise infrastructure; Revenue: $43.84B in 2027 Q1 (CY2026Q1), +87.5% vs 2026 Q1.. Latest source mix includes 2026-07-01 8-K, 2026-06-17 8-K, 2026-06-16 8-K and 0 logged external source(s).",
+        "stock_impact": "Current snapshot shows -6.34% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "prediction": {
+          "horizon_days": 5,
+          "direction": "bullish",
+          "confidence": 0.58,
+          "expected_move_pct_range": [
+            -2,
+            5
+          ],
+          "price_reference": 398.2680969238281,
+          "price_reference_as_of": "2026-07-02T15:41:14.000Z",
+          "review_after": "2026-07-08",
+          "rationale": [
+            "Revenue: $43.84B in 2027 Q1 (CY2026Q1), +87.5% vs 2026 Q1.",
+            "Gross profit: $7.78B in 2027 Q1 (CY2026Q1), +57.6% vs 2026 Q1.",
+            "Strategy theme: AI server orders, revenue, backlog, enterprise infrastructure"
+          ],
+          "invalidation": "market focuses on low AI server margins"
+        },
+        "model": "deterministic-fallback",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present."
+      },
+      "prediction": {
+        "id": "e82b9d40ef75dde588f1",
+        "created_at": "2026-07-03T05:20:11.777Z",
+        "date": "2026-07-03",
+        "symbol": "DELL",
+        "company": "Dell Technologies",
+        "model": "deterministic-fallback",
+        "source_count": 6,
+        "ai_summary": "DELL: AI server orders, revenue, backlog, enterprise infrastructure; Revenue: $43.84B in 2027 Q1 (CY2026Q1), +87.5% vs 2026 Q1.. Latest source mix includes 2026-07-01 8-K, 2026-06-17 8-K, 2026-06-16 8-K and 0 logged external source(s).",
+        "stock_impact": "Current snapshot shows -6.34% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+        "horizon_days": 5,
+        "direction": "bullish",
+        "confidence": 0.58,
+        "expected_move_pct_range": [
+          -2,
+          5
+        ],
+        "price_reference": 398.2680969238281,
+        "price_reference_as_of": "2026-07-02T15:41:14.000Z",
+        "review_after": "2026-07-08",
+        "rationale": [
+          "Revenue: $43.84B in 2027 Q1 (CY2026Q1), +87.5% vs 2026 Q1.",
+          "Gross profit: $7.78B in 2027 Q1 (CY2026Q1), +57.6% vs 2026 Q1.",
+          "Strategy theme: AI server orders, revenue, backlog, enterprise infrastructure"
+        ],
+        "invalidation": "market focuses on low AI server margins"
+      }
+    },
+    {
+      "symbol": "HPQ",
+      "company": "HP Inc.",
+      "generated_at": "2026-07-03T05:20:11.777Z",
+      "market_snapshot": {
+        "price": 21.985000610351562,
+        "as_of": "2026-07-02T15:41:05.000Z",
+        "previous_close": 22.02,
+        "bid": null,
+        "ask": null,
+        "open": null,
+        "high": 22.67,
+        "low": 21.83,
+        "volume": 3473888,
+        "avg_volume_30d": 18051875.8614,
+        "high_52w": 29.65,
+        "low_52w": 17.56,
+        "market_cap": 20137796460,
+        "pe_ratio": 8.097136,
+        "pb_ratio": -139.8273,
+        "sector": "Technology Services",
+        "industry": "EQUITY",
+        "ceo": "Bruce Dale Broussard",
+        "employees": 55000
+      },
+      "strategy": {
+        "priority": 11,
+        "role": "watch-only unless unusually strong",
+        "theme": "AI PCs, edge AI, workstations, PC refresh",
+        "bull_triggers": [
+          "AI PC demand",
+          "Windows refresh",
+          "edge AI devices",
+          "workstations"
+        ],
+        "disqualifiers": [
+          "commodity cost pressure",
+          "low beta/no volume",
+          "print weakness dominates"
+        ]
+      },
+      "trend_bullets": [
+        "Revenue: $14.41B in 2026 Q2 (CY2026Q1), +9.0% vs 2025 Q2.",
+        "Gross profit: $3.02B in 2026 Q2 (CY2026Q1), +10.1% vs 2025 Q2.",
+        "Operating income: $612.0M in 2026 Q2 (CY2026Q1), -6.4% vs 2025 Q2.",
+        "Net income: $450.0M in 2026 Q2 (CY2026Q1), +10.8% vs 2025 Q2.",
+        "Diluted EPS: $0.49 in 2026 Q2 (CY2026Q1), +16.7% vs 2025 Q2.",
+        "Operating cash flow: $1.31B in 2026 Q2, +217.7% vs 2025 Q2.",
+        "Capital expenditures: $403.0M in 2026 Q2, -16.9% vs 2025 Q2.",
+        "Cash: $3.70B in 2026 Q2 (CY2026Q1I), +37.3% vs 2025 Q2 (CY2025Q1I)."
+      ],
+      "recent_filings": [
+        {
+          "date": "2026-06-26",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "5.03,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/47217/000004721726000041/hpq-20260624.htm"
+        },
+        {
+          "date": "2026-05-28",
+          "form": "10-Q",
+          "description": "10-Q",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/47217/000004721726000029/hpq-20260430.htm"
+        },
+        {
+          "date": "2026-05-27",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "2.02,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/47217/000004721726000027/hpq-20260527.htm"
+        },
+        {
+          "date": "2026-04-21",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "5.02,5.07,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/47217/000004721726000019/hpq-20260416.htm"
+        },
+        {
+          "date": "2026-02-25",
+          "form": "10-Q",
+          "description": "10-Q",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/47217/000004721726000011/hpq-20260131.htm"
+        },
+        {
+          "date": "2026-02-24",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "2.02,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/47217/000004721726000009/hpq-20260224.htm"
+        }
+      ],
+      "management_note_excerpt": "# HPQ Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-05-27 | FQ2 2026 | [HP IR earnings release](https://investor.hp.com/news-events/news/news-details/2026/HP-Inc--Reports-Fiscal-2026-Second-Quarter-Results/default.aspx); [HP newsroom release](https://www.hp.com/us-en/newsroom/press-releases/2026/hp-inc-reports-fiscal-2026-second-quarter-results.html); [WSJ summary](https://www.wsj.com/business/earnings/hp-cuts-full-year-outlook-despite-higher-second-quarter-profit-revenue-100b00e1) | Revenue up 9%; PC demand/AI PC adoption helps, but memory shortages complicate o...",
+      "external_sources": [],
+      "assessment": {
+        "ai_summary": "HPQ: AI PCs, edge AI, workstations, PC refresh; Revenue: $14.41B in 2026 Q2 (CY2026Q1), +9.0% vs 2025 Q2.. Latest source mix includes 2026-06-26 8-K, 2026-05-28 10-Q, 2026-05-27 8-K and 0 logged external source(s).",
+        "stock_impact": "Current snapshot shows -0.16% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "prediction": {
+          "horizon_days": 5,
+          "direction": "bullish",
+          "confidence": 0.58,
+          "expected_move_pct_range": [
+            -2,
+            5
+          ],
+          "price_reference": 21.985000610351562,
+          "price_reference_as_of": "2026-07-02T15:41:05.000Z",
+          "review_after": "2026-07-08",
+          "rationale": [
+            "Revenue: $14.41B in 2026 Q2 (CY2026Q1), +9.0% vs 2025 Q2.",
+            "Gross profit: $3.02B in 2026 Q2 (CY2026Q1), +10.1% vs 2025 Q2.",
+            "Strategy theme: AI PCs, edge AI, workstations, PC refresh"
+          ],
+          "invalidation": "commodity cost pressure"
+        },
+        "model": "deterministic-fallback",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present."
+      },
+      "prediction": {
+        "id": "dd77b7b07e80ae79002f",
+        "created_at": "2026-07-03T05:20:11.777Z",
+        "date": "2026-07-03",
+        "symbol": "HPQ",
+        "company": "HP Inc.",
+        "model": "deterministic-fallback",
+        "source_count": 6,
+        "ai_summary": "HPQ: AI PCs, edge AI, workstations, PC refresh; Revenue: $14.41B in 2026 Q2 (CY2026Q1), +9.0% vs 2025 Q2.. Latest source mix includes 2026-06-26 8-K, 2026-05-28 10-Q, 2026-05-27 8-K and 0 logged external source(s).",
+        "stock_impact": "Current snapshot shows -0.16% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+        "horizon_days": 5,
+        "direction": "bullish",
+        "confidence": 0.58,
+        "expected_move_pct_range": [
+          -2,
+          5
+        ],
+        "price_reference": 21.985000610351562,
+        "price_reference_as_of": "2026-07-02T15:41:05.000Z",
+        "review_after": "2026-07-08",
+        "rationale": [
+          "Revenue: $14.41B in 2026 Q2 (CY2026Q1), +9.0% vs 2025 Q2.",
+          "Gross profit: $3.02B in 2026 Q2 (CY2026Q1), +10.1% vs 2025 Q2.",
+          "Strategy theme: AI PCs, edge AI, workstations, PC refresh"
+        ],
+        "invalidation": "commodity cost pressure"
+      }
+    },
+    {
+      "symbol": "HPE",
+      "company": "Hewlett Packard Enterprise",
+      "generated_at": "2026-07-03T05:20:11.778Z",
+      "market_snapshot": {
+        "price": 41.79999923706055,
+        "as_of": "2026-07-02T15:41:13.000Z",
+        "previous_close": 43.95,
+        "bid": null,
+        "ask": null,
+        "open": null,
+        "high": 43.93,
+        "low": 41.6,
+        "volume": 6714337,
+        "avg_volume_30d": 40196770.5365,
+        "high_52w": 64.25,
+        "low_52w": 19.635,
+        "market_cap": 58205365243.9511,
+        "pe_ratio": 42.424527,
+        "pb_ratio": 2.36019,
+        "sector": "Electronic Technology",
+        "industry": "EQUITY",
+        "ceo": "Antonio Fabio Neri",
+        "employees": 67000
+      },
+      "strategy": {
+        "priority": 7,
+        "role": "secondary infrastructure candidate",
+        "theme": "Cloud & AI, networking, hybrid cloud infrastructure",
+        "bull_triggers": [
+          "Cloud & AI growth",
+          "data-center networking",
+          "GreenLake/hybrid cloud",
+          "AI infrastructure orders"
+        ],
+        "disqualifiers": [
+          "margin/integration concerns dominate",
+          "weak relative strength vs DELL"
+        ]
+      },
+      "trend_bullets": [
+        "Revenue: $10.68B in 2026 Q2 (CY2026Q1), +40.0% vs 2025 Q2.",
+        "Gross profit: not available in extracted SEC facts.",
+        "Operating income: $747.0M in 2026 Q2 (CY2026Q1), +167.4% vs 2025 Q2.",
+        "Net income: $624.0M in 2026 Q2 (CY2026Q1), +159.4% vs 2025 Q2.",
+        "Diluted EPS: $0.44 in 2026 Q2 (CY2026Q1), +153.7% vs 2025 Q2.",
+        "Operating cash flow: $2.59B in 2026 Q2, +404.1% vs 2025 Q2.",
+        "Capital expenditures: $1.15B in 2026 Q2, +7.2% vs 2025 Q2.",
+        "Cash: $5.29B in 2026 Q2 (CY2026Q1I), -54.6% vs 2025 Q2 (CY2025Q1I)."
+      ],
+      "recent_filings": [
+        {
+          "date": "2026-06-02",
+          "form": "10-Q",
+          "description": "10-Q",
+          "items": "",
+          "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000055/hpe-20260430.htm"
+        },
+        {
+          "date": "2026-06-01",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "1.01,2.02,5.02,7.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000052/hpe-20260601.htm"
+        },
+        {
+          "date": "2026-05-14",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "7.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000045/hpe-20260513.htm"
+        },
+        {
+          "date": "2026-05-04",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "7.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000040/hpe-20260504.htm"
+        },
+        {
+          "date": "2026-04-03",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "5.02,5.07,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000036/hpe-20260401.htm"
+        },
+        {
+          "date": "2026-03-23",
+          "form": "8-K",
+          "description": "8-K",
+          "items": "8.01,9.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1645590/000114036126010765/ef20068405_8k.htm"
+        }
+      ],
+      "management_note_excerpt": "# HPE Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-06-01 | FQ2 2026 | [HPE IR home](https://investors.hpe.com/); [HPE Q2 newsroom release](https://www.hpe.com/us/en/newsroom/press-release/2026/06/hpe-reports-fiscal-2026-second-quarter-results.html); [HPE Q2 presentation PDF](https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q2-2026/q2-2026-earnings-presentation.pdf) | Networking revenue up sharply; data-center networking and Cloud & AI profitability support AI infrastructure thesis. | Networking margin still healthy but lower YoY; Cloud & AI p...",
+      "external_sources": [],
+      "assessment": {
+        "ai_summary": "HPE: Cloud & AI, networking, hybrid cloud infrastructure; Revenue: $10.68B in 2026 Q2 (CY2026Q1), +40.0% vs 2025 Q2.. Latest source mix includes 2026-06-02 10-Q, 2026-06-01 8-K, 2026-05-14 8-K and 0 logged external source(s).",
+        "stock_impact": "Current snapshot shows -4.89% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "prediction": {
+          "horizon_days": 5,
+          "direction": "bullish",
+          "confidence": 0.58,
+          "expected_move_pct_range": [
+            -2,
+            5
+          ],
+          "price_reference": 41.79999923706055,
+          "price_reference_as_of": "2026-07-02T15:41:13.000Z",
+          "review_after": "2026-07-08",
+          "rationale": [
+            "Revenue: $10.68B in 2026 Q2 (CY2026Q1), +40.0% vs 2025 Q2.",
+            "Gross profit: not available in extracted SEC facts.",
+            "Strategy theme: Cloud & AI, networking, hybrid cloud infrastructure"
+          ],
+          "invalidation": "margin/integration concerns dominate"
+        },
+        "model": "deterministic-fallback",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present."
+      },
+      "prediction": {
+        "id": "3d6c63043eee2826e1e4",
+        "created_at": "2026-07-03T05:20:11.778Z",
+        "date": "2026-07-03",
+        "symbol": "HPE",
+        "company": "Hewlett Packard Enterprise",
+        "model": "deterministic-fallback",
+        "source_count": 6,
+        "ai_summary": "HPE: Cloud & AI, networking, hybrid cloud infrastructure; Revenue: $10.68B in 2026 Q2 (CY2026Q1), +40.0% vs 2025 Q2.. Latest source mix includes 2026-06-02 10-Q, 2026-06-01 8-K, 2026-05-14 8-K and 0 logged external source(s).",
+        "stock_impact": "Current snapshot shows -4.89% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+        "horizon_days": 5,
+        "direction": "bullish",
+        "confidence": 0.58,
+        "expected_move_pct_range": [
+          -2,
+          5
+        ],
+        "price_reference": 41.79999923706055,
+        "price_reference_as_of": "2026-07-02T15:41:13.000Z",
+        "review_after": "2026-07-08",
+        "rationale": [
+          "Revenue: $10.68B in 2026 Q2 (CY2026Q1), +40.0% vs 2025 Q2.",
+          "Gross profit: not available in extracted SEC facts.",
+          "Strategy theme: Cloud & AI, networking, hybrid cloud infrastructure"
+        ],
+        "invalidation": "margin/integration concerns dominate"
+      }
+    },
+    {
+      "symbol": "SMH",
+      "company": "VanEck Semiconductor ETF",
+      "generated_at": "2026-07-03T05:20:11.778Z",
+      "market_snapshot": {
+        "price": 603.4400024414062,
+        "as_of": "2026-07-02T15:41:14.000Z",
+        "previous_close": 620.46,
+        "bid": null,
+        "ask": null,
+        "open": null,
+        "high": 627.65,
+        "low": 596.4,
+        "volume": 5378262,
+        "avg_volume_30d": 12398554.8263,
+        "high_52w": 671.83,
+        "low_52w": 278.55,
+        "market_cap": 72916369229.92,
+        "pe_ratio": 49.952065,
+        "pb_ratio": 12.668253,
+        "sector": "Miscellaneous",
+        "industry": "ETF",
+        "ceo": "",
+        "employees": null
+      },
+      "strategy": {
+        "priority": 12,
+        "role": "benchmark and fallback ETF",
+        "theme": "semiconductor breadth",
+        "bull_triggers": [
+          "broad semi strength",
+          "single-stock conviction weak but sector strong"
+        ],
+        "disqualifiers": [
+          "single-name catalyst better expressed directly",
+          "sector breadth weak"
+        ]
+      },
+      "trend_bullets": [],
+      "recent_filings": [],
+      "management_note_excerpt": "# SMH Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Overnight Strategy Notes - 2026-07-01 Role: benchmark and fallback ETF Priority: 12 Theme: semiconductor breadth Notional bias: normal Bull triggers: - broad semi strength - single-stock conviction weak but sector strong Confirmation required: - multiple components green - above VWAP - QQQ supportive Disqualifiers: - single-name catalyst better expressed directly - sector breadth weak Source/context notes: - ETF/benchmark; no operating-company SEC ingest - 2026-07-02 reviewed [VanEck daily holdings](https://www.vaneck.com/us/en/investments/semiconductor-etf-smh/): top exposure remains NVDA, TSM, AMAT, MU, AMD, KLAC, AVGO, with ASML/MRVL also meaningful. Treat SMH as bre...",
+      "external_sources": [],
+      "assessment": {
+        "ai_summary": "SMH: semiconductor breadth; limited fresh extracted trend data. Latest source mix includes no recent filing rows and 0 logged external source(s).",
+        "stock_impact": "Current snapshot shows -2.74% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "prediction": {
+          "horizon_days": 5,
+          "direction": "neutral",
+          "confidence": 0.42,
+          "expected_move_pct_range": [
+            -3,
+            3
+          ],
+          "price_reference": 603.4400024414062,
+          "price_reference_as_of": "2026-07-02T15:41:14.000Z",
+          "review_after": "2026-07-08",
+          "rationale": [
+            "Strategy theme: semiconductor breadth"
+          ],
+          "invalidation": "single-name catalyst better expressed directly"
+        },
+        "model": "deterministic-fallback",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present."
+      },
+      "prediction": {
+        "id": "e442abf599c216898e75",
+        "created_at": "2026-07-03T05:20:11.778Z",
+        "date": "2026-07-03",
+        "symbol": "SMH",
+        "company": "VanEck Semiconductor ETF",
+        "model": "deterministic-fallback",
+        "source_count": 0,
+        "ai_summary": "SMH: semiconductor breadth; limited fresh extracted trend data. Latest source mix includes no recent filing rows and 0 logged external source(s).",
+        "stock_impact": "Current snapshot shows -2.74% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+        "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+        "horizon_days": 5,
+        "direction": "neutral",
+        "confidence": 0.42,
+        "expected_move_pct_range": [
+          -3,
+          3
+        ],
+        "price_reference": 603.4400024414062,
+        "price_reference_as_of": "2026-07-02T15:41:14.000Z",
+        "review_after": "2026-07-08",
+        "rationale": [
+          "Strategy theme: semiconductor breadth"
+        ],
+        "invalidation": "single-name catalyst better expressed directly"
+      }
+    }
+  ],
+  "new_predictions": [
+    {
+      "id": "ca10f60e489cfbd2d03f",
+      "created_at": "2026-07-03T05:20:11.772Z",
+      "date": "2026-07-03",
+      "symbol": "MU",
+      "company": "Micron Technology",
+      "model": "deterministic-fallback",
+      "source_count": 8,
+      "ai_summary": "MU: HBM/DRAM/NAND memory scarcity and AI infrastructure; Revenue: $41.46B in 2026 Q3 (CY2026Q2), +345.7% vs 2025 Q3.. Latest source mix includes 2026-06-25 10-Q, 2026-06-24 8-K, 2026-06-09 8-K and 2 logged external source(s).",
+      "stock_impact": "Current snapshot shows -2.18% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+      "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+      "horizon_days": 5,
+      "direction": "bullish",
+      "confidence": 0.58,
+      "expected_move_pct_range": [
+        -2,
+        5
+      ],
+      "price_reference": 1009.8200073242188,
+      "price_reference_as_of": "2026-07-02T15:41:13.000Z",
+      "review_after": "2026-07-08",
+      "rationale": [
+        "Revenue: $41.46B in 2026 Q3 (CY2026Q2), +345.7% vs 2025 Q3.",
+        "Gross profit: $35.06B in 2026 Q3 (CY2026Q2), +899.3% vs 2025 Q3.",
+        "Strategy theme: HBM/DRAM/NAND memory scarcity and AI infrastructure",
+        "External source notes present in the source log."
+      ],
+      "invalidation": "gap spike loses VWAP"
+    },
+    {
+      "id": "39763ad80c06abc2578f",
+      "created_at": "2026-07-03T05:20:11.772Z",
+      "date": "2026-07-03",
+      "symbol": "WDC",
+      "company": "Western Digital",
+      "model": "deterministic-fallback",
+      "source_count": 6,
+      "ai_summary": "WDC: AI data workload storage and cloud/hyperscaler capacity; Revenue: $3.34B in 2026 Q3 (CY2026Q1), +45.5% vs 2025 Q3.. Latest source mix includes 2026-06-11 8-K, 2026-06-03 8-K, 2026-05-28 8-K and 0 logged external source(s).",
+      "stock_impact": "Current snapshot shows -6.08% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+      "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+      "horizon_days": 5,
+      "direction": "bullish",
+      "confidence": 0.58,
+      "expected_move_pct_range": [
+        -2,
+        5
+      ],
+      "price_reference": 562,
+      "price_reference_as_of": "2026-07-02T15:41:12.000Z",
+      "review_after": "2026-07-08",
+      "rationale": [
+        "Revenue: $3.34B in 2026 Q3 (CY2026Q1), +45.5% vs 2025 Q3.",
+        "Gross profit: $1.68B in 2026 Q3 (CY2026Q1), +83.8% vs 2025 Q3.",
+        "Strategy theme: AI data workload storage and cloud/hyperscaler capacity"
+      ],
+      "invalidation": "sympathy-only move without volume"
+    },
+    {
+      "id": "e3efaed6e47d4e620cf8",
+      "created_at": "2026-07-03T05:20:11.773Z",
+      "date": "2026-07-03",
+      "symbol": "SNDK",
+      "company": "SanDisk",
+      "model": "deterministic-fallback",
+      "source_count": 7,
+      "ai_summary": "SNDK: NAND/flash storage pure-play, AI data workload storage, memory/storage sympathy; Revenue: $5.95B in 2026 Q3 (CY2026Q1), +251.0% vs 2025 Q3.. Latest source mix includes 2026-05-15 8-K, 2026-05-01 10-Q, 2026-04-30 8-K and 1 logged external source(s).",
+      "stock_impact": "Current snapshot shows -9.11% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+      "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+      "horizon_days": 5,
+      "direction": "bullish",
+      "confidence": 0.58,
+      "expected_move_pct_range": [
+        -2,
+        5
+      ],
+      "price_reference": 1847.0999755859375,
+      "price_reference_as_of": "2026-07-02T15:41:12.000Z",
+      "review_after": "2026-07-08",
+      "rationale": [
+        "Revenue: $5.95B in 2026 Q3 (CY2026Q1), +251.0% vs 2025 Q3.",
+        "Gross profit: $4.66B in 2026 Q3 (CY2026Q1), +1120.4% vs 2025 Q3.",
+        "Strategy theme: NAND/flash storage pure-play, AI data workload storage, memory/storage sympathy",
+        "External source notes present in the source log."
+      ],
+      "invalidation": "wide spread"
+    },
+    {
+      "id": "e3bb62cf62c84b2b5a03",
+      "created_at": "2026-07-03T05:20:11.773Z",
+      "date": "2026-07-03",
+      "symbol": "STX",
+      "company": "Seagate Technology",
+      "model": "deterministic-fallback",
+      "source_count": 6,
+      "ai_summary": "STX: mass-capacity HDD, exabyte data growth, data-center storage; Revenue: $3.11B in 2026 Q3 (CY2026Q1), +44.1% vs 2025 Q3.. Latest source mix includes 2026-06-12 8-K, 2026-05-28 8-K, 2026-05-21 8-K and 0 logged external source(s).",
+      "stock_impact": "Current snapshot shows -6.23% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+      "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+      "horizon_days": 5,
+      "direction": "bullish",
+      "confidence": 0.58,
+      "expected_move_pct_range": [
+        -2,
+        5
+      ],
+      "price_reference": 858.1950073242188,
+      "price_reference_as_of": "2026-07-02T15:41:13.000Z",
+      "review_after": "2026-07-08",
+      "rationale": [
+        "Revenue: $3.11B in 2026 Q3 (CY2026Q1), +44.1% vs 2025 Q3.",
+        "Gross profit: not available in extracted SEC facts.",
+        "Strategy theme: mass-capacity HDD, exabyte data growth, data-center storage"
+      ],
+      "invalidation": "sympathy-only move without own volume"
+    },
+    {
+      "id": "28ccfac1fd61e112b750",
+      "created_at": "2026-07-03T05:20:11.773Z",
+      "date": "2026-07-03",
+      "symbol": "HON",
+      "company": "Honeywell International",
+      "model": "deterministic-fallback",
+      "source_count": 8,
+      "ai_summary": "HON: aerospace spin-off, automation, avionics, sensors, space-supply-chain inference; Revenue: $9.14B in 2026 Q1 (CY2026Q1), -75.6% vs 2025 FY (CY2025).. Latest source mix includes 2026-06-29 8-K, 2026-06-15 8-K, 2026-06-05 8-K and 2 logged external source(s).",
+      "stock_impact": "Current snapshot shows -0.28% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+      "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+      "horizon_days": 5,
+      "direction": "bullish",
+      "confidence": 0.58,
+      "expected_move_pct_range": [
+        -2,
+        5
+      ],
+      "price_reference": 221.13999938964844,
+      "price_reference_as_of": "2026-07-02T15:41:06.000Z",
+      "review_after": "2026-07-08",
+      "rationale": [
+        "Revenue: $9.14B in 2026 Q1 (CY2026Q1), -75.6% vs 2025 FY (CY2025).",
+        "Gross profit: $3.47B in 2025 FY (CY2025Q4), +7.3% vs 2025 FY (CY2025Q3).",
+        "Strategy theme: aerospace spin-off, automation, avionics, sensors, space-supply-chain inference",
+        "External source notes present in the source log."
+      ],
+      "invalidation": "generic SpaceX excitement"
+    },
+    {
+      "id": "e828354ab41cbe93448e",
+      "created_at": "2026-07-03T05:20:11.774Z",
+      "date": "2026-07-03",
+      "symbol": "STM",
+      "company": "STMicroelectronics",
+      "model": "deterministic-fallback",
+      "source_count": 6,
+      "ai_summary": "STM: power semis, microcontrollers, sensors, AI/datacenter upside; Revenue: $11.80B in 2025 FY (CY2025), -31.7% vs 2024 FY.. Latest source mix includes 2026-06-16 6-K, 2026-06-16 6-K, 2026-06-02 6-K and 0 logged external source(s).",
+      "stock_impact": "Current snapshot shows -0.41% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+      "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+      "horizon_days": 5,
+      "direction": "neutral",
+      "confidence": 0.42,
+      "expected_move_pct_range": [
+        -3,
+        3
+      ],
+      "price_reference": 70.43000030517578,
+      "price_reference_as_of": "2026-07-02T15:41:12.000Z",
+      "review_after": "2026-07-08",
+      "rationale": [
+        "Revenue: $11.80B in 2025 FY (CY2025), -31.7% vs 2024 FY.",
+        "Gross profit: $4.00B in 2025 FY (CY2025), -51.7% vs 2024 FY.",
+        "Strategy theme: power semis, microcontrollers, sensors, AI/datacenter upside"
+      ],
+      "invalidation": "generic sympathy only"
+    },
+    {
+      "id": "877fca9eb084d2fa677a",
+      "created_at": "2026-07-03T05:20:11.774Z",
+      "date": "2026-07-03",
+      "symbol": "ASML",
+      "company": "ASML Holding",
+      "model": "deterministic-fallback",
+      "source_count": 6,
+      "ai_summary": "ASML: EUV/High-NA semiconductor equipment and advanced-node capacity; Revenue: $32.67B in 2025 FY (CY2025), +18.5% vs 2024 FY.. Latest source mix includes 2026-04-23 6-K, 2026-04-15 6-K, 2026-03-11 6-K and 0 logged external source(s).",
+      "stock_impact": "Current snapshot shows -1.99% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+      "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+      "horizon_days": 5,
+      "direction": "bullish",
+      "confidence": 0.58,
+      "expected_move_pct_range": [
+        -2,
+        5
+      ],
+      "price_reference": 1806.4000244140625,
+      "price_reference_as_of": "2026-07-02T15:41:12.000Z",
+      "review_after": "2026-07-08",
+      "rationale": [
+        "Revenue: $32.67B in 2025 FY (CY2025), +18.5% vs 2024 FY.",
+        "Gross profit: $17.26B in 2025 FY (CY2025), +22.1% vs 2024 FY.",
+        "Strategy theme: EUV/High-NA semiconductor equipment and advanced-node capacity"
+      ],
+      "invalidation": "generic AI sympathy only"
+    },
+    {
+      "id": "aa34211bc3609dc3f07f",
+      "created_at": "2026-07-03T05:20:11.775Z",
+      "date": "2026-07-03",
+      "symbol": "MRVL",
+      "company": "Marvell Technology",
+      "model": "deterministic-fallback",
+      "source_count": 6,
+      "ai_summary": "MRVL: AI networking, optical interconnect, switches, custom silicon; Revenue: $2.42B in 2027 Q1 (CY2026Q1), +27.6% vs 2026 Q1.. Latest source mix includes 2026-06-25 8-K, 2026-06-11 8-K, 2026-05-28 10-Q and 0 logged external source(s).",
+      "stock_impact": "Current snapshot shows -6.22% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+      "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+      "horizon_days": 5,
+      "direction": "bullish",
+      "confidence": 0.58,
+      "expected_move_pct_range": [
+        -2,
+        5
+      ],
+      "price_reference": 255.1199951171875,
+      "price_reference_as_of": "2026-07-02T15:41:13.000Z",
+      "review_after": "2026-07-08",
+      "rationale": [
+        "Revenue: $2.42B in 2027 Q1 (CY2026Q1), +27.6% vs 2026 Q1.",
+        "Gross profit: $1.26B in 2027 Q1 (CY2026Q1), +32.4% vs 2026 Q1.",
+        "Strategy theme: AI networking, optical interconnect, switches, custom silicon"
+      ],
+      "invalidation": "headline already priced"
+    },
+    {
+      "id": "527fce1b317256557721",
+      "created_at": "2026-07-03T05:20:11.775Z",
+      "date": "2026-07-03",
+      "symbol": "NBIS",
+      "company": "Nebius Group",
+      "model": "deterministic-fallback",
+      "source_count": 6,
+      "ai_summary": "NBIS: GPU infrastructure, AI cloud, power/land capacity, AI factory buildout; Revenue: $529.8M in 2025 FY (CY2025), +2434.9% vs 2024 FY.. Latest source mix includes 2026-06-16 6-K, 2026-05-20 6-K, 2026-05-13 6-K and 0 logged external source(s).",
+      "stock_impact": "Current snapshot shows -5.16% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+      "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+      "horizon_days": 5,
+      "direction": "bullish",
+      "confidence": 0.58,
+      "expected_move_pct_range": [
+        -2,
+        5
+      ],
+      "price_reference": 217.34500122070312,
+      "price_reference_as_of": "2026-07-02T15:41:12.000Z",
+      "review_after": "2026-07-08",
+      "rationale": [
+        "Revenue: $529.8M in 2025 FY (CY2025), +2434.9% vs 2024 FY.",
+        "Gross profit: not available in extracted SEC facts.",
+        "Strategy theme: GPU infrastructure, AI cloud, power/land capacity, AI factory buildout"
+      ],
+      "invalidation": "funding/buildout risk headlines"
+    },
+    {
+      "id": "e15021465129be7408d1",
+      "created_at": "2026-07-03T05:20:11.776Z",
+      "date": "2026-07-03",
+      "symbol": "APLD",
+      "company": "Applied Digital",
+      "model": "deterministic-fallback",
+      "source_count": 7,
+      "ai_summary": "APLD: AI data-center hosting, HPC infrastructure, power-capacity optionality; Revenue: $126.6M in 2026 Q3 (CY2026Q1), +139.3% vs 2025 Q3.. Latest source mix includes 2026-06-26 8-K, 2026-06-16 8-K, 2026-06-09 8-K and 1 logged external source(s).",
+      "stock_impact": "Current snapshot shows -6.85% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+      "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+      "horizon_days": 5,
+      "direction": "bullish",
+      "confidence": 0.58,
+      "expected_move_pct_range": [
+        -2,
+        5
+      ],
+      "price_reference": 33.08539962768555,
+      "price_reference_as_of": "2026-07-02T15:41:14.000Z",
+      "review_after": "2026-07-08",
+      "rationale": [
+        "Revenue: $126.6M in 2026 Q3 (CY2026Q1), +139.3% vs 2025 Q3.",
+        "Gross profit: not available in extracted SEC facts.",
+        "Strategy theme: AI data-center hosting, HPC infrastructure, power-capacity optionality",
+        "External source notes present in the source log."
+      ],
+      "invalidation": "funding or dilution risk headline"
+    },
+    {
+      "id": "85370bfcd0f1c591c486",
+      "created_at": "2026-07-03T05:20:11.776Z",
+      "date": "2026-07-03",
+      "symbol": "NVDA",
+      "company": "NVIDIA",
+      "model": "deterministic-fallback",
+      "source_count": 6,
+      "ai_summary": "NVDA: Blackwell, AI data center, networking, inference; Revenue: $81.61B in 2027 Q1 (CY2026Q1), +85.2% vs 2026 Q1.. Latest source mix includes 2026-07-02 8-K, 2026-06-30 8-K, 2026-06-18 8-K and 0 logged external source(s).",
+      "stock_impact": "Current snapshot shows -0.98% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+      "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+      "horizon_days": 5,
+      "direction": "bullish",
+      "confidence": 0.58,
+      "expected_move_pct_range": [
+        -2,
+        5
+      ],
+      "price_reference": 195.64500427246094,
+      "price_reference_as_of": "2026-07-02T15:41:14.000Z",
+      "review_after": "2026-07-08",
+      "rationale": [
+        "Revenue: $81.61B in 2027 Q1 (CY2026Q1), +85.2% vs 2026 Q1.",
+        "Gross profit: $61.16B in 2027 Q1 (CY2026Q1), +129.3% vs 2026 Q1.",
+        "Strategy theme: Blackwell, AI data center, networking, inference"
+      ],
+      "invalidation": "below VWAP and dragging SMH lower"
+    },
+    {
+      "id": "10eac4dae9745353c2a2",
+      "created_at": "2026-07-03T05:20:11.776Z",
+      "date": "2026-07-03",
+      "symbol": "AMD",
+      "company": "Advanced Micro Devices",
+      "model": "deterministic-fallback",
+      "source_count": 6,
+      "ai_summary": "AMD: EPYC CPUs, Instinct GPUs, MI450/Helios, agentic AI demand; Revenue: $10.25B in 2026 Q1 (CY2026Q1), +37.8% vs 2025 Q1.. Latest source mix includes 2026-07-01 8-K, 2026-05-15 8-K, 2026-05-06 10-Q and 0 logged external source(s).",
+      "stock_impact": "Current snapshot shows -2.91% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+      "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+      "horizon_days": 5,
+      "direction": "bullish",
+      "confidence": 0.58,
+      "expected_move_pct_range": [
+        -2,
+        5
+      ],
+      "price_reference": 525.1649780273438,
+      "price_reference_as_of": "2026-07-02T15:41:13.000Z",
+      "review_after": "2026-07-08",
+      "rationale": [
+        "Revenue: $10.25B in 2026 Q1 (CY2026Q1), +37.8% vs 2025 Q1.",
+        "Gross profit: $5.42B in 2026 Q1 (CY2026Q1), +45.0% vs 2025 Q1.",
+        "Strategy theme: EPYC CPUs, Instinct GPUs, MI450/Helios, agentic AI demand"
+      ],
+      "invalidation": "NVDA strong but AMD lagging"
+    },
+    {
+      "id": "440deb4c2b3752f3b9e2",
+      "created_at": "2026-07-03T05:20:11.777Z",
+      "date": "2026-07-03",
+      "symbol": "AVGO",
+      "company": "Broadcom",
+      "model": "deterministic-fallback",
+      "source_count": 6,
+      "ai_summary": "AVGO: custom AI accelerators, AI networking, infrastructure software; Revenue: $22.19B in 2026 Q2 (CY2026Q1), +47.9% vs 2025 Q2.. Latest source mix includes 2026-06-18 8-K, 2026-06-11 8-K, 2026-06-09 10-Q and 0 logged external source(s).",
+      "stock_impact": "Current snapshot shows -0.91% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+      "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+      "horizon_days": 5,
+      "direction": "bullish",
+      "confidence": 0.58,
+      "expected_move_pct_range": [
+        -2,
+        5
+      ],
+      "price_reference": 365.9949951171875,
+      "price_reference_as_of": "2026-07-02T15:41:13.000Z",
+      "review_after": "2026-07-08",
+      "rationale": [
+        "Revenue: $22.19B in 2026 Q2 (CY2026Q1), +47.9% vs 2025 Q2.",
+        "Gross profit: $15.41B in 2026 Q2 (CY2026Q1), +51.2% vs 2025 Q2.",
+        "Strategy theme: custom AI accelerators, AI networking, infrastructure software"
+      ],
+      "invalidation": "expectation-heavy headline fades"
+    },
+    {
+      "id": "e82b9d40ef75dde588f1",
+      "created_at": "2026-07-03T05:20:11.777Z",
+      "date": "2026-07-03",
+      "symbol": "DELL",
+      "company": "Dell Technologies",
+      "model": "deterministic-fallback",
+      "source_count": 6,
+      "ai_summary": "DELL: AI server orders, revenue, backlog, enterprise infrastructure; Revenue: $43.84B in 2027 Q1 (CY2026Q1), +87.5% vs 2026 Q1.. Latest source mix includes 2026-07-01 8-K, 2026-06-17 8-K, 2026-06-16 8-K and 0 logged external source(s).",
+      "stock_impact": "Current snapshot shows -6.34% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+      "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+      "horizon_days": 5,
+      "direction": "bullish",
+      "confidence": 0.58,
+      "expected_move_pct_range": [
+        -2,
+        5
+      ],
+      "price_reference": 398.2680969238281,
+      "price_reference_as_of": "2026-07-02T15:41:14.000Z",
+      "review_after": "2026-07-08",
+      "rationale": [
+        "Revenue: $43.84B in 2027 Q1 (CY2026Q1), +87.5% vs 2026 Q1.",
+        "Gross profit: $7.78B in 2027 Q1 (CY2026Q1), +57.6% vs 2026 Q1.",
+        "Strategy theme: AI server orders, revenue, backlog, enterprise infrastructure"
+      ],
+      "invalidation": "market focuses on low AI server margins"
+    },
+    {
+      "id": "dd77b7b07e80ae79002f",
+      "created_at": "2026-07-03T05:20:11.777Z",
+      "date": "2026-07-03",
+      "symbol": "HPQ",
+      "company": "HP Inc.",
+      "model": "deterministic-fallback",
+      "source_count": 6,
+      "ai_summary": "HPQ: AI PCs, edge AI, workstations, PC refresh; Revenue: $14.41B in 2026 Q2 (CY2026Q1), +9.0% vs 2025 Q2.. Latest source mix includes 2026-06-26 8-K, 2026-05-28 10-Q, 2026-05-27 8-K and 0 logged external source(s).",
+      "stock_impact": "Current snapshot shows -0.16% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+      "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+      "horizon_days": 5,
+      "direction": "bullish",
+      "confidence": 0.58,
+      "expected_move_pct_range": [
+        -2,
+        5
+      ],
+      "price_reference": 21.985000610351562,
+      "price_reference_as_of": "2026-07-02T15:41:05.000Z",
+      "review_after": "2026-07-08",
+      "rationale": [
+        "Revenue: $14.41B in 2026 Q2 (CY2026Q1), +9.0% vs 2025 Q2.",
+        "Gross profit: $3.02B in 2026 Q2 (CY2026Q1), +10.1% vs 2025 Q2.",
+        "Strategy theme: AI PCs, edge AI, workstations, PC refresh"
+      ],
+      "invalidation": "commodity cost pressure"
+    },
+    {
+      "id": "3d6c63043eee2826e1e4",
+      "created_at": "2026-07-03T05:20:11.778Z",
+      "date": "2026-07-03",
+      "symbol": "HPE",
+      "company": "Hewlett Packard Enterprise",
+      "model": "deterministic-fallback",
+      "source_count": 6,
+      "ai_summary": "HPE: Cloud & AI, networking, hybrid cloud infrastructure; Revenue: $10.68B in 2026 Q2 (CY2026Q1), +40.0% vs 2025 Q2.. Latest source mix includes 2026-06-02 10-Q, 2026-06-01 8-K, 2026-05-14 8-K and 0 logged external source(s).",
+      "stock_impact": "Current snapshot shows -4.89% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+      "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+      "horizon_days": 5,
+      "direction": "bullish",
+      "confidence": 0.58,
+      "expected_move_pct_range": [
+        -2,
+        5
+      ],
+      "price_reference": 41.79999923706055,
+      "price_reference_as_of": "2026-07-02T15:41:13.000Z",
+      "review_after": "2026-07-08",
+      "rationale": [
+        "Revenue: $10.68B in 2026 Q2 (CY2026Q1), +40.0% vs 2025 Q2.",
+        "Gross profit: not available in extracted SEC facts.",
+        "Strategy theme: Cloud & AI, networking, hybrid cloud infrastructure"
+      ],
+      "invalidation": "margin/integration concerns dominate"
+    },
+    {
+      "id": "e442abf599c216898e75",
+      "created_at": "2026-07-03T05:20:11.778Z",
+      "date": "2026-07-03",
+      "symbol": "SMH",
+      "company": "VanEck Semiconductor ETF",
+      "model": "deterministic-fallback",
+      "source_count": 0,
+      "ai_summary": "SMH: semiconductor breadth; limited fresh extracted trend data. Latest source mix includes no recent filing rows and 0 logged external source(s).",
+      "stock_impact": "Current snapshot shows -2.74% vs previous close. The setup impact depends on whether fresh catalyst quality aligns with volume, spread, and VWAP behavior; this is not a stand-alone trade signal.",
+      "caveat": "Generated without OPENAI_API_KEY in this environment. Daily automation should use LLM mode when credentials are present.",
+      "horizon_days": 5,
+      "direction": "neutral",
+      "confidence": 0.42,
+      "expected_move_pct_range": [
+        -3,
+        3
+      ],
+      "price_reference": 603.4400024414062,
+      "price_reference_as_of": "2026-07-02T15:41:14.000Z",
+      "review_after": "2026-07-08",
+      "rationale": [
+        "Strategy theme: semiconductor breadth"
+      ],
+      "invalidation": "single-name catalyst better expressed directly"
+    }
+  ],
+  "new_fact_checks": [],
+  "scorecard": {
+    "total_checked": 0,
+    "hits": 0,
+    "misses": 0,
+    "partials": 0
+  }
+}
