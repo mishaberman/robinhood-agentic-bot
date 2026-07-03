@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-03T14:09:25.075Z",
+    "generated_at": "2026-07-03T15:26:09.504Z",
     "timezone": "America/Los_Angeles",
     "repository_url": "https://github.com/mishaberman/robinhood-agentic-bot",
     "source_mode": "local",
@@ -356,6 +356,37 @@
   ],
   "alerts": [],
   "activity": [],
+  "audit": {
+    "generated_at": "2026-07-03T15:26:09.504Z",
+    "note": "Public-safe audit summary. Raw private logs stay in the local logs directory and are not published.",
+    "local_decision_preview": [
+      {
+        "id": "ad069373-4686-4918-b5f8-f8e0019a3af2",
+        "ts": "2026-07-01T16:01:43.803Z",
+        "decision": "NO TRADE ALERT",
+        "ticker": null,
+        "score": null,
+        "message": "NO TRADE ALERT: 08:36 PT check found Agentic at $2,000 cash with no positions/orders; MU, SMH, NVDA, AMD, MRVL, and NBIS were below prior close and/or below opening ranges, so no setup reached the 80+ score gate."
+      },
+      {
+        "id": "13eac253-9dab-49cd-b9d8-0322b35707c9",
+        "ts": "2026-07-02T10:50:36.918Z",
+        "decision": "NO TRADE ALERT",
+        "ticker": null,
+        "score": null,
+        "message": "Outside regular market hours; Agentic account has cash only, no open positions, and no open/today equity orders, so no trade or exit review is actionable."
+      },
+      {
+        "id": "a0371797-f814-4130-9086-5b336a196175",
+        "ts": "2026-07-02T15:39:51.897Z",
+        "decision": "NO TRADE ALERT",
+        "ticker": null,
+        "score": null,
+        "message": "Regular-session refresh: Agentic has $2,000 cash/buying power, no positions, no open/today equity orders, and the watchlist tape is broadly red, so no long setup clears the 80+ score gate."
+      }
+    ],
+    "local_audit_preview": []
+  },
   "reports": [
     {
       "date": "2026-07-01",
@@ -366,8 +397,6 @@
   ],
   "links": {
     "data_json": "./data/dashboard.json",
-    "sanitized_decision_log": "./logs/monitor-decisions.jsonl",
-    "sanitized_log_index": "./logs/index.json",
     "reports_dir": "./reports/daily/",
     "repository": "https://github.com/mishaberman/robinhood-agentic-bot"
   }

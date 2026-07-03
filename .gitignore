@@ -4,8 +4,6 @@
 .DS_Store
 node_modules/
 logs/
-!docs/logs/
-!docs/logs/**
 research/db/
 research/research.sqlite
 research/research.sqlite-*

@@ -7,7 +7,6 @@ import { config } from "../../src/config.mjs";
 const root = dirname(dirname(dirname(fileURLToPath(import.meta.url))));
 const docsDir = join(root, "docs");
 const dataDir = join(docsDir, "data");
-const logsDir = join(docsDir, "logs");
 const reportDir = join(docsDir, "reports", "daily");
 const localLogsDir = join(root, "logs");
 const localReportsDir = join(root, "reports", "daily");
@@ -262,34 +261,20 @@ function normalizeActivity(rows) {
   }));
 }
 
-async function writeSanitizedLogs(localRuns, genericLogs) {
-  await mkdir(logsDir, { recursive: true });
-  const decisionLog = localRuns
-    .map((run) =>
-      JSON.stringify({
-        id: run.id,
-        ts: run.started_at,
-        decision: run.decision,
-        ticker: run.ticker,
-        score: run.score,
-        message: run.message
-      })
-    )
-    .join("\n");
-  await writeFile(join(logsDir, "monitor-decisions.jsonl"), `${decisionLog}${decisionLog ? "\n" : ""}`);
-  await writeFile(
-    join(logsDir, "index.json"),
-    `${JSON.stringify(
-      {
-        generated_at: new Date().toISOString(),
-        note: "Public-safe log export. Raw private logs stay in the local logs directory and are not published.",
-        files: [{ name: "monitor-decisions.jsonl", href: "./monitor-decisions.jsonl" }],
-        local_audit_preview: genericLogs
-      },
-      null,
-      2
-    )}\n`
-  );
+function buildAuditSummary(localRuns, genericLogs) {
+  return {
+    generated_at: new Date().toISOString(),
+    note: "Public-safe audit summary. Raw private logs stay in the local logs directory and are not published.",
+    local_decision_preview: localRuns.slice(0, 20).map((run) => ({
+      id: run.id,
+      ts: run.started_at,
+      decision: run.decision,
+      ticker: run.ticker,
+      score: run.score,
+      message: run.message
+    })),
+    local_audit_preview: genericLogs
+  };
 }
 
 function aggregateStats(runs, alerts) {
@@ -370,8 +355,7 @@ async function main() {
   const alerts = tursoAlerts.sort((a, b) => String(b.created_at || "").localeCompare(String(a.created_at || "")));
   const stats = aggregateStats(runs, alerts);
   const latestRun = runs[0] || null;
-
-  await writeSanitizedLogs(localRuns, genericLogs);
+  const audit = buildAuditSummary(localRuns, genericLogs);
 
   const dashboard = {
     metadata: {
@@ -389,11 +373,10 @@ async function main() {
     runs,
     alerts,
     activity: tursoActivity,
+    audit,
     reports: localReports,
     links: {
       data_json: "./data/dashboard.json",
-      sanitized_decision_log: "./logs/monitor-decisions.jsonl",
-      sanitized_log_index: "./logs/index.json",
       reports_dir: "./reports/daily/",
       repository: repositoryUrl
     }

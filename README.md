@@ -282,7 +282,7 @@ Market data note: `research/market-snapshot.json` is a manually refreshed read-o
 Privacy boundary:
 
 - Raw `logs/`, `.env`, Robinhood tokens, Turso tokens, and `research/db/` stay ignored and should not be published.
-- The GitHub Pages site publishes redacted dashboard JSON, copied daily Markdown reports, and sanitized log exports only.
+- The GitHub Pages site publishes redacted dashboard JSON, copied daily Markdown reports, and embedded public-safe audit previews only.
 - The GitHub Pages site also publishes a public research export with SEC filing links, generated summaries, strategy notes, and compact market snapshots.
 - Account numbers, long numeric identifiers, and token-like strings are redacted by `scripts/dashboard/build-dashboard.mjs`.
 
