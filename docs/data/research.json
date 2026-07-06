@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-07-06T13:21:17.153Z",
+    "generated_at": "2026-07-06T13:27:11.943Z",
     "research_generated_at": "2026-07-06T05:16:51.391Z",
-    "market_snapshot_at": "2026-07-06T13:21:16.147Z",
+    "market_snapshot_at": "2026-07-06T13:27:11.049Z",
     "source": "Local SEC research database plus Robinhood read-only market snapshot",
     "note": "Public-safe research export. It summarizes local filings, trend summaries, strategy notes, and quote/fundamental snapshots; it is not streaming market data."
   },
@@ -55,7 +55,7 @@
     ]
   },
   "market_snapshot": {
-    "generated_at": "2026-07-06T13:21:16.147Z",
+    "generated_at": "2026-07-06T13:27:11.049Z",
     "source": "Yahoo Finance public chart API",
     "note": "Public market snapshot for GitHub Pages freshness. Account, position, and order data still requires the Robinhood monitor. Bid/ask, fundamentals, and private account fields may be absent."
   },
@@ -73,8 +73,8 @@
       ],
       "sec_ticker": "MU",
       "market": {
-        "price": 1003.258,
-        "as_of": "2026-07-06T13:21:14.000Z",
+        "price": 1006.49,
+        "as_of": "2026-07-06T13:27:10.000Z",
         "previous_close": 1032.28,
         "bid": null,
         "ask": null,
@@ -92,11 +92,11 @@
         "industry": "EQUITY",
         "ceo": "Sanjay Mehrotra",
         "employees": 53000,
-        "day_change": -29.021999999999935,
-        "day_change_pct": -2.811446506761725,
+        "day_change": -25.789999999999964,
+        "day_change_pct": -2.4983531599953466,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 78.14018513051181,
+        "range_52w_position_pct": 78.4208332609715,
         "volume_vs_30d": 1.0767389385271169
       },
       "strategy": {
@@ -821,8 +821,8 @@
       ],
       "sec_ticker": "WDC",
       "market": {
-        "price": 563.61,
-        "as_of": "2026-07-06T13:20:48.000Z",
+        "price": 566.44,
+        "as_of": "2026-07-06T13:27:07.000Z",
         "previous_close": 598.37,
         "bid": null,
         "ask": null,
@@ -840,11 +840,11 @@
         "industry": "EQUITY",
         "ceo": "Tiang Yew Tan",
         "employees": 40000,
-        "day_change": -34.75999999999999,
-        "day_change_pct": -5.8091147617694725,
+        "day_change": -31.92999999999995,
+        "day_change_pct": -5.336163243478107,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 67.90817712578104,
+        "range_52w_position_pct": 68.29258353708232,
         "volume_vs_30d": 0.8635185014828732
       },
       "strategy": {
@@ -1629,8 +1629,8 @@
       ],
       "sec_ticker": "SNDK",
       "market": {
-        "price": 1821.0032,
-        "as_of": "2026-07-06T13:21:14.000Z",
+        "price": 1832.045,
+        "as_of": "2026-07-06T13:27:09.000Z",
         "previous_close": 2032.22,
         "bid": null,
         "ask": null,
@@ -1648,11 +1648,11 @@
         "industry": "EQUITY",
         "ceo": "David V. Goeckeler",
         "employees": 11000,
-        "day_change": -211.21679999999992,
-        "day_change_pct": -10.393402289122236,
+        "day_change": -200.17499999999995,
+        "day_change_pct": -9.85006544567025,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 76.95246490284279,
+        "range_52w_position_pct": 77.42957883411327,
         "volume_vs_30d": 1.5118725802506496
       },
       "strategy": {
@@ -2116,8 +2116,8 @@
       ],
       "sec_ticker": "STX",
       "market": {
-        "price": 851,
-        "as_of": "2026-07-06T13:20:49.000Z",
+        "price": 857,
+        "as_of": "2026-07-06T13:27:04.000Z",
         "previous_close": 915.18994,
         "bid": null,
         "ask": null,
@@ -2135,11 +2135,11 @@
         "industry": "EQUITY",
         "ceo": "William David Mosley",
         "employees": 30000,
-        "day_change": -64.18993999999998,
-        "day_change_pct": -7.013838023612888,
+        "day_change": -58.18993999999998,
+        "day_change_pct": -6.3582364115584555,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 70.7956690175822,
+        "range_52w_position_pct": 71.39167577232543,
         "volume_vs_30d": 1.3843968971522083
       },
       "strategy": {
@@ -2919,8 +2919,8 @@
       ],
       "sec_ticker": "HON",
       "market": {
-        "price": 225.9,
-        "as_of": "2026-07-06T13:20:09.000Z",
+        "price": 225,
+        "as_of": "2026-07-06T13:26:20.000Z",
         "previous_close": 221.75,
         "bid": null,
         "ask": null,
@@ -2938,11 +2938,11 @@
         "industry": "EQUITY",
         "ceo": "Vimal M. Kapur",
         "employees": 101000,
-        "day_change": 4.150000000000006,
-        "day_change_pct": 1.8714768883878266,
+        "day_change": 3.25,
+        "day_change_pct": 1.4656144306651635,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 46.62268105254987,
+        "range_52w_position_pct": 45.22549095707521,
         "volume_vs_30d": 1.5438493764097838
       },
       "strategy": {
@@ -3870,8 +3870,8 @@
       ],
       "sec_ticker": "STM",
       "market": {
-        "price": 71.31,
-        "as_of": "2026-07-06T13:21:09.000Z",
+        "price": 71.59,
+        "as_of": "2026-07-06T13:27:07.000Z",
         "previous_close": 70.72,
         "bid": null,
         "ask": null,
@@ -3889,11 +3889,11 @@
         "industry": "EQUITY",
         "ceo": "Jean-Marc Chery",
         "employees": 49157,
-        "day_change": 0.5900000000000034,
-        "day_change_pct": 0.8342760180995523,
+        "day_change": 0.8700000000000045,
+        "day_change_pct": 1.2302036199095086,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 83.23661084397281,
+        "range_52w_position_pct": 83.70087879290334,
         "volume_vs_30d": 1.209073805815068
       },
       "strategy": {
@@ -5751,8 +5751,8 @@
       ],
       "sec_ticker": "ASML",
       "market": {
-        "price": 1838.91,
-        "as_of": "2026-07-06T13:21:00.000Z",
+        "price": 1844.04,
+        "as_of": "2026-07-06T13:27:10.000Z",
         "previous_close": 1843.0399,
         "bid": null,
         "ask": null,
@@ -5770,11 +5770,11 @@
         "industry": "EQUITY",
         "ceo": "Christophe D. Fouquet",
         "employees": 44209,
-        "day_change": -4.129899999999907,
-        "day_change_pct": -0.22408087855286837,
+        "day_change": 1.000099999999975,
+        "day_change_pct": 0.0542636108963227,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 87.76662007778319,
+        "range_52w_position_pct": 88.15629557608166,
         "volume_vs_30d": 1.1625969181278746
       },
       "strategy": {
@@ -6271,8 +6271,8 @@
       ],
       "sec_ticker": "MRVL",
       "market": {
-        "price": 253.6,
-        "as_of": "2026-07-06T13:21:12.000Z",
+        "price": 255.6,
+        "as_of": "2026-07-06T13:27:09.000Z",
         "previous_close": 272.05,
         "bid": null,
         "ask": null,
@@ -6290,11 +6290,11 @@
         "industry": "EQUITY",
         "ceo": "Matthew J. Murphy",
         "employees": 7480,
-        "day_change": -18.450000000000017,
-        "day_change_pct": -6.781841573240219,
+        "day_change": -16.450000000000017,
+        "day_change_pct": -6.046682595111199,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 71.58396662196394,
+        "range_52w_position_pct": 72.32901206973625,
         "volume_vs_30d": 0.5501935260754305
       },
       "strategy": {
@@ -7124,8 +7124,8 @@
       ],
       "sec_ticker": "NBIS",
       "market": {
-        "price": 216.8,
-        "as_of": "2026-07-06T13:21:13.000Z",
+        "price": 218.49,
+        "as_of": "2026-07-06T13:27:09.000Z",
         "previous_close": 229.18,
         "bid": null,
         "ask": null,
@@ -7143,11 +7143,11 @@
         "industry": "EQUITY",
         "ceo": "Arkady Volozh",
         "employees": 1543,
-        "day_change": -12.379999999999995,
-        "day_change_pct": -5.401867527707477,
+        "day_change": -10.689999999999998,
+        "day_change_pct": -4.664455886202983,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 67.55088486932063,
+        "range_52w_position_pct": 68.2111184904481,
         "volume_vs_30d": 1.4193492637799343
       },
       "strategy": {
@@ -8045,8 +8045,8 @@
       ],
       "sec_ticker": "APLD",
       "market": {
-        "price": 34.0903,
-        "as_of": "2026-07-06T13:21:00.000Z",
+        "price": 34.3644,
+        "as_of": "2026-07-06T13:27:05.000Z",
         "previous_close": 35.52,
         "bid": null,
         "ask": null,
@@ -8064,11 +8064,11 @@
         "industry": "EQUITY",
         "ceo": "Wesley Carl Cummins",
         "employees": 205,
-        "day_change": -1.429700000000004,
-        "day_change_pct": -4.0250563063063165,
+        "day_change": -1.1555999999999997,
+        "day_change_pct": -3.253378378378377,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 60.11341565759501,
+        "range_52w_position_pct": 60.770651001079024,
         "volume_vs_30d": 1.1796416812974673
       },
       "strategy": {
@@ -9424,8 +9424,8 @@
       ],
       "sec_ticker": "NVDA",
       "market": {
-        "price": 194.78,
-        "as_of": "2026-07-06T13:21:15.000Z",
+        "price": 195.005,
+        "as_of": "2026-07-06T13:27:09.000Z",
         "previous_close": 197.58,
         "bid": null,
         "ask": null,
@@ -9443,11 +9443,11 @@
         "industry": "EQUITY",
         "ceo": "Jen Hsun Huang",
         "employees": 42000,
-        "day_change": -2.8000000000000114,
-        "day_change_pct": -1.4171474845632206,
+        "day_change": -2.575000000000017,
+        "day_change_pct": -1.3032695616965364,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 47.27272727272728,
+        "range_52w_position_pct": 47.55681818181818,
         "volume_vs_30d": 0.872943026911992
       },
       "strategy": {
@@ -10122,8 +10122,8 @@
       ],
       "sec_ticker": "AMD",
       "market": {
-        "price": 535.01,
-        "as_of": "2026-07-06T13:21:09.000Z",
+        "price": 538,
+        "as_of": "2026-07-06T13:27:09.000Z",
         "previous_close": 540.88,
         "bid": null,
         "ask": null,
@@ -10141,11 +10141,11 @@
         "industry": "EQUITY",
         "ceo": "Lisa T. Su",
         "employees": 31000,
-        "day_change": -5.8700000000000045,
-        "day_change_pct": -1.0852684514125137,
+        "day_change": -2.8799999999999955,
+        "day_change_pct": -0.5324656115959169,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 88.9812290849456,
+        "range_52w_position_pct": 89.6438623318485,
         "volume_vs_30d": 0.8888695059052554
       },
       "strategy": {
@@ -10865,8 +10865,8 @@
       ],
       "sec_ticker": "AVGO",
       "market": {
-        "price": 373.3246,
-        "as_of": "2026-07-06T13:21:09.000Z",
+        "price": 373.05,
+        "as_of": "2026-07-06T13:27:07.000Z",
         "previous_close": 369.34003,
         "bid": null,
         "ask": null,
@@ -10884,11 +10884,11 @@
         "industry": "EQUITY",
         "ceo": "Hock E. Tan",
         "employees": 33000,
-        "day_change": 3.9845699999999624,
-        "day_change_pct": 1.0788351319514329,
+        "day_change": 3.7099699999999984,
+        "day_change_pct": 1.004486299521879,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 46.022801880933365,
+        "range_52w_position_pct": 45.90098482832048,
         "volume_vs_30d": 0.732031131132205
       },
       "strategy": {
@@ -11600,8 +11600,8 @@
       ],
       "sec_ticker": "DELL",
       "market": {
-        "price": 395.9,
-        "as_of": "2026-07-06T13:20:19.000Z",
+        "price": 395.67,
+        "as_of": "2026-07-06T13:27:04.000Z",
         "previous_close": 425.25,
         "bid": null,
         "ask": null,
@@ -11619,11 +11619,11 @@
         "industry": "EQUITY",
         "ceo": "Michael Saul Dell",
         "employees": 97000,
-        "day_change": -29.350000000000023,
-        "day_change_pct": -6.901822457378018,
+        "day_change": -29.579999999999984,
+        "day_change_pct": -6.955908289241619,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 79.52122477383436,
+        "range_52w_position_pct": 79.45720250521921,
         "volume_vs_30d": 0.6509942893514655
       },
       "strategy": {
@@ -12469,8 +12469,8 @@
       ],
       "sec_ticker": "HPQ",
       "market": {
-        "price": 21.98,
-        "as_of": "2026-07-06T13:21:01.000Z",
+        "price": 22,
+        "as_of": "2026-07-06T13:24:32.000Z",
         "previous_close": 22.02,
         "bid": null,
         "ask": null,
@@ -12488,11 +12488,11 @@
         "industry": "EQUITY",
         "ceo": "Bruce Dale Broussard",
         "employees": 55000,
-        "day_change": -0.03999999999999915,
-        "day_change_pct": -0.18165304268846116,
+        "day_change": -0.019999999999999574,
+        "day_change_pct": -0.09082652134423058,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 36.55913978494625,
+        "range_52w_position_pct": 36.724565756823836,
         "volume_vs_30d": 0.746730705633967
       },
       "strategy": {
@@ -13194,8 +13194,8 @@
       ],
       "sec_ticker": "HPE",
       "market": {
-        "price": 41.5,
-        "as_of": "2026-07-06T13:20:29.000Z",
+        "price": 41.58,
+        "as_of": "2026-07-06T13:26:23.000Z",
         "previous_close": 43.95,
         "bid": null,
         "ask": null,
@@ -13213,11 +13213,11 @@
         "industry": "EQUITY",
         "ceo": "Antonio Fabio Neri",
         "employees": 67000,
-        "day_change": -2.450000000000003,
-        "day_change_pct": -5.574516496018209,
+        "day_change": -2.3700000000000045,
+        "day_change_pct": -5.392491467576802,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 49.00818110500953,
+        "range_52w_position_pct": 49.18749299562927,
         "volume_vs_30d": 0.40977545658906095
       },
       "strategy": {
@@ -14083,8 +14083,8 @@
       ],
       "sec_ticker": null,
       "market": {
-        "price": 607.5,
-        "as_of": "2026-07-06T13:21:15.000Z",
+        "price": 608,
+        "as_of": "2026-07-06T13:27:05.000Z",
         "previous_close": 620.45996,
         "bid": null,
         "ask": null,
@@ -14102,11 +14102,11 @@
         "industry": "ETF",
         "ceo": "",
         "employees": null,
-        "day_change": -12.959960000000024,
-        "day_change_pct": -2.088766533782458,
+        "day_change": -12.459960000000024,
+        "day_change_pct": -2.008181156444007,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 83.64269731489014,
+        "range_52w_position_pct": 83.76983319772171,
         "volume_vs_30d": 1.7206890882755042
       },
       "strategy": {
