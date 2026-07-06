@@ -7,10 +7,12 @@ Purpose: accumulate original short notes from earnings calls, earnings releases,
 | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2026-04-30 | FQ3 2026 | [Nasdaq / Sandisk release wire](https://www.nasdaq.com/press-release/sandisk-reports-fiscal-third-quarter-2026-financial-results-2026-04-30); [Sandisk IR home](https://investor.sandisk.com/) | Datacenter revenue up sharply and enterprise SSD/NAND demand benefits from AI data workloads. | Very strong pricing/mix; gross margin expansion signals NAND scarcity and favorable customer mix. | Q4 setup appears strong in public secondary coverage; new long-term agreement structures may improve visibility. | NAND cycle risk, customer pushback on pricing, and post-spinoff volatility. | Direct NAND/storage beta alongside WDC/MU/STX; watch for price-target and LTA sentiment follow-through but avoid chasing after record run without volume confirmation. |
+| 2026-07-03 | Post-spin source review | [Sandisk IR home](https://investor.sandisk.com/) | No fresher operating update found; enterprise SSD/NAND AI-workload demand remains the core demand thesis. | No new margin guide; prior pricing/mix strength still frames the bull case. | Await next earnings or company release for Q4/forward detail. | Post-spin holder flow, lock-up/secondary headlines, and NAND-cycle volatility can overwhelm operating fundamentals intraday. | Strong storage beta, but require volume and WDC/MU/STX confirmation; treat holder-flow headlines as risk rather than demand proof. |
 
 ## What Management Keeps Repeating
 
 - Datacenter NAND, higher-value customers, stronger pricing, and more durable supply agreements.
+- Post-spin trading structure and holder-flow risk matter alongside the operating NAND thesis.
 
 ## What Management Stopped Saying
 
@@ -19,3 +21,4 @@ Purpose: accumulate original short notes from earnings calls, earnings releases,
 ## Thesis Change Log
 
 - 2026-07-03: Added FQ3 2026 Sandisk source review; SNDK becomes an explicit NAND/enterprise-SSD AI infrastructure candidate instead of an uncovered watchlist gap.
+- 2026-07-06: Added post-spin source review; keep demand thesis intact but raise holder-flow/volatility risk.
