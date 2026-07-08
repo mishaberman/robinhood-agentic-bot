@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-08T06:09:51.594Z",
+    "generated_at": "2026-07-08T06:10:25.646Z",
     "timezone": "America/Los_Angeles",
     "repository_url": "https://github.com/mishaberman/robinhood-agentic-bot",
     "source_mode": "local",
@@ -18,25 +18,25 @@
     "no_averaging_down": true
   },
   "latest": {
-    "id": "180f3a0e-ce08-43f9-a0db-da30e1abee81",
-    "started_at": "2026-07-06T14:22:58.747Z",
-    "finished_at": "2026-07-06T14:22:58.747Z",
-    "date": "2026-07-06",
+    "id": "3e14303a-940d-49e9-adcf-fbfbd921bd7a",
+    "started_at": "2026-07-08T06:10:25.392Z",
+    "finished_at": "2026-07-08T06:10:25.392Z",
+    "date": "2026-07-08",
     "status": "ok",
     "source": "codex-heartbeat",
-    "decision": "NO TRADE ALERT",
-    "severity": "quiet",
+    "decision": "ERROR",
+    "severity": "info",
     "ticker": null,
     "score": null,
-    "message": "NO TRADE ALERT: Monday 2026-07-06 early-session check found Agentic at USD 2,000 cash/buying power with no positions or equity orders; memory/AI hardware tape is strong (WDC/AMD/STX/MRVL/SMH green) but the move is a broad gap/rebound with no confirmed pullback/VWAP entry or visible bid/ask spread from the public snapshot, so no setup clears the 80+ score gate.",
-    "output_text": "NO TRADE ALERT: Monday 2026-07-06 early-session check found Agentic at USD 2,000 cash/buying power with no positions or equity orders; memory/AI hardware tape is strong (WDC/AMD/STX/MRVL/SMH green) but the move is a broad gap/rebound with no confirmed pullback/VWAP entry or visible bid/ask spread from the public snapshot, so no setup clears the 80+ score gate.",
+    "message": "ERROR: Robinhood OAuth authorization was required at the mandatory get_accounts gate, so the monitor could not identify the Agentic account or evaluate buy/exit signals. No order, review-order, or cancel tools were called.",
+    "output_text": "ERROR: Robinhood OAuth authorization was required at the mandatory get_accounts gate, so the monitor could not identify the Agentic account or evaluate buy/exit signals. No order, review-order, or cancel tools were called.",
     "account": {
       "nickname": "Agentic",
-      "cash_usd": 2000,
-      "buying_power_usd": 2000,
-      "positions_count": 0,
-      "open_orders_count": 0,
-      "realized_pnl_usd": 0
+      "cash_usd": null,
+      "buying_power_usd": null,
+      "positions_count": null,
+      "open_orders_count": null,
+      "realized_pnl_usd": null
     },
     "risk": {
       "suggested_notional_usd": null,
@@ -77,13 +77,14 @@
     "links": []
   },
   "stats": {
-    "total_runs": 4,
+    "total_runs": 5,
     "alerts": 0,
     "trade_reviews": 0,
     "exit_reviews": 0,
     "no_trade_runs": 4,
     "errors": 0,
     "decision_counts": {
+      "ERROR": 1,
       "NO TRADE ALERT": 4
     },
     "ticker_counts": {}
@@ -176,6 +177,65 @@
     }
   ],
   "runs": [
+    {
+      "id": "3e14303a-940d-49e9-adcf-fbfbd921bd7a",
+      "started_at": "2026-07-08T06:10:25.392Z",
+      "finished_at": "2026-07-08T06:10:25.392Z",
+      "date": "2026-07-08",
+      "status": "ok",
+      "source": "codex-heartbeat",
+      "decision": "ERROR",
+      "severity": "info",
+      "ticker": null,
+      "score": null,
+      "message": "ERROR: Robinhood OAuth authorization was required at the mandatory get_accounts gate, so the monitor could not identify the Agentic account or evaluate buy/exit signals. No order, review-order, or cancel tools were called.",
+      "output_text": "ERROR: Robinhood OAuth authorization was required at the mandatory get_accounts gate, so the monitor could not identify the Agentic account or evaluate buy/exit signals. No order, review-order, or cancel tools were called.",
+      "account": {
+        "nickname": "Agentic",
+        "cash_usd": null,
+        "buying_power_usd": null,
+        "positions_count": null,
+        "open_orders_count": null,
+        "realized_pnl_usd": null
+      },
+      "risk": {
+        "suggested_notional_usd": null,
+        "estimated_dollar_risk": null
+      },
+      "stages": [
+        {
+          "name": "Account gate",
+          "status": "done",
+          "summary": "Agentic account only; no other account used."
+        },
+        {
+          "name": "Portfolio check",
+          "status": "done",
+          "summary": "Cash, positions, orders, and realized P/L checked."
+        },
+        {
+          "name": "Market tape",
+          "status": "done",
+          "summary": "Watchlist quotes and broad semiconductor tape checked."
+        },
+        {
+          "name": "Catalyst scan",
+          "status": "done",
+          "summary": "Fresh catalyst/news context reviewed where available."
+        },
+        {
+          "name": "Rule scoring",
+          "status": "done",
+          "summary": "Setup compared with the intraday playbook and score gate."
+        },
+        {
+          "name": "Decision",
+          "status": "done",
+          "summary": "No qualifying trade setup"
+        }
+      ],
+      "links": []
+    },
     {
       "id": "180f3a0e-ce08-43f9-a0db-da30e1abee81",
       "started_at": "2026-07-06T14:22:58.747Z",
@@ -416,7 +476,7 @@
   "alerts": [],
   "activity": [],
   "audit": {
-    "generated_at": "2026-07-08T06:09:51.594Z",
+    "generated_at": "2026-07-08T06:10:25.646Z",
     "note": "Public-safe audit summary. Raw private logs stay in the local logs directory and are not published.",
     "local_decision_preview": [
       {
@@ -450,6 +510,14 @@
         "ticker": null,
         "score": null,
         "message": "NO TRADE ALERT: Monday 2026-07-06 early-session check found Agentic at USD 2,000 cash/buying power with no positions or equity orders; memory/AI hardware tape is strong (WDC/AMD/STX/MRVL/SMH green) but the move is a broad gap/rebound with no confirmed pullback/VWAP entry or visible bid/ask spread from the public snapshot, so no setup clears the 80+ score gate."
+      },
+      {
+        "id": "3e14303a-940d-49e9-adcf-fbfbd921bd7a",
+        "ts": "2026-07-08T06:10:25.392Z",
+        "decision": "ERROR",
+        "ticker": null,
+        "score": null,
+        "message": "ERROR: Robinhood OAuth authorization was required at the mandatory get_accounts gate, so the monitor could not identify the Agentic account or evaluate buy/exit signals. No order, review-order, or cancel tools were called."
       }
     ],
     "local_audit_preview": []
