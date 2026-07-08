@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-07-08T06:35:17.600Z",
+    "generated_at": "2026-07-08T06:40:20.384Z",
     "research_generated_at": "2026-07-08T05:16:30.163Z",
-    "market_snapshot_at": "2026-07-08T06:35:16.551Z",
+    "market_snapshot_at": "2026-07-08T06:40:19.280Z",
     "source": "Local SEC research database plus Robinhood read-only market snapshot",
     "note": "Public-safe research export. It summarizes local filings, trend summaries, strategy notes, and quote/fundamental snapshots; it is not streaming market data."
   },
@@ -55,7 +55,7 @@
     ]
   },
   "market_snapshot": {
-    "generated_at": "2026-07-08T06:35:16.551Z",
+    "generated_at": "2026-07-08T06:40:19.280Z",
     "source": "Yahoo Finance public chart API",
     "note": "Public market snapshot for GitHub Pages freshness. Account, position, and order data still requires the Robinhood monitor. Bid/ask, fundamentals, and private account fields may be absent."
   },
