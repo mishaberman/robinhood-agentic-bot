@@ -9,11 +9,13 @@ Purpose: accumulate original short notes from earnings calls, earnings releases,
 | 2026-04-23 | Q1 2026 | [Honeywell quarterly results page](https://investor.honeywell.com/financial-information/quarterly-results); [Q1 earnings presentation PDF](https://investor.honeywell.com/static-files/6ff901cd-a05a-46a7-8d74-393f1417e1e9) | Orders up 7%; aerospace and automation demand broad-based, relevant to avionics/sensors/industrial supply chain. | Portfolio execution and backlog support margin durability, but aerospace supply disruptions are a drag. | FY26 organic growth guide maintained at 3%-6% per public call summaries; Q3+ reporting changes after Aerospace spin. | Mechanical supply-chain disruptions and corporate breakup complexity can obscure comparability. | Space/satellite relevance is inferred sector exposure through aerospace components, sensors, automation, and power systems; not a confirmed SpaceX supplier note. |
 | 2026-06-29 | Spin-off update | [Honeywell Technologies launch release](https://investor.honeywell.com/news-releases/news-release-details/honeywell-technologies-launches-independent-pure-play-automation); [Honeywell Aerospace launch release](https://www.honeywellaerospace.com/us/en/company/newsroom/2026/06/honeywell-aerospace-spin-off-begins-trading-nasdaq) | Aerospace and defense exposure now primarily maps to separately traded Honeywell Aerospace; HON is positioned as pure-play automation. | Post-spin comparability and segment margin baselines will reset. | Watch first post-spin reporting for automation guidance; do not assume old HON aerospace exposure remains in HON. | Ticker/entity confusion, index flows, and broken historical comparables can distort signals. | For space/avionics supply-chain monitoring, distinguish HON automation from HONA aerospace; legacy HON context is no longer a clean aerospace ticker after June 29, 2026. |
 | 2026-07-01 | Post-spin earnings timing | [Honeywell Technologies IR release](https://investor.honeywell.com/news-releases/news-release-details/honeywell-technologies-release-second-quarter-financial-results) | July 23 results are the first key post-spin checkpoint for HON automation demand and 2026 outlook. | New baseline needed after Aerospace separation. | Company scheduled Q2 results and outlook discussion for July 23. | Entity confusion remains the main intraday risk; aerospace/space exposure now belongs mainly to HONA, not HON. | Use July 23 as a reset catalyst; do not treat SpaceX/avionics headlines as direct HON catalysts without source proof. |
+| 2026-07-08 | Post-spin outlook update | [Honeywell Technologies IR release](https://investor.honeywell.com/news-releases/news-release-details/honeywell-technologies-updates-2026-outlook-following-successful) | Updated outlook applies to the automation-focused HON entity after the Aerospace spin-off. | Use the update as the clean post-spin comparison baseline until the July 23 call adds segment detail. | Company refreshed 2026 outlook after the separation; keep upcoming Q2 call as the detailed check. | Historical aerospace-driven expectations can still distort HON interpretation. | Intraday monitors should separate HON automation guidance from HONA aerospace/space supplier headlines. |
 
 ## What Management Keeps Repeating
 
 - Aerospace/automation backlog, portfolio separation, supply-chain execution, and post-spin entity mapping.
 - First post-spin HON reporting should reset automation-only guidance and comparability.
+- July 8 outlook update is the current post-spin baseline before the July 23 earnings call.
 
 ## What Management Stopped Saying
 
@@ -24,6 +26,7 @@ Purpose: accumulate original short notes from earnings calls, earnings releases,
 - 2026-07-02: Added Q1 2026 Honeywell note; mark space-supply-chain read-through as inferred, not confirmed.
 - 2026-07-03: Added June 29 spin-off source review; HON is now automation-focused while HONA carries the aerospace/defense supplier exposure.
 - 2026-07-08: Added July 23 post-spin earnings timing; continue separating HON automation from HONA aerospace.
+- 2026-07-09: Added July 8 post-spin outlook update; use it as the new HON baseline.
 
 ## Overnight Strategy Notes - 2026-07-01
 

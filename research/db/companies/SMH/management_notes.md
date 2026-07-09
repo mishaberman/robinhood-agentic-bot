@@ -28,6 +28,7 @@ Source/context notes:
 - 2026-07-06 reviewed [VanEck holdings page](https://www.vaneck.com/us/en/investments/semiconductor-etf-smh/holdings/): use SMH as breadth confirmation for concentrated AI hardware, memory, equipment, and networking exposure, especially when single-name conviction is weak.
 - SpaceX/Starlink/launch/satellite context: current public reports show continued Starlink launches and xAI/Starlink-adjacent infrastructure themes, but for SMH these are inferred sector-sympathy links unless a component supplier relationship is directly sourced.
 - SpaceX/Starlink/launch/satellite context: current SpaceX launch cadence keeps satellite supply-chain sympathy live, but for SMH this remains inferred breadth context, not a direct component relationship.
+- 2026-07-09 reviewed [SpaceX launch page](https://www.spacex.com/launches/): active Starlink launch cadence supports inferred monitoring of satellite components, power semis, sensors, optics/networking, storage, AI cloud/GPU infrastructure, and ground infrastructure. Do not treat this as a direct SMH catalyst without component-level confirmation.
 
 Monitor instruction:
 - Use this note as ticker-specific context only. Do not treat it as a standing order. Require fresh catalyst, clean price action, liquidity, and risk/reward before raising TRADE REVIEW for SMH.
