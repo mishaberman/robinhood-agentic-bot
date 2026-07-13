@@ -30,6 +30,7 @@ Source/context notes:
 - SpaceX/Starlink/launch/satellite context: current SpaceX launch cadence keeps satellite supply-chain sympathy live, but for SMH this remains inferred breadth context, not a direct component relationship.
 - 2026-07-09 reviewed [SpaceX launch page](https://www.spacex.com/launches/): active Starlink launch cadence supports inferred monitoring of satellite components, power semis, sensors, optics/networking, storage, AI cloud/GPU infrastructure, and ground infrastructure. Do not treat this as a direct SMH catalyst without component-level confirmation.
 - 2026-07-10 reviewed [SpaceX Starlink mission page](https://www.spacex.com/launches/sl-17-48): scheduled Starlink mission keeps LEO supply-chain context active for satellite components, power semis, sensors, optical/networking, storage, AI cloud/GPU infrastructure, and ground systems. For SMH this remains inferred sector sympathy; STM direct Starlink custom-chip context is separately sourced.
+- 2026-07-13 reviewed [SpaceX launch page](https://www.spacex.com/launches/): active Starlink cadence keeps LEO supply-chain monitoring relevant across satellite components, avionics, power semis, sensors, optical/networking, storage, AI cloud/GPU infrastructure, and ground systems. Treat all watchlist links as inferred themes unless separately sourced.
 
 Monitor instruction:
 - Use this note as ticker-specific context only. Do not treat it as a standing order. Require fresh catalyst, clean price action, liquidity, and risk/reward before raising TRADE REVIEW for SMH.

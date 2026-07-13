@@ -10,6 +10,7 @@ Purpose: accumulate original short notes from earnings calls, earnings releases,
 | 2026-07-02 | Q2 catalyst watch | [AMD IR press releases](https://ir.amd.com/news-events/press-releases) | Next earnings update should clarify Instinct/MI accelerator demand and EPYC server share. | Watch data-center mix, accelerator ramp costs, and gross-margin commentary. | Q2 guide/forward commentary is the next decisive update; no new operating guidance logged in this source review. | High expectations and NVIDIA comparison risk can dominate if AI accelerator commentary lacks specificity. | Into earnings, require AMD-relative strength versus NVDA/SMH; avoid treating generic AI headlines as AMD-specific confirmation. |
 | 2026-07-08 | Q2 earnings date | [AMD IR release](https://ir.amd.com/news-events/press-releases/detail/1273/amd-to-report-fiscal-second-quarter-2026-financial-results) | Aug. 4 results are the next AMD-specific checkpoint for MI/Instinct demand, EPYC server share, and AI accelerator customer traction. | No margin update; watch accelerator ramp cost and data-center mix. | No operating guidance change in the date announcement. | Generic AI-sector strength can overstate AMD-specific confirmation before the call. | Treat Aug. 4 as the calendar catalyst; require AMD-relative strength and specific accelerator commentary before leaning into sympathy. |
 | 2026-06-08 | UK AI investment review | [AMD IR release](https://ir.amd.com/news-events/press-releases/detail/1288/amd-commits-up-to-2-billion-to-accelerate-ai-innovation-and-research-in-the-united-kingdom) | UK sovereign-AI and AI-for-science initiatives add infrastructure demand context for EPYC, Instinct, ROCm, and Dell-supported systems. | No margin update; strategic ecosystem investments do not answer accelerator ramp cost. | No quarterly guide change. | Long-range sovereign-AI headlines can be less tradable than customer revenue or supply allocation details. | Supports AMD/DELL AI infrastructure breadth, but Aug. 4 earnings remains the actionable checkpoint. |
+| 2026-07-13 | Advancing AI 2026 watch | [AMD IR release](https://ir.amd.com/news-events/press-releases/detail/1283/amd-announces-advancing-ai-2026) | July 22-23 event could refresh Instinct roadmap, rack-scale system positioning, software/ROCm proof, and customer deployment pipeline before earnings. | No margin update; product events can raise expectations without resolving accelerator ramp cost. | No guide change in the event announcement; Aug. 4 earnings remains the operating checkpoint. | Event hype can fade if customer names, deployment scale, or competitive positioning versus NVIDIA are thin. | Potential pre-earnings catalyst; require AMD-relative strength versus NVDA/SMH and concrete AI accelerator detail. |
 
 ## What Management Keeps Repeating
 
@@ -17,6 +18,7 @@ Purpose: accumulate original short notes from earnings calls, earnings releases,
 - Near-term setup is earnings-sensitive; MI/Instinct guidance quality matters more than broad AI sentiment.
 - Aug. 4 Q2 results are the next primary catalyst.
 - Sovereign-AI and research-compute announcements support the ecosystem story, but they are not substitutes for revenue/margin proof.
+- July 22-23 Advancing AI 2026 is a product/customer narrative catalyst before the Aug. 4 operating update.
 
 ## What Management Stopped Saying
 
@@ -28,6 +30,7 @@ Purpose: accumulate original short notes from earnings calls, earnings releases,
 - 2026-07-06: Added AMD Q2 catalyst-watch note; monitor MI/Instinct, EPYC, margin, and relative strength.
 - 2026-07-09: Added confirmed Aug. 4 Q2 earnings date; no new operating guidance in the announcement.
 - 2026-07-10: Added UK AI investment review; useful infrastructure-breadth context, not a fresh guide.
+- 2026-07-13: Added Advancing AI 2026 event watch; treat as narrative/product catalyst, not operating guidance.
 
 ## Overnight Strategy Notes - 2026-07-01
 
