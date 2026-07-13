@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-07-10T14:00:14.548Z",
-    "research_generated_at": "2026-07-10T05:15:31.422Z",
-    "market_snapshot_at": "2026-07-10T14:00:13.604Z",
+    "generated_at": "2026-07-13T12:07:18.102Z",
+    "research_generated_at": "2026-07-13T05:21:20.655Z",
+    "market_snapshot_at": "2026-07-13T12:07:17.171Z",
     "source": "Local SEC research database plus Robinhood read-only market snapshot",
     "note": "Public-safe research export. It summarizes local filings, trend summaries, strategy notes, and quote/fundamental snapshots; it is not streaming market data."
   },
@@ -55,7 +55,7 @@
     ]
   },
   "market_snapshot": {
-    "generated_at": "2026-07-10T14:00:13.604Z",
+    "generated_at": "2026-07-13T12:07:17.171Z",
     "source": "Yahoo Finance public chart API",
     "note": "Public market snapshot for GitHub Pages freshness. Account, position, and order data still requires the Robinhood monitor. Bid/ask, fundamentals, and private account fields may be absent."
   },
@@ -73,15 +73,15 @@
       ],
       "sec_ticker": "MU",
       "market": {
-        "price": 972.8699951171875,
-        "as_of": "2026-07-10T14:00:12.000Z",
+        "price": 931.3997,
+        "as_of": "2026-07-13T12:07:15.000Z",
         "previous_close": 991.64,
         "bid": null,
         "ask": null,
         "open": null,
-        "high": 978.308,
-        "low": 957.3,
-        "volume": 6600145,
+        "high": 998,
+        "low": 954.13,
+        "volume": 31768093,
         "avg_volume_30d": 57436738.644,
         "high_52w": 1255,
         "low_52w": 103.38,
@@ -92,12 +92,12 @@
         "industry": "EQUITY",
         "ceo": "Sanjay Mehrotra",
         "employees": 53000,
-        "day_change": -18.770004882812486,
-        "day_change_pct": -1.892824501110533,
+        "day_change": -60.240299999999934,
+        "day_change_pct": -6.074815457222373,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 75.50146707396429,
-        "volume_vs_30d": 0.11491155584074009
+        "range_52w_position_pct": 71.90042722425801,
+        "volume_vs_30d": 0.5530970899462548
       },
       "strategy": {
         "priority": 1,
@@ -141,7 +141,7 @@
           "Cash: $25.00B in 2026 Q3 (CY2026Q2I), +145.9% vs 2025 Q3 (CY2025Q2I).",
           "Inventory: $8.57B in 2026 Q3 (CY2026Q2I), -1.8% vs 2025 Q3 (CY2025Q2I)."
         ],
-        "trend_summary_preview": "# MU Research Summary Generated: 2026-07-10T05:15:42.916Z Company: MICRON TECHNOLOGY INC Themes: memory, HBM, DRAM, NAND, AI infrastructure ## Extracted Trend Snapshot - Revenue: $41.46B in 2026 Q3 (CY2026Q2), +345.7% vs 2025 Q3. - Gross profit: $35.06B in 2026 Q3 (CY2026Q2), +899.3% vs 2025 Q3. - Operating income: $33.32B in 2026 Q3 (CY2026Q2), +1436.1% vs 2025 Q3. - Net income: $28.24B in 2026 Q3 (CY2026Q2), +1684.1% vs 2025 Q3. - Diluted EPS: $24.67 in 2026 Q3 (CY2026Q2), +1368.5% vs 2025 Q3. - Operating cash flow: $45.70B in 2026 Q3, +287.5% vs 2025 Q3. - Capital expenditures: $19.60B in 2026 Q3, +92.2% vs 2025 Q3. - Cash: $25.00B in 2026 Q3 (CY2026Q2I), +145.9% vs 2025 Q3 (CY2025Q2I). - Inventory: $8.57B in 2026 Q3 (CY2026Q2I), -1.8% vs 2025 Q3 (CY2025Q2I). ## Recent Filing Feed - 2026-06-25: 10-Q, 10-Q (https://www.sec.gov/Archives/edgar/data/723125/000072312526000015/mu-20260528.htm) - 2026-06-24: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/723125/000072312526000013/mu-20260624.htm) - 2026-06-09: 8-K, FORM 8-K (https://www.sec.gov/Archives/edgar/data/723125/000110465926071845/tm2617112d1_8k.htm) - 2026-04-01: 8-K, FORM 8-K (https://www.sec.gov/Archives/edgar/data/723125/000110465926038249/tm2610810d1_8k.htm) - 2026-03-25: 8-K, FORM 8-K (https://www.sec.gov/Archives/edgar/data/723125/000110465926034174/tm269755d1_8k.htm) - 2026-03-19: 10-Q, 10-Q (https://www.sec.go...",
+        "trend_summary_preview": "# MU Research Summary Generated: 2026-07-13T05:21:27.935Z Company: MICRON TECHNOLOGY INC Themes: memory, HBM, DRAM, NAND, AI infrastructure ## Extracted Trend Snapshot - Revenue: $41.46B in 2026 Q3 (CY2026Q2), +345.7% vs 2025 Q3. - Gross profit: $35.06B in 2026 Q3 (CY2026Q2), +899.3% vs 2025 Q3. - Operating income: $33.32B in 2026 Q3 (CY2026Q2), +1436.1% vs 2025 Q3. - Net income: $28.24B in 2026 Q3 (CY2026Q2), +1684.1% vs 2025 Q3. - Diluted EPS: $24.67 in 2026 Q3 (CY2026Q2), +1368.5% vs 2025 Q3. - Operating cash flow: $45.70B in 2026 Q3, +287.5% vs 2025 Q3. - Capital expenditures: $19.60B in 2026 Q3, +92.2% vs 2025 Q3. - Cash: $25.00B in 2026 Q3 (CY2026Q2I), +145.9% vs 2025 Q3 (CY2025Q2I). - Inventory: $8.57B in 2026 Q3 (CY2026Q2I), -1.8% vs 2025 Q3 (CY2025Q2I). ## Recent Filing Feed - 2026-06-25: 10-Q, 10-Q (https://www.sec.gov/Archives/edgar/data/723125/000072312526000015/mu-20260528.htm) - 2026-06-24: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/723125/000072312526000013/mu-20260624.htm) - 2026-06-09: 8-K, FORM 8-K (https://www.sec.gov/Archives/edgar/data/723125/000110465926071845/tm2617112d1_8k.htm) - 2026-04-01: 8-K, FORM 8-K (https://www.sec.gov/Archives/edgar/data/723125/000110465926038249/tm2610810d1_8k.htm) - 2026-03-25: 8-K, FORM 8-K (https://www.sec.gov/Archives/edgar/data/723125/000110465926034174/tm269755d1_8k.htm) - 2026-03-19: 10-Q, 10-Q (https://www.sec.go...",
         "management_notes_preview": "# MU Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-06-24 | FQ3 2026 | [Micron IR earnings release](https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-record-results-third-quarter); [Micron IR home / Anthropic release](https://investors.micron.com/) | Record quarter and AI-driven HBM/DRAM/NAND demand; Anthropic agreement reinforces memory/storage role in frontier AI infrastructure. | Extremely strong pricing backdrop; record capex and large cash generation point to supply expansion without immediate demand softening. | Q4..."
       },
       "financial_metrics": [
@@ -821,18 +821,18 @@
       ],
       "sec_ticker": "WDC",
       "market": {
-        "price": 573.510009765625,
-        "as_of": "2026-07-10T14:00:12.000Z",
-        "previous_close": 578.05,
+        "price": 553,
+        "as_of": "2026-07-13T12:07:12.000Z",
+        "previous_close": 578.05005,
         "bid": null,
         "ask": null,
         "open": null,
-        "high": 578.5,
+        "high": 585.2,
         "low": 562.76,
-        "volume": 601424,
+        "volume": 4814144,
         "avg_volume_30d": 10371900.5263,
         "high_52w": 799.87,
-        "low_52w": 64.23,
+        "low_52w": 65.24,
         "market_cap": 206247436013.5563,
         "pe_ratio": 38.127757,
         "pb_ratio": 22.7643,
@@ -840,12 +840,12 @@
         "industry": "EQUITY",
         "ceo": "Tiang Yew Tan",
         "employees": 40000,
-        "day_change": -4.5399902343749545,
-        "day_change_pct": -0.7853974975131831,
+        "day_change": -25.050050000000056,
+        "day_change_pct": -4.333543436247441,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 69.22951576390966,
-        "volume_vs_30d": 0.0579859012796132
+        "range_52w_position_pct": 66.39532826048486,
+        "volume_vs_30d": 0.46415254251550025
       },
       "strategy": {
         "priority": 2,
@@ -886,7 +886,7 @@
           "Cash: $2.05B in 2026 Q3 (CY2026Q1I), -41.0% vs 2025 Q3 (CY2025Q1I).",
           "Inventory: $1.36B in 2026 Q3 (CY2026Q1I), +3.5% vs 2025 Q3 (CY2025Q1I)."
         ],
-        "trend_summary_preview": "# WDC Research Summary Generated: 2026-07-10T05:15:42.926Z Company: WESTERN DIGITAL CORP Themes: storage, NAND, HDD, data centers ## Extracted Trend Snapshot - Revenue: $3.34B in 2026 Q3 (CY2026Q1), +45.5% vs 2025 Q3. - Gross profit: $1.68B in 2026 Q3 (CY2026Q1), +83.8% vs 2025 Q3. - Operating income: $1.19B in 2026 Q3 (CY2026Q1), +56.6% vs 2025 Q3. - Net income: $3.21B in 2026 Q3 (CY2026Q1), +74.0% vs 2026 Q3 (CY2025Q4). - Diluted EPS: $8.20 in 2026 Q3 (CY2026Q1), +477.5% vs 2025 Q3. - Operating cash flow: $2.54B in 2026 Q3, +168.8% vs 2025 Q3. - Capital expenditures: $310.0M in 2026 Q3, -9.1% vs 2025 Q3. - Cash: $2.05B in 2026 Q3 (CY2026Q1I), -41.0% vs 2025 Q3 (CY2025Q1I). - Inventory: $1.36B in 2026 Q3 (CY2026Q1I), +3.5% vs 2025 Q3 (CY2025Q1I). ## Recent Filing Feed - 2026-06-11: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/106040/000119312526267514/d83915d8k.htm) - 2026-06-03: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/106040/000119312526254621/d106828d8k.htm) - 2026-05-28: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/106040/000162828026038632/wdc-20260526.htm) - 2026-05-01: 10-Q, 10-Q (https://www.sec.gov/Archives/edgar/data/106040/000162828026029054/wdc-20260403.htm) - 2026-04-30: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/106040/000162828026028878/wdc-20260430.htm) - 2026-02-24: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/106040/00011931252...",
+        "trend_summary_preview": "# WDC Research Summary Generated: 2026-07-13T05:21:27.939Z Company: WESTERN DIGITAL CORP Themes: storage, NAND, HDD, data centers ## Extracted Trend Snapshot - Revenue: $3.34B in 2026 Q3 (CY2026Q1), +45.5% vs 2025 Q3. - Gross profit: $1.68B in 2026 Q3 (CY2026Q1), +83.8% vs 2025 Q3. - Operating income: $1.19B in 2026 Q3 (CY2026Q1), +56.6% vs 2025 Q3. - Net income: $3.21B in 2026 Q3 (CY2026Q1), +74.0% vs 2026 Q3 (CY2025Q4). - Diluted EPS: $8.20 in 2026 Q3 (CY2026Q1), +477.5% vs 2025 Q3. - Operating cash flow: $2.54B in 2026 Q3, +168.8% vs 2025 Q3. - Capital expenditures: $310.0M in 2026 Q3, -9.1% vs 2025 Q3. - Cash: $2.05B in 2026 Q3 (CY2026Q1I), -41.0% vs 2025 Q3 (CY2025Q1I). - Inventory: $1.36B in 2026 Q3 (CY2026Q1I), +3.5% vs 2025 Q3 (CY2025Q1I). ## Recent Filing Feed - 2026-06-11: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/106040/000119312526267514/d83915d8k.htm) - 2026-06-03: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/106040/000119312526254621/d106828d8k.htm) - 2026-05-28: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/106040/000162828026038632/wdc-20260526.htm) - 2026-05-01: 10-Q, 10-Q (https://www.sec.gov/Archives/edgar/data/106040/000162828026029054/wdc-20260403.htm) - 2026-04-30: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/106040/000162828026028878/wdc-20260430.htm) - 2026-02-24: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/106040/00011931252...",
         "management_notes_preview": "# WDC Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-04-30 | FQ3 2026 | [WD IR earnings release](https://investor.wdc.com/news-releases/news-release-details/wd-reports-fiscal-third-quarter-2026-financial-results); [WD IR presentation](https://investor.wdc.com/static-files/5b2d41c1-7d45-4575-b9ea-c51424dbffeb) | Revenue up 45% YoY; nearline capacity and cloud storage remain the core AI infrastructure read-through. | Non-GAAP gross margin above 50%; pricing/mix improving. | Q4 revenue guide implies 36%-44% YoY growth and 51%-52% non-GAAP GM. | HDD cycle can reverse ..."
       },
       "financial_metrics": [
@@ -1629,15 +1629,15 @@
       ],
       "sec_ticker": "SNDK",
       "market": {
-        "price": 1843.8349609375,
-        "as_of": "2026-07-10T14:00:12.000Z",
+        "price": 1808.11,
+        "as_of": "2026-07-13T12:07:14.000Z",
         "previous_close": 1858.27,
         "bid": null,
         "ask": null,
         "open": null,
-        "high": 1856.88,
+        "high": 1946.835,
         "low": 1773.505,
-        "volume": 2107082,
+        "volume": 11022652,
         "avg_volume_30d": 11473313.4436,
         "high_52w": 2354.39,
         "low_52w": 40.1,
@@ -1648,12 +1648,12 @@
         "industry": "EQUITY",
         "ceo": "David V. Goeckeler",
         "employees": 11000,
-        "day_change": -14.435039062499982,
-        "day_change_pct": -0.7767998763634985,
+        "day_change": -50.16000000000008,
+        "day_change_pct": -2.699284818675439,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 77.93902064726115,
-        "volume_vs_30d": 0.18365069605723744
+        "range_52w_position_pct": 76.39535235428576,
+        "volume_vs_30d": 0.9607208984731967
       },
       "strategy": {
         "priority": 2,
@@ -1696,7 +1696,7 @@
           "Cash: $3.73B in 2026 Q3 (CY2026Q1I), +147.8% vs 2025 Q3 (CY2025Q1I).",
           "Inventory: $2.24B in 2026 Q3 (CY2026Q1I), +3.6% vs 2025 Q3 (CY2025Q1I)."
         ],
-        "trend_summary_preview": "# SNDK Research Summary Generated: 2026-07-10T05:15:42.921Z Company: Sandisk Corp Themes: storage, NAND, flash memory, AI data workloads ## Extracted Trend Snapshot - Revenue: $5.95B in 2026 Q3 (CY2026Q1), +251.0% vs 2025 Q3. - Gross profit: $4.66B in 2026 Q3 (CY2026Q1), +1120.4% vs 2025 Q3. - Operating income: $4.11B in 2026 Q3 (CY2026Q1), +318.6% vs 2025 Q3. - Net income: $3.62B in 2026 Q3 (CY2026Q1), +350.2% vs 2026 Q3 (CY2025Q4). - Diluted EPS: $23.03 in 2026 Q3 (CY2026Q1), +272.8% vs 2025 Q3. - Operating cash flow: $4.54B in 2026 Q3, +45550.0% vs 2025 Q3. - Capital expenditures: $134.0M in 2026 Q3, -15.7% vs 2025 Q3. - Cash: $3.73B in 2026 Q3 (CY2026Q1I), +147.8% vs 2025 Q3 (CY2025Q1I). - Inventory: $2.24B in 2026 Q3 (CY2026Q1I), +3.6% vs 2025 Q3 (CY2025Q1I). ## Recent Filing Feed - 2026-05-15: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/2023554/000119312526224694/d157363d8k.htm) - 2026-05-01: 10-Q, 10-Q (https://www.sec.gov/Archives/edgar/data/2023554/000162828026029401/sndk-20260403.htm) - 2026-04-30: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/2023554/000162828026028879/sndk-20260430.htm) - 2026-03-25: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/2023554/000119312526122705/d136592d8k.htm) - 2026-01-30: 10-Q, 10-Q (https://www.sec.gov/Archives/edgar/data/2023554/000162828026004407/sndk-20260102.htm) - 2026-01-29: 8-K, 8-K (https://www.sec.gov/Archives/e...",
+        "trend_summary_preview": "# SNDK Research Summary Generated: 2026-07-13T05:21:27.936Z Company: Sandisk Corp Themes: storage, NAND, flash memory, AI data workloads ## Extracted Trend Snapshot - Revenue: $5.95B in 2026 Q3 (CY2026Q1), +251.0% vs 2025 Q3. - Gross profit: $4.66B in 2026 Q3 (CY2026Q1), +1120.4% vs 2025 Q3. - Operating income: $4.11B in 2026 Q3 (CY2026Q1), +318.6% vs 2025 Q3. - Net income: $3.62B in 2026 Q3 (CY2026Q1), +350.2% vs 2026 Q3 (CY2025Q4). - Diluted EPS: $23.03 in 2026 Q3 (CY2026Q1), +272.8% vs 2025 Q3. - Operating cash flow: $4.54B in 2026 Q3, +45550.0% vs 2025 Q3. - Capital expenditures: $134.0M in 2026 Q3, -15.7% vs 2025 Q3. - Cash: $3.73B in 2026 Q3 (CY2026Q1I), +147.8% vs 2025 Q3 (CY2025Q1I). - Inventory: $2.24B in 2026 Q3 (CY2026Q1I), +3.6% vs 2025 Q3 (CY2025Q1I). ## Recent Filing Feed - 2026-05-15: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/2023554/000119312526224694/d157363d8k.htm) - 2026-05-01: 10-Q, 10-Q (https://www.sec.gov/Archives/edgar/data/2023554/000162828026029401/sndk-20260403.htm) - 2026-04-30: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/2023554/000162828026028879/sndk-20260430.htm) - 2026-03-25: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/2023554/000119312526122705/d136592d8k.htm) - 2026-01-30: 10-Q, 10-Q (https://www.sec.gov/Archives/edgar/data/2023554/000162828026004407/sndk-20260102.htm) - 2026-01-29: 8-K, 8-K (https://www.sec.gov/Archives/e...",
         "management_notes_preview": "# SNDK Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-04-30 | FQ3 2026 | [Nasdaq / Sandisk release wire](https://www.nasdaq.com/press-release/sandisk-reports-fiscal-third-quarter-2026-financial-results-2026-04-30); [Sandisk IR home](https://investor.sandisk.com/) | Datacenter revenue up sharply and enterprise SSD/NAND demand benefits from AI data workloads. | Very strong pricing/mix; gross margin expansion signals NAND scarcity and favorable customer mix. | Q4 setup appears strong in public secondary coverage; new long-term agreement structures may improve visibil..."
       },
       "financial_metrics": [
@@ -2116,15 +2116,15 @@
       ],
       "sec_ticker": "STX",
       "market": {
-        "price": 897.5900268554688,
-        "as_of": "2026-07-10T14:00:13.000Z",
+        "price": 875,
+        "as_of": "2026-07-13T12:07:10.000Z",
         "previous_close": 890.09,
         "bid": null,
         "ask": null,
         "open": null,
-        "high": 900.36,
+        "high": 927.28,
         "low": 861.63,
-        "volume": 348101,
+        "volume": 4051284,
         "avg_volume_30d": 4552768.07754,
         "high_52w": 1145,
         "low_52w": 138.3,
@@ -2135,12 +2135,12 @@
         "industry": "EQUITY",
         "ceo": "William David Mosley",
         "employees": 30000,
-        "day_change": 7.500026855468718,
-        "day_change_pct": 0.8426144384802343,
+        "day_change": -15.090000000000032,
+        "day_change_pct": -1.695334179689698,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 75.42366413583676,
-        "volume_vs_30d": 0.0764591989030308
+        "range_52w_position_pct": 73.17969603655509,
+        "volume_vs_30d": 0.8898507305887263
       },
       "strategy": {
         "priority": 2,
@@ -2179,7 +2179,7 @@
           "Cash: $1.15B in 2026 Q3 (CY2026Q1I), +40.8% vs 2025 Q3 (CY2025Q1I).",
           "Inventory: $1.53B in 2026 Q3 (CY2026Q1I), +3.9% vs 2025 Q3 (CY2025Q1I)."
         ],
-        "trend_summary_preview": "# STX Research Summary Generated: 2026-07-10T05:15:42.924Z Company: Seagate Technology Holdings plc Themes: storage, HDD, mass capacity storage, data centers, satellite data infrastructure ## Extracted Trend Snapshot - Revenue: $3.11B in 2026 Q3 (CY2026Q1), +44.1% vs 2025 Q3. - Gross profit: not available in extracted SEC facts. - Operating income: $998.0M in 2026 Q3 (CY2026Q1), +131.6% vs 2025 Q3. - Net income: $748.0M in 2026 Q3 (CY2026Q1), +120.0% vs 2025 Q3. - Diluted EPS: $3.27 in 2026 Q3 (CY2026Q1), +108.3% vs 2025 Q3. - Operating cash flow: $2.37B in 2026 Q3, +312.0% vs 2025 Q3. - Capital expenditures: $382.0M in 2026 Q3, +109.9% vs 2025 Q3. - Cash: $1.15B in 2026 Q3 (CY2026Q1I), +40.8% vs 2025 Q3 (CY2025Q1I). - Inventory: $1.53B in 2026 Q3 (CY2026Q1I), +3.9% vs 2025 Q3 (CY2025Q1I). ## Recent Filing Feed - 2026-06-12: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1137789/000119312526268170/d24300d8k.htm) - 2026-05-28: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1137789/000119312526243110/d106085d8k.htm) - 2026-05-21: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1137789/000119312526233588/d72241d8k.htm) - 2026-05-06: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1137789/000113778926000093/stx-20260505.htm) - 2026-04-29: 10-Q, 10-Q (https://www.sec.gov/Archives/edgar/data/1137789/000113778926000088/stx-20260403.htm) - 2026-04-28: 8-K, 8-K (https://www.s...",
+        "trend_summary_preview": "# STX Research Summary Generated: 2026-07-13T05:21:27.937Z Company: Seagate Technology Holdings plc Themes: storage, HDD, mass capacity storage, data centers, satellite data infrastructure ## Extracted Trend Snapshot - Revenue: $3.11B in 2026 Q3 (CY2026Q1), +44.1% vs 2025 Q3. - Gross profit: not available in extracted SEC facts. - Operating income: $998.0M in 2026 Q3 (CY2026Q1), +131.6% vs 2025 Q3. - Net income: $748.0M in 2026 Q3 (CY2026Q1), +120.0% vs 2025 Q3. - Diluted EPS: $3.27 in 2026 Q3 (CY2026Q1), +108.3% vs 2025 Q3. - Operating cash flow: $2.37B in 2026 Q3, +312.0% vs 2025 Q3. - Capital expenditures: $382.0M in 2026 Q3, +109.9% vs 2025 Q3. - Cash: $1.15B in 2026 Q3 (CY2026Q1I), +40.8% vs 2025 Q3 (CY2025Q1I). - Inventory: $1.53B in 2026 Q3 (CY2026Q1I), +3.9% vs 2025 Q3 (CY2025Q1I). ## Recent Filing Feed - 2026-06-12: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1137789/000119312526268170/d24300d8k.htm) - 2026-05-28: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1137789/000119312526243110/d106085d8k.htm) - 2026-05-21: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1137789/000119312526233588/d72241d8k.htm) - 2026-05-06: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1137789/000113778926000093/stx-20260505.htm) - 2026-04-29: 10-Q, 10-Q (https://www.sec.gov/Archives/edgar/data/1137789/000113778926000088/stx-20260403.htm) - 2026-04-28: 8-K, 8-K (https://www.s...",
         "management_notes_preview": "# STX Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-04-28 | FQ3 2026 | [Seagate IR earnings release](https://investors.seagate.com/news/news-details/2026/Seagate-Technology-Reports-Fiscal-Third-Quarter-2026-Financial-Results/default.aspx); [Seagate call transcript PDF](https://s24.q4cdn.com/101481333/files/doc_financials/2026/q3/CORRECTED-TRANSCRIPT_-Seagate-Technology-Holdings-Plc-STX-US-Q3-2026-Earnings-Call-28-April-2026-5_00-PM-ET.pdf) | Strong demand environment for data center capacity; HAMR/high-capacity drives remain key cloud AI storage lever. | GAAP GM ..."
       },
       "financial_metrics": [
@@ -2919,15 +2919,15 @@
       ],
       "sec_ticker": "HON",
       "market": {
-        "price": 222.47999572753906,
-        "as_of": "2026-07-10T14:00:07.000Z",
+        "price": 225.9,
+        "as_of": "2026-07-13T12:03:39.000Z",
         "previous_close": 223.42,
         "bid": null,
         "ask": null,
         "open": null,
-        "high": 224.2,
+        "high": 228.775,
         "low": 222.11,
-        "volume": 103250,
+        "volume": 2601827,
         "avg_volume_30d": 3666097.928,
         "high_52w": 260.283,
         "low_52w": 195.868,
@@ -2938,12 +2938,12 @@
         "industry": "EQUITY",
         "ceo": "Vimal M. Kapur",
         "employees": 101000,
-        "day_change": -0.940004272460925,
-        "day_change_pct": -0.42073416545561054,
+        "day_change": 2.480000000000018,
+        "day_change_pct": 1.110017008325136,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 41.31335205703494,
-        "volume_vs_30d": 0.028163459358633916
+        "range_52w_position_pct": 46.62268105254987,
+        "volume_vs_30d": 0.7096992636580766
       },
       "strategy": {
         "priority": 10,
@@ -2982,7 +2982,7 @@
           "Cash: $11.98B in 2026 Q1 (CY2026Q1I), +24.0% vs 2025 Q1 (CY2025Q1I).",
           "Inventory: $6.37B in 2026 Q1 (CY2026Q1I), -3.7% vs 2025 Q1 (CY2025Q1I)."
         ],
-        "trend_summary_preview": "# HON Research Summary Generated: 2026-07-10T05:15:42.908Z Company: HONEYWELL INTERNATIONAL INC Themes: aerospace, avionics, sensors, space supply chain, industrial automation ## Extracted Trend Snapshot - Revenue: $9.14B in 2026 Q1 (CY2026Q1), -75.6% vs 2025 FY (CY2025). - Gross profit: $3.47B in 2025 FY (CY2025Q4), +7.3% vs 2025 FY (CY2025Q3). - Operating income: $2.13B in 2026 Q1 (CY2026Q1), -5.7% vs 2025 Q1. - Net income: $821.0M in 2026 Q1 (CY2026Q1), -82.6% vs 2025 FY (CY2025). - Diluted EPS: $1.29 in 2026 Q1 (CY2026Q1), -82.5% vs 2025 FY (CY2025). - Operating cash flow: $-650.0M in 2026 Q1 (CY2026Q1), -208.9% vs 2025 Q1. - Capital expenditures: $223.0M in 2026 Q1 (CY2026Q1), -11.2% vs 2025 Q1. - Cash: $11.98B in 2026 Q1 (CY2026Q1I), +24.0% vs 2025 Q1 (CY2025Q1I). - Inventory: $6.37B in 2026 Q1 (CY2026Q1I), -3.7% vs 2025 Q1 (CY2025Q1I). ## Recent Filing Feed - 2026-06-29: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/hon-20260625.htm) - 2026-06-15: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/773840/000077384026000080/hon-20260615.htm) - 2026-06-05: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/773840/000077384026000072/hon-20260605.htm) - 2026-06-02: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/773840/000077384026000068/hon-20260601.htm) - 2026-05-27: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/773840/000119312526242011/...",
+        "trend_summary_preview": "# HON Research Summary Generated: 2026-07-13T05:21:27.932Z Company: HONEYWELL INTERNATIONAL INC Themes: aerospace, avionics, sensors, space supply chain, industrial automation ## Extracted Trend Snapshot - Revenue: $9.14B in 2026 Q1 (CY2026Q1), -75.6% vs 2025 FY (CY2025). - Gross profit: $3.47B in 2025 FY (CY2025Q4), +7.3% vs 2025 FY (CY2025Q3). - Operating income: $2.13B in 2026 Q1 (CY2026Q1), -5.7% vs 2025 Q1. - Net income: $821.0M in 2026 Q1 (CY2026Q1), -82.6% vs 2025 FY (CY2025). - Diluted EPS: $1.29 in 2026 Q1 (CY2026Q1), -82.5% vs 2025 FY (CY2025). - Operating cash flow: $-650.0M in 2026 Q1 (CY2026Q1), -208.9% vs 2025 Q1. - Capital expenditures: $223.0M in 2026 Q1 (CY2026Q1), -11.2% vs 2025 Q1. - Cash: $11.98B in 2026 Q1 (CY2026Q1I), +24.0% vs 2025 Q1 (CY2025Q1I). - Inventory: $6.37B in 2026 Q1 (CY2026Q1I), -3.7% vs 2025 Q1 (CY2025Q1I). ## Recent Filing Feed - 2026-06-29: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/773840/000077384026000084/hon-20260625.htm) - 2026-06-15: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/773840/000077384026000080/hon-20260615.htm) - 2026-06-05: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/773840/000077384026000072/hon-20260605.htm) - 2026-06-02: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/773840/000077384026000068/hon-20260601.htm) - 2026-05-27: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/773840/000119312526242011/...",
         "management_notes_preview": "# HON Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-04-23 | Q1 2026 | [Honeywell quarterly results page](https://investor.honeywell.com/financial-information/quarterly-results); [Q1 earnings presentation PDF](https://investor.honeywell.com/static-files/6ff901cd-a05a-46a7-8d74-393f1417e1e9) | Orders up 7%; aerospace and automation demand broad-based, relevant to avionics/sensors/industrial supply chain. | Portfolio execution and backlog support margin durability, but aerospace supply disruptions are a drag. | FY26 organic growth guide maintained at 3%-6% per publi..."
       },
       "financial_metrics": [
@@ -3870,15 +3870,15 @@
       ],
       "sec_ticker": "STM",
       "market": {
-        "price": 70.44000244140625,
-        "as_of": "2026-07-10T14:00:11.000Z",
+        "price": 69.56,
+        "as_of": "2026-07-13T12:07:08.000Z",
         "previous_close": 71.39,
         "bid": null,
         "ask": null,
         "open": null,
-        "high": 71.07,
-        "low": 69.93,
-        "volume": 1423787,
+        "high": 72.03,
+        "low": 69.734,
+        "volume": 6560430,
         "avg_volume_30d": 13929610.3505,
         "high_52w": 81.42,
         "low_52w": 21.11,
@@ -3889,12 +3889,12 @@
         "industry": "EQUITY",
         "ceo": "Jean-Marc Chery",
         "employees": 49157,
-        "day_change": -0.9499975585937506,
-        "day_change_pct": -1.3307151682220908,
+        "day_change": -1.8299999999999983,
+        "day_change_pct": -2.5633842274828385,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 81.79406805074821,
-        "volume_vs_30d": 0.1022129811368983
+        "range_52w_position_pct": 80.33493616315702,
+        "volume_vs_30d": 0.47097010145474133
       },
       "strategy": {
         "priority": 8,
@@ -3932,7 +3932,7 @@
           "Cash: $2.84B in 2025 FY (CY2025Q4I), -11.9% vs 2024 FY (CY2023Q4I).",
           "Inventory: $3.14B in 2025 FY (CY2025Q4I), +16.2% vs 2024 FY (CY2023Q4I)."
         ],
-        "trend_summary_preview": "# STM Research Summary Generated: 2026-07-10T05:15:42.922Z Company: STMicroelectronics N.V. Themes: semiconductors, power electronics, microcontrollers, sensors, space supply chain ## Extracted Trend Snapshot - Revenue: $11.80B in 2025 FY (CY2025), -31.7% vs 2024 FY. - Gross profit: $4.00B in 2025 FY (CY2025), -51.7% vs 2024 FY. - Operating income: $175.0M in 2025 FY (CY2025), -96.2% vs 2024 FY. - Net income: $166.0M in 2025 FY (CY2025), -96.1% vs 2024 FY. - Diluted EPS: $0.18 in 2025 FY (CY2025), -96.0% vs 2024 FY. - Operating cash flow: $2.15B in 2025 FY (CY2025), -64.1% vs 2024 FY. - Capital expenditures: not available in extracted SEC facts. - Cash: $2.84B in 2025 FY (CY2025Q4I), -11.9% vs 2024 FY (CY2023Q4I). - Inventory: $3.14B in 2025 FY (CY2025Q4I), +16.2% vs 2024 FY (CY2023Q4I). ## Recent Filing Feed - 2026-07-06: 6-K, 6-K (https://www.sec.gov/Archives/edgar/data/932787/000093278726000046/c3400c-jul62026xdisclosure.htm) - 2026-06-16: 6-K, REPORT OF FOREIGN PRIVATE ISSUER (https://www.sec.gov/Archives/edgar/data/932787/000094787126000632/ss6466922_6k.htm) - 2026-06-16: 6-K, REPORT OF FOREIGN PRIVATE ISSUER (https://www.sec.gov/Archives/edgar/data/932787/000094787126000630/ss6463904_6k.htm) - 2026-06-02: 6-K, 6-K (https://www.sec.gov/Archives/edgar/data/932787/000093278726000040/stmicroelectronicsraisesit.htm) - 2026-05-27: 6-K, 6-K (https://www.sec.gov/Archives/edgar/d...",
+        "trend_summary_preview": "# STM Research Summary Generated: 2026-07-13T05:21:27.937Z Company: STMicroelectronics N.V. Themes: semiconductors, power electronics, microcontrollers, sensors, space supply chain ## Extracted Trend Snapshot - Revenue: $11.80B in 2025 FY (CY2025), -31.7% vs 2024 FY. - Gross profit: $4.00B in 2025 FY (CY2025), -51.7% vs 2024 FY. - Operating income: $175.0M in 2025 FY (CY2025), -96.2% vs 2024 FY. - Net income: $166.0M in 2025 FY (CY2025), -96.1% vs 2024 FY. - Diluted EPS: $0.18 in 2025 FY (CY2025), -96.0% vs 2024 FY. - Operating cash flow: $2.15B in 2025 FY (CY2025), -64.1% vs 2024 FY. - Capital expenditures: not available in extracted SEC facts. - Cash: $2.84B in 2025 FY (CY2025Q4I), -11.9% vs 2024 FY (CY2023Q4I). - Inventory: $3.14B in 2025 FY (CY2025Q4I), +16.2% vs 2024 FY (CY2023Q4I). ## Recent Filing Feed - 2026-07-06: 6-K, 6-K (https://www.sec.gov/Archives/edgar/data/932787/000093278726000046/c3400c-jul62026xdisclosure.htm) - 2026-06-16: 6-K, REPORT OF FOREIGN PRIVATE ISSUER (https://www.sec.gov/Archives/edgar/data/932787/000094787126000632/ss6466922_6k.htm) - 2026-06-16: 6-K, REPORT OF FOREIGN PRIVATE ISSUER (https://www.sec.gov/Archives/edgar/data/932787/000094787126000630/ss6463904_6k.htm) - 2026-06-02: 6-K, 6-K (https://www.sec.gov/Archives/edgar/data/932787/000093278726000040/stmicroelectronicsraisesit.htm) - 2026-05-27: 6-K, 6-K (https://www.sec.gov/Archives/edgar/d...",
         "management_notes_preview": "# STM Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-04-24 | Q1 2026 | [STMicro newsroom release](https://newsroom.st.com/media-center/press-item.html/c3392.html); [ST / SpaceX Starlink collaboration release](https://newsroom.st.com/media-center/press-item.html/t4741.html); [Via Satellite space-business context](https://www.satellitetoday.com/technology/2026/05/04/stmicroelectronics-expects-its-space-business-to-reach-more-than-3b-over-three-years/) | Demand improving; distribution inventory normalized; communications/peripherals, power, sensors, AI data center an..."
       },
       "financial_metrics": [
@@ -4041,7 +4041,7 @@
           "accession_number": "0000932787-26-000009"
         }
       ],
-      "filings_count": 177,
+      "filings_count": 176,
       "recent_filings": [
         {
           "form": "6-K",
@@ -5736,15 +5736,6 @@
           "description": "REPORT OF FOREIGN PRIVATE ISSUER",
           "items": "",
           "url": "https://www.sec.gov/Archives/edgar/data/932787/000094787123000754/ss2287301_6k.htm"
-        },
-        {
-          "form": "6-K",
-          "filing_date": "2023-07-10",
-          "report_date": "2023-07-10",
-          "accession_number": "0000947871-23-000739",
-          "description": "REPORT OF FOREIGN PRIVATE ISSUER",
-          "items": "",
-          "url": "https://www.sec.gov/Archives/edgar/data/932787/000094787123000739/ss2262923_6k.htm"
         }
       ]
     },
@@ -5760,15 +5751,15 @@
       ],
       "sec_ticker": "ASML",
       "market": {
-        "price": 1791.260009765625,
-        "as_of": "2026-07-10T14:00:09.000Z",
+        "price": 1761.74,
+        "as_of": "2026-07-13T12:07:02.000Z",
         "previous_close": 1804.25,
         "bid": null,
         "ask": null,
         "open": null,
-        "high": 1803.19,
+        "high": 1815.18,
         "low": 1766.66,
-        "volume": 277685,
+        "volume": 1218431,
         "avg_volume_30d": 2323233.4078,
         "high_52w": 1999.96,
         "low_52w": 683.48,
@@ -5779,12 +5770,12 @@
         "industry": "EQUITY",
         "ceo": "Christophe D. Fouquet",
         "employees": 44209,
-        "day_change": -12.989990234375,
-        "day_change_pct": -0.719966203928225,
+        "day_change": -42.50999999999999,
+        "day_change_pct": -2.3561036441734786,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 84.1471203334365,
-        "volume_vs_30d": 0.11952522681005844
+        "range_52w_position_pct": 81.90477637335925,
+        "volume_vs_30d": 0.5244548377744794
       },
       "strategy": {
         "priority": 6,
@@ -5824,7 +5815,7 @@
           "Cash: $12.92B in 2025 FY (CY2025Q4I), +84.4% vs 2024 FY (CY2023Q4I).",
           "Inventory: $11.43B in 2025 FY (CY2025Q4I), +29.1% vs 2024 FY (CY2023Q4I)."
         ],
-        "trend_summary_preview": "# ASML Research Summary Generated: 2026-07-10T05:15:42.864Z Company: ASML HOLDING NV Themes: semiconductor equipment, EUV lithography, chip supply chain, advanced-node capacity ## Extracted Trend Snapshot - Revenue: $32.67B in 2025 FY (CY2025), +18.5% vs 2024 FY. - Gross profit: $17.26B in 2025 FY (CY2025), +22.1% vs 2024 FY. - Operating income: $11.30B in 2025 FY (CY2025), +25.0% vs 2024 FY. - Net income: $9.61B in 2025 FY (CY2025), +22.6% vs 2024 FY. - Diluted EPS: $24.71 in 2025 FY (CY2025), +24.2% vs 2024 FY. - Operating cash flow: $12.66B in 2025 FY (CY2025), +132.5% vs 2024 FY. - Capital expenditures: $1.57B in 2025 FY (CY2025), -27.0% vs 2024 FY. - Cash: $12.92B in 2025 FY (CY2025Q4I), +84.4% vs 2024 FY (CY2023Q4I). - Inventory: $11.43B in 2025 FY (CY2025Q4I), +29.1% vs 2024 FY (CY2023Q4I). ## Recent Filing Feed - 2026-04-23: 6-K, 6-K (https://www.sec.gov/Archives/edgar/data/937966/000162828026026703/form6-kagmdisclosureofagmr.htm) - 2026-04-15: 6-K, 6-K (https://www.sec.gov/Archives/edgar/data/937966/000162828026025147/form6-kquarterlyfilings.htm) - 2026-03-11: 6-K, 6-K (https://www.sec.gov/Archives/edgar/data/937966/000162828026016671/form6-kagm.htm) - 2026-02-25: 20-F, 20-F (https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/asml-20251231.htm) - 2026-02-25: 6-K, 6-K (https://www.sec.gov/Archives/edgar/data/937966/000162828026011377/form6-kannualreportb...",
+        "trend_summary_preview": "# ASML Research Summary Generated: 2026-07-13T05:21:27.911Z Company: ASML HOLDING NV Themes: semiconductor equipment, EUV lithography, chip supply chain, advanced-node capacity ## Extracted Trend Snapshot - Revenue: $32.67B in 2025 FY (CY2025), +18.5% vs 2024 FY. - Gross profit: $17.26B in 2025 FY (CY2025), +22.1% vs 2024 FY. - Operating income: $11.30B in 2025 FY (CY2025), +25.0% vs 2024 FY. - Net income: $9.61B in 2025 FY (CY2025), +22.6% vs 2024 FY. - Diluted EPS: $24.71 in 2025 FY (CY2025), +24.2% vs 2024 FY. - Operating cash flow: $12.66B in 2025 FY (CY2025), +132.5% vs 2024 FY. - Capital expenditures: $1.57B in 2025 FY (CY2025), -27.0% vs 2024 FY. - Cash: $12.92B in 2025 FY (CY2025Q4I), +84.4% vs 2024 FY (CY2023Q4I). - Inventory: $11.43B in 2025 FY (CY2025Q4I), +29.1% vs 2024 FY (CY2023Q4I). ## Recent Filing Feed - 2026-04-23: 6-K, 6-K (https://www.sec.gov/Archives/edgar/data/937966/000162828026026703/form6-kagmdisclosureofagmr.htm) - 2026-04-15: 6-K, 6-K (https://www.sec.gov/Archives/edgar/data/937966/000162828026025147/form6-kquarterlyfilings.htm) - 2026-03-11: 6-K, 6-K (https://www.sec.gov/Archives/edgar/data/937966/000162828026016671/form6-kagm.htm) - 2026-02-25: 20-F, 20-F (https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/asml-20251231.htm) - 2026-02-25: 6-K, 6-K (https://www.sec.gov/Archives/edgar/data/937966/000162828026011377/form6-kannualreportb...",
         "management_notes_preview": "# ASML Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-04-15 | Q1 2026 | [ASML financial results page](https://www.asml.com/investors/financial-results/q1-2026); [ASML press release](https://www.asml.com/news/press-releases/2026/q1-2026-financial-results) | AI-driven leading-edge capacity supports EUV demand; Q1 sales EUR8.8B. | Gross margin 53.0%; R&D investment remains high. | FY26 net sales outlook raised/updated to EUR36B-EUR40B with 51%-53% GM; Q2 sales guide EUR8.4B-EUR9.0B. | Export controls, China mix, customer timing, and tool shipment lumpiness. | Sector-..."
       },
       "financial_metrics": [
@@ -6280,15 +6271,15 @@
       ],
       "sec_ticker": "MRVL",
       "market": {
-        "price": 236.44000244140625,
-        "as_of": "2026-07-10T14:00:12.000Z",
+        "price": 228.7918,
+        "as_of": "2026-07-13T12:07:15.000Z",
         "previous_close": 243.27,
         "bid": null,
         "ask": null,
         "open": null,
         "high": 240.94,
         "low": 232.02,
-        "volume": 3643620,
+        "volume": 15105972,
         "avg_volume_30d": 70120592.4308,
         "high_52w": 329.88,
         "low_52w": 61.44,
@@ -6299,12 +6290,12 @@
         "industry": "EQUITY",
         "ceo": "Matthew J. Murphy",
         "employees": 7480,
-        "day_change": -6.82999755859376,
-        "day_change_pct": -2.8075790515039913,
+        "day_change": -14.478200000000015,
+        "day_change_pct": -5.951494224524198,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 65.1914775895568,
-        "volume_vs_30d": 0.051962196463125776
+        "range_52w_position_pct": 62.34234838325138,
+        "volume_vs_30d": 0.2154284708148701
       },
       "strategy": {
         "priority": 4,
@@ -6344,7 +6335,7 @@
           "Cash: $3.84B in 2027 Q1 (CY2026Q1I), +333.9% vs 2026 Q1 (CY2025Q1I).",
           "Inventory: $1.40B in 2027 Q1 (CY2026Q1I), +30.8% vs 2026 Q1 (CY2025Q1I)."
         ],
-        "trend_summary_preview": "# MRVL Research Summary Generated: 2026-07-10T05:15:42.914Z Company: Marvell Technology, Inc. Themes: data center networking, custom silicon, optical interconnect, AI infrastructure, satellite ground infrastructure ## Extracted Trend Snapshot - Revenue: $2.42B in 2027 Q1 (CY2026Q1), +27.6% vs 2026 Q1. - Gross profit: $1.26B in 2027 Q1 (CY2026Q1), +32.4% vs 2026 Q1. - Operating income: $339.4M in 2027 Q1 (CY2026Q1), +25.4% vs 2026 Q1. - Net income: $34.5M in 2027 Q1 (CY2026Q1), -98.7% vs 2026 FY. - Diluted EPS: $0.04 in 2027 Q1 (CY2026Q1), -80.0% vs 2026 Q1. - Operating cash flow: $638.8M in 2027 Q1 (CY2026Q1), +91.9% vs 2026 Q1. - Capital expenditures: $155.7M in 2027 Q1 (CY2026Q1), +31.1% vs 2026 Q1. - Cash: $3.84B in 2027 Q1 (CY2026Q1I), +333.9% vs 2026 Q1 (CY2025Q1I). - Inventory: $1.40B in 2027 Q1 (CY2026Q1I), +30.8% vs 2026 Q1 (CY2025Q1I). ## Recent Filing Feed - 2026-07-09: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1835632/000119312526299843/d82462d8k.htm) - 2026-06-25: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1835632/000162828026045564/mrvl-20260625.htm) - 2026-06-11: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1835632/000119312526267688/d151562d8k.htm) - 2026-05-28: 10-Q, FORM 10-Q (https://www.sec.gov/Archives/edgar/data/1835632/000183563226000019/mrvl-20260502.htm) - 2026-05-27: 8-K, FORM 8-K (https://www.sec.gov/Archives/edgar/data/1835632/000...",
+        "trend_summary_preview": "# MRVL Research Summary Generated: 2026-07-13T05:21:27.934Z Company: Marvell Technology, Inc. Themes: data center networking, custom silicon, optical interconnect, AI infrastructure, satellite ground infrastructure ## Extracted Trend Snapshot - Revenue: $2.42B in 2027 Q1 (CY2026Q1), +27.6% vs 2026 Q1. - Gross profit: $1.26B in 2027 Q1 (CY2026Q1), +32.4% vs 2026 Q1. - Operating income: $339.4M in 2027 Q1 (CY2026Q1), +25.4% vs 2026 Q1. - Net income: $34.5M in 2027 Q1 (CY2026Q1), -98.7% vs 2026 FY. - Diluted EPS: $0.04 in 2027 Q1 (CY2026Q1), -80.0% vs 2026 Q1. - Operating cash flow: $638.8M in 2027 Q1 (CY2026Q1), +91.9% vs 2026 Q1. - Capital expenditures: $155.7M in 2027 Q1 (CY2026Q1), +31.1% vs 2026 Q1. - Cash: $3.84B in 2027 Q1 (CY2026Q1I), +333.9% vs 2026 Q1 (CY2025Q1I). - Inventory: $1.40B in 2027 Q1 (CY2026Q1I), +30.8% vs 2026 Q1 (CY2025Q1I). ## Recent Filing Feed - 2026-07-09: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1835632/000119312526299843/d82462d8k.htm) - 2026-06-25: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1835632/000162828026045564/mrvl-20260625.htm) - 2026-06-11: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1835632/000119312526267688/d151562d8k.htm) - 2026-05-28: 10-Q, FORM 10-Q (https://www.sec.gov/Archives/edgar/data/1835632/000183563226000019/mrvl-20260502.htm) - 2026-05-27: 8-K, FORM 8-K (https://www.sec.gov/Archives/edgar/data/1835632/000...",
         "management_notes_preview": "# MRVL Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-05-26 | FQ1 2027 | [Marvell IR press releases](https://investor.marvell.com/news-events/press-releases); [Marvell IR home](https://investor.marvell.com/) | AI bookings strong; custom silicon, 800G/1.6T optics, Ethernet switches, and cloud data-center connectivity are the demand center. | Mix benefits from data-center AI content; acquisitions add growth but integration risk. | Q2 guide above Street in secondary summaries; management raised AI-related expectations for FY27/FY28. | Customer concentration, custom A..."
       },
       "financial_metrics": [
@@ -7142,18 +7133,18 @@
       ],
       "sec_ticker": "NBIS",
       "market": {
-        "price": 208.2899932861328,
-        "as_of": "2026-07-10T14:00:13.000Z",
+        "price": 212.52,
+        "as_of": "2026-07-13T12:07:16.000Z",
         "previous_close": 216.2,
         "bid": null,
         "ask": null,
         "open": null,
-        "high": 215.668,
+        "high": 224.48,
         "low": 207.44,
-        "volume": 1614119,
+        "volume": 11490535,
         "avg_volume_30d": 17544523.1385,
         "high_52w": 299.86,
-        "low_52w": 43.89,
+        "low_52w": 48.8,
         "market_cap": 57673324200.8517,
         "pe_ratio": 81.425244,
         "pb_ratio": 9.68375,
@@ -7161,12 +7152,12 @@
         "industry": "EQUITY",
         "ceo": "Arkady Volozh",
         "employees": 1543,
-        "day_change": -7.910006713867176,
-        "day_change_pct": -3.658652504101377,
+        "day_change": -3.6799999999999784,
+        "day_change_pct": -1.702127659574458,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 64.22627389386757,
-        "volume_vs_30d": 0.09200130361240481
+        "range_52w_position_pct": 65.21150322632042,
+        "volume_vs_30d": 0.654935726054872
       },
       "strategy": {
         "priority": 9,
@@ -7207,7 +7198,7 @@
           "Cash: $3.68B in 2025 FY (CY2025Q4I), +3068.0% vs 2024 FY.",
           "Inventory: $21.28B in 2023 FY (CY2023Q4I)."
         ],
-        "trend_summary_preview": "# NBIS Research Summary Generated: 2026-07-10T05:15:42.918Z Company: Nebius Group N.V. Themes: AI cloud, GPU infrastructure, data centers, AI infrastructure, satellite data workloads ## Extracted Trend Snapshot - Revenue: $529.8M in 2025 FY (CY2025), +2434.9% vs 2024 FY. - Gross profit: not available in extracted SEC facts. - Operating income: $-611.7M in 2025 FY (CY2025), -86.8% vs 2024 FY. - Net income: $82.5M in 2025 FY (CY2025), -65.8% vs 2024 FY. - Diluted EPS: $0.33 in 2025 FY (CY2025), -49.2% vs 2024 FY. - Operating cash flow: $384.8M in 2025 FY (CY2025), -53.6% vs 2024 FY. - Capital expenditures: $4.07B in 2025 FY (CY2025), +4775.3% vs 2024 FY. - Cash: $3.68B in 2025 FY (CY2025Q4I), +3068.0% vs 2024 FY. - Inventory: $21.28B in 2023 FY (CY2023Q4I). ## Recent Filing Feed - 2026-06-16: 6-K, FORM 6-K (https://www.sec.gov/Archives/edgar/data/1513845/000110465926074352/tm2618059d1_6k.htm) - 2026-05-20: 6-K, 6-K (https://www.sec.gov/Archives/edgar/data/1513845/000110465926064092/nbis-20260331x6k.htm) - 2026-05-13: 6-K, FORM 6-K (https://www.sec.gov/Archives/edgar/data/1513845/000110465926059872/tm2614392d1_6k.htm) - 2026-05-01: 6-K, FORM 6-K (https://www.sec.gov/Archives/edgar/data/1513845/000110465926053464/tm2613296d1_6k.htm) - 2026-04-30: 20-F, 20-F (https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/nbis-20251231x20f.htm) - 2026-03-20: 6-K, FORM 6-K (https...",
+        "trend_summary_preview": "# NBIS Research Summary Generated: 2026-07-13T05:21:27.935Z Company: Nebius Group N.V. Themes: AI cloud, GPU infrastructure, data centers, AI infrastructure, satellite data workloads ## Extracted Trend Snapshot - Revenue: $529.8M in 2025 FY (CY2025), +2434.9% vs 2024 FY. - Gross profit: not available in extracted SEC facts. - Operating income: $-611.7M in 2025 FY (CY2025), -86.8% vs 2024 FY. - Net income: $82.5M in 2025 FY (CY2025), -65.8% vs 2024 FY. - Diluted EPS: $0.33 in 2025 FY (CY2025), -49.2% vs 2024 FY. - Operating cash flow: $384.8M in 2025 FY (CY2025), -53.6% vs 2024 FY. - Capital expenditures: $4.07B in 2025 FY (CY2025), +4775.3% vs 2024 FY. - Cash: $3.68B in 2025 FY (CY2025Q4I), +3068.0% vs 2024 FY. - Inventory: $21.28B in 2023 FY (CY2023Q4I). ## Recent Filing Feed - 2026-06-16: 6-K, FORM 6-K (https://www.sec.gov/Archives/edgar/data/1513845/000110465926074352/tm2618059d1_6k.htm) - 2026-05-20: 6-K, 6-K (https://www.sec.gov/Archives/edgar/data/1513845/000110465926064092/nbis-20260331x6k.htm) - 2026-05-13: 6-K, FORM 6-K (https://www.sec.gov/Archives/edgar/data/1513845/000110465926059872/tm2614392d1_6k.htm) - 2026-05-01: 6-K, FORM 6-K (https://www.sec.gov/Archives/edgar/data/1513845/000110465926053464/tm2613296d1_6k.htm) - 2026-04-30: 20-F, 20-F (https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/nbis-20251231x20f.htm) - 2026-03-20: 6-K, FORM 6-K (https...",
         "management_notes_preview": "# NBIS Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-05-13 | Q1 2026 | [Nebius newsroom release](https://nebius.com/newsroom/nebius-reports-first-quarter-2026-financial-results); [shareholder letter PDF](https://assets.nebius.com/assets/aa1bc2e6-df83-40cd-a6a2-95e7cda3d16c/Nebius%20SHL_Q1%202026.pdf?cache-buster=2026-05-13T14%3A00%3A35.352Z); [MarketWatch Meta cloud context](https://www.marketwatch.com/story/coreweave-nebius-shares-tumble-as-meta-stands-to-become-a-fresh-threat-in-the-cloud-a47c3616) | AI cloud revenue scaled sharply; pipeline up strongly and GPU..."
       },
       "financial_metrics": [
@@ -8063,18 +8054,18 @@
       ],
       "sec_ticker": "APLD",
       "market": {
-        "price": 31.075000762939453,
-        "as_of": "2026-07-10T14:00:13.000Z",
+        "price": 30.65,
+        "as_of": "2026-07-13T12:06:58.000Z",
         "previous_close": 32.29,
         "bid": null,
         "ask": null,
         "open": null,
         "high": 32.2,
-        "low": 30.98,
-        "volume": 1975076,
+        "low": 30.594,
+        "volume": 12361767,
         "avg_volume_30d": 20888619.3076,
         "high_52w": 50.725,
-        "low_52w": 9.02,
+        "low_52w": 9.235,
         "market_cap": 10150533705.6,
         "pe_ratio": -48.05,
         "pb_ratio": 6.73203,
@@ -8082,12 +8073,12 @@
         "industry": "EQUITY",
         "ceo": "Wesley Carl Cummins",
         "employees": 205,
-        "day_change": -1.214999237060546,
-        "day_change_pct": -3.7627724901224715,
+        "day_change": -1.6400000000000006,
+        "day_change_pct": -5.07897181790028,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 52.883349149836846,
-        "volume_vs_30d": 0.09455273088735928
+        "range_52w_position_pct": 51.61484695107254,
+        "volume_vs_30d": 0.5917943554796062
       },
       "strategy": {
         "priority": 9,
@@ -8131,7 +8122,7 @@
           "Cash: $1.73B in 2026 Q3 (CY2026Q1I), +2417.3% vs 2025 Q3 (CY2025Q1I).",
           "Inventory: not available in extracted SEC facts."
         ],
-        "trend_summary_preview": "# APLD Research Summary Generated: 2026-07-10T05:15:42.860Z Company: Applied Digital Corp. Themes: AI data centers, HPC hosting, power capacity, GPU infrastructure ## Extracted Trend Snapshot - Revenue: $126.6M in 2026 Q3 (CY2026Q1), +139.3% vs 2025 Q3. - Gross profit: not available in extracted SEC facts. - Operating income: $-85.7M in 2026 Q3 (CY2026Q1), -352.2% vs 2025 Q3. - Net income: $-70.6M in 2026 Q3 (CY2026Q1), -98.4% vs 2025 Q3. - Diluted EPS: $-0.36 in 2026 Q3 (CY2026Q1), -125.0% vs 2025 Q3. - Operating cash flow: $-42.9M in 2026 Q3, +64.9% vs 2025 Q3. - Capital expenditures: $1.58B in 2026 Q3, +226.2% vs 2025 Q3. - Cash: $1.73B in 2026 Q3 (CY2026Q1I), +2417.3% vs 2025 Q3 (CY2025Q1I). - Inventory: not available in extracted SEC facts. ## Recent Filing Feed - 2026-06-26: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1144879/000149315226030333/form8-k.htm) - 2026-06-16: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1144879/000149315226028899/form8-k.htm) - 2026-06-09: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1144879/000149315226027984/form8-k.htm) - 2026-06-09: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1144879/000149315226027979/form8-k.htm) - 2026-06-09: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1144879/000149315226027857/form8-k.htm) - 2026-05-05: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1144879/000149315226021333/form8-k.ht...",
+        "trend_summary_preview": "# APLD Research Summary Generated: 2026-07-13T05:21:27.910Z Company: Applied Digital Corp. Themes: AI data centers, HPC hosting, power capacity, GPU infrastructure ## Extracted Trend Snapshot - Revenue: $126.6M in 2026 Q3 (CY2026Q1), +139.3% vs 2025 Q3. - Gross profit: not available in extracted SEC facts. - Operating income: $-85.7M in 2026 Q3 (CY2026Q1), -352.2% vs 2025 Q3. - Net income: $-70.6M in 2026 Q3 (CY2026Q1), -98.4% vs 2025 Q3. - Diluted EPS: $-0.36 in 2026 Q3 (CY2026Q1), -125.0% vs 2025 Q3. - Operating cash flow: $-42.9M in 2026 Q3, +64.9% vs 2025 Q3. - Capital expenditures: $1.58B in 2026 Q3, +226.2% vs 2025 Q3. - Cash: $1.73B in 2026 Q3 (CY2026Q1I), +2417.3% vs 2025 Q3 (CY2025Q1I). - Inventory: not available in extracted SEC facts. ## Recent Filing Feed - 2026-06-26: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1144879/000149315226030333/form8-k.htm) - 2026-06-16: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1144879/000149315226028899/form8-k.htm) - 2026-06-09: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1144879/000149315226027984/form8-k.htm) - 2026-06-09: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1144879/000149315226027979/form8-k.htm) - 2026-06-09: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1144879/000149315226027857/form8-k.htm) - 2026-05-05: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1144879/000149315226021333/form8-k.ht...",
         "management_notes_preview": "# APLD Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-04-09 | FQ3 2026 | [Applied Digital IR home](https://ir.applieddigital.com/); [IBD data-center supply-chain context](https://www.investors.com/research/the-new-america/ai-data-centers-aaon-stock-applied-digital-coreweave/) | AI/HPC data-center infrastructure demand remains the core driver; North Dakota campus and cooling/power ecosystem are active supply-chain themes. | Profitability still depends on lease-up, utilization, financing cost, and construction execution. | Watch for new customer, financing, energiza..."
       },
       "financial_metrics": [
@@ -9442,15 +9433,15 @@
       ],
       "sec_ticker": "NVDA",
       "market": {
-        "price": 207.36000061035156,
-        "as_of": "2026-07-10T14:00:12.000Z",
+        "price": 208.17,
+        "as_of": "2026-07-13T12:07:09.000Z",
         "previous_close": 202.78,
         "bid": null,
         "ask": null,
         "open": null,
-        "high": 207.44,
+        "high": 211,
         "low": 201.92,
-        "volume": 21165257,
+        "volume": 148421001,
         "avg_volume_30d": 163109783.354,
         "high_52w": 236.54,
         "low_52w": 162.02,
@@ -9461,12 +9452,12 @@
         "industry": "EQUITY",
         "ceo": "Jen Hsun Huang",
         "employees": 42000,
-        "day_change": 4.580000610351561,
-        "day_change_pct": 2.258605686138456,
+        "day_change": 5.389999999999986,
+        "day_change_pct": 2.6580530624321854,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 60.84272760379974,
-        "volume_vs_30d": 0.12976080627895062
+        "range_52w_position_pct": 61.92968330649489,
+        "volume_vs_30d": 0.9099454241679625
       },
       "strategy": {
         "priority": 5,
@@ -9505,7 +9496,7 @@
           "Cash: $13.24B in 2027 Q1 (CY2026Q1I), -13.1% vs 2026 Q1 (CY2025Q1I).",
           "Inventory: $25.80B in 2027 Q1 (CY2026Q1I), +127.6% vs 2026 Q1 (CY2025Q1I)."
         ],
-        "trend_summary_preview": "# NVDA Research Summary Generated: 2026-07-10T05:15:42.919Z Company: NVIDIA CORP Themes: AI accelerators, data centers, networking, AI software ## Extracted Trend Snapshot - Revenue: $81.61B in 2027 Q1 (CY2026Q1), +85.2% vs 2026 Q1. - Gross profit: $61.16B in 2027 Q1 (CY2026Q1), +129.3% vs 2026 Q1. - Operating income: $53.54B in 2027 Q1 (CY2026Q1), +147.4% vs 2026 Q1. - Net income: $58.32B in 2027 Q1 (CY2026Q1), +210.6% vs 2026 Q1. - Diluted EPS: $2.39 in 2027 Q1 (CY2026Q1), +214.5% vs 2026 Q1. - Operating cash flow: $50.34B in 2027 Q1 (CY2026Q1), +83.6% vs 2026 Q1. - Capital expenditures: $1.76B in 2027 Q1 (CY2026Q1), +43.2% vs 2026 Q1. - Cash: $13.24B in 2027 Q1 (CY2026Q1I), -13.1% vs 2026 Q1 (CY2025Q1I). - Inventory: $25.80B in 2027 Q1 (CY2026Q1I), +127.6% vs 2026 Q1 (CY2025Q1I). ## Recent Filing Feed - 2026-07-02: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1045810/000104581026000060/nvda-20260628.htm) - 2026-06-30: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1045810/000104581026000056/nvda-20260624.htm) - 2026-06-18: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1045810/000119312526275783/d48176d8k.htm) - 2026-05-20: 10-Q, 10-Q (https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm) - 2026-05-20: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/nvda-20260520.htm) - 2026-05-08: 8-K, 8-K (https://www...",
+        "trend_summary_preview": "# NVDA Research Summary Generated: 2026-07-13T05:21:27.936Z Company: NVIDIA CORP Themes: AI accelerators, data centers, networking, AI software ## Extracted Trend Snapshot - Revenue: $81.61B in 2027 Q1 (CY2026Q1), +85.2% vs 2026 Q1. - Gross profit: $61.16B in 2027 Q1 (CY2026Q1), +129.3% vs 2026 Q1. - Operating income: $53.54B in 2027 Q1 (CY2026Q1), +147.4% vs 2026 Q1. - Net income: $58.32B in 2027 Q1 (CY2026Q1), +210.6% vs 2026 Q1. - Diluted EPS: $2.39 in 2027 Q1 (CY2026Q1), +214.5% vs 2026 Q1. - Operating cash flow: $50.34B in 2027 Q1 (CY2026Q1), +83.6% vs 2026 Q1. - Capital expenditures: $1.76B in 2027 Q1 (CY2026Q1), +43.2% vs 2026 Q1. - Cash: $13.24B in 2027 Q1 (CY2026Q1I), -13.1% vs 2026 Q1 (CY2025Q1I). - Inventory: $25.80B in 2027 Q1 (CY2026Q1I), +127.6% vs 2026 Q1 (CY2025Q1I). ## Recent Filing Feed - 2026-07-02: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1045810/000104581026000060/nvda-20260628.htm) - 2026-06-30: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1045810/000104581026000056/nvda-20260624.htm) - 2026-06-18: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1045810/000119312526275783/d48176d8k.htm) - 2026-05-20: 10-Q, 10-Q (https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm) - 2026-05-20: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/nvda-20260520.htm) - 2026-05-08: 8-K, 8-K (https://www...",
         "management_notes_preview": "# NVDA Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-05-20 | FQ1 2027 | [NVIDIA news release](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027); [NVIDIA IR financial reports](https://investor.nvidia.com/financial-info/financial-reports/default.aspx); [call transcript PDF](https://s201.q4cdn.com/141608511/files/doc_financials/2027/q1/NVDA-Q1-2027-Earnings-Call-20-May-2026-5_00-PM-ET.pdf) | Record revenue $81.6B and Data Center $75.2B; Blackwell/frontier AI demand broad across hyperscalers, AI clouds, sovereign and..."
       },
       "financial_metrics": [
@@ -10140,18 +10131,18 @@
       ],
       "sec_ticker": "AMD",
       "market": {
-        "price": 550.4149780273438,
-        "as_of": "2026-07-10T14:00:13.000Z",
-        "previous_close": 546.72,
+        "price": 544.1,
+        "as_of": "2026-07-13T12:07:11.000Z",
+        "previous_close": 546.72003,
         "bid": null,
         "ask": null,
         "open": null,
-        "high": 555.97,
+        "high": 560.25,
         "low": 540.05,
-        "volume": 3993370,
+        "volume": 20704530,
         "avg_volume_30d": 31758238.7656,
         "high_52w": 584.73,
-        "low_52w": 141.6,
+        "low_52w": 141.9,
         "market_cap": 881975510153.6239,
         "pe_ratio": 190.656077,
         "pb_ratio": 14.689,
@@ -10159,12 +10150,12 @@
         "industry": "EQUITY",
         "ceo": "Lisa T. Su",
         "employees": 31000,
-        "day_change": 3.6949780273437227,
-        "day_change_pct": 0.6758446786917842,
+        "day_change": -2.620029999999929,
+        "day_change_pct": -0.479227000335058,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 92.25621782035604,
-        "volume_vs_30d": 0.1257428042365357
+        "range_52w_position_pct": 90.82492152744845,
+        "volume_vs_30d": 0.6519420095306672
       },
       "strategy": {
         "priority": 5,
@@ -10203,7 +10194,7 @@
           "Cash: $5.58B in 2026 Q1 (CY2026Q1I), -7.7% vs 2025 Q1 (CY2025Q1I).",
           "Inventory: $8.04B in 2026 Q1 (CY2026Q1I), +25.4% vs 2025 Q1 (CY2025Q1I)."
         ],
-        "trend_summary_preview": "# AMD Research Summary Generated: 2026-07-10T05:15:42.838Z Company: ADVANCED MICRO DEVICES INC Themes: AI accelerators, CPUs, GPUs, data centers ## Extracted Trend Snapshot - Revenue: $10.25B in 2026 Q1 (CY2026Q1), +37.8% vs 2025 Q1. - Gross profit: $5.42B in 2026 Q1 (CY2026Q1), +45.0% vs 2025 Q1. - Operating income: $1.48B in 2026 Q1 (CY2026Q1), +83.1% vs 2025 Q1. - Net income: $1.38B in 2026 Q1 (CY2026Q1), +95.1% vs 2025 Q1. - Diluted EPS: $0.84 in 2026 Q1 (CY2026Q1), +90.9% vs 2025 Q1. - Operating cash flow: $2.96B in 2026 Q1 (CY2026Q1), +214.7% vs 2025 Q1. - Capital expenditures: $389.0M in 2026 Q1 (CY2026Q1), +83.5% vs 2025 Q1. - Cash: $5.58B in 2026 Q1 (CY2026Q1I), -7.7% vs 2025 Q1 (CY2025Q1I). - Inventory: $8.04B in 2026 Q1 (CY2026Q1I), +25.4% vs 2025 Q1 (CY2025Q1I). ## Recent Filing Feed - 2026-07-01: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/2488/000000248826000115/amd-20260626.htm) - 2026-05-15: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/2488/000119312526226746/d118163d8k.htm) - 2026-05-06: 10-Q, 10-Q (https://www.sec.gov/Archives/edgar/data/2488/000000248826000076/amd-20260328.htm) - 2026-05-05: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/2488/000000248826000072/amd-20260505.htm) - 2026-02-24: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/2488/000000248826000045/amd-20260223.htm) - 2026-02-17: 8-K, 8-K (https://www.sec.gov/Archives/edgar/dat...",
+        "trend_summary_preview": "# AMD Research Summary Generated: 2026-07-13T05:21:27.904Z Company: ADVANCED MICRO DEVICES INC Themes: AI accelerators, CPUs, GPUs, data centers ## Extracted Trend Snapshot - Revenue: $10.25B in 2026 Q1 (CY2026Q1), +37.8% vs 2025 Q1. - Gross profit: $5.42B in 2026 Q1 (CY2026Q1), +45.0% vs 2025 Q1. - Operating income: $1.48B in 2026 Q1 (CY2026Q1), +83.1% vs 2025 Q1. - Net income: $1.38B in 2026 Q1 (CY2026Q1), +95.1% vs 2025 Q1. - Diluted EPS: $0.84 in 2026 Q1 (CY2026Q1), +90.9% vs 2025 Q1. - Operating cash flow: $2.96B in 2026 Q1 (CY2026Q1), +214.7% vs 2025 Q1. - Capital expenditures: $389.0M in 2026 Q1 (CY2026Q1), +83.5% vs 2025 Q1. - Cash: $5.58B in 2026 Q1 (CY2026Q1I), -7.7% vs 2025 Q1 (CY2025Q1I). - Inventory: $8.04B in 2026 Q1 (CY2026Q1I), +25.4% vs 2025 Q1 (CY2025Q1I). ## Recent Filing Feed - 2026-07-01: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/2488/000000248826000115/amd-20260626.htm) - 2026-05-15: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/2488/000119312526226746/d118163d8k.htm) - 2026-05-06: 10-Q, 10-Q (https://www.sec.gov/Archives/edgar/data/2488/000000248826000076/amd-20260328.htm) - 2026-05-05: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/2488/000000248826000072/amd-20260505.htm) - 2026-02-24: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/2488/000000248826000045/amd-20260223.htm) - 2026-02-17: 8-K, 8-K (https://www.sec.gov/Archives/edgar/dat...",
         "management_notes_preview": "# AMD Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-05-05 | Q1 2026 | [AMD IR home](https://ir.amd.com/); [Yahoo Finance call summary](https://finance.yahoo.com/quote/AMD/earnings/AMD-Q1-2026-earnings_call-551290.html/) | Data Center growth led results; EPYC plus Instinct/MI350 AI accelerator demand drives the thesis. | Mix improves with data-center growth, but AI accelerator ramp can pressure near-term margins. | Management raised full-year expectations in public summaries and expects sequential data-center growth. | Execution versus NVIDIA, supply allocation, a..."
       },
       "financial_metrics": [
@@ -10325,7 +10316,7 @@
           "accession_number": "0000002488-26-000076"
         }
       ],
-      "filings_count": 48,
+      "filings_count": 47,
       "recent_filings": [
         {
           "form": "8-K",
@@ -10859,15 +10850,6 @@
           "description": "8-K",
           "items": "2.02,7.01,9.01",
           "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248823000135/amd-20230801.htm"
-        },
-        {
-          "form": "8-K",
-          "filing_date": "2023-07-10",
-          "report_date": "2023-07-05",
-          "accession_number": "0000002488-23-000123",
-          "description": "8-K",
-          "items": "5.02",
-          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248823000123/amd-20230705.htm"
         }
       ]
     },
@@ -10883,15 +10865,15 @@
       ],
       "sec_ticker": "AVGO",
       "market": {
-        "price": 399.3900146484375,
-        "as_of": "2026-07-10T14:00:12.000Z",
-        "previous_close": 401.11,
+        "price": 393.2808,
+        "as_of": "2026-07-13T12:07:06.000Z",
+        "previous_close": 401.11002,
         "bid": null,
         "ask": null,
         "open": null,
         "high": 402.44,
         "low": 395.7,
-        "volume": 2338656,
+        "volume": 14595928,
         "avg_volume_30d": 36595233.2636,
         "high_52w": 495,
         "low_52w": 269.58,
@@ -10902,12 +10884,12 @@
         "industry": "EQUITY",
         "ceo": "Hock E. Tan",
         "employees": 33000,
-        "day_change": -1.7199853515625136,
-        "day_change_pct": -0.42880640013026694,
+        "day_change": -7.829220000000021,
+        "day_change_pct": -1.951888412062112,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 57.585846264057096,
-        "volume_vs_30d": 0.06390602795600102
+        "range_52w_position_pct": 54.8756986957679,
+        "volume_vs_30d": 0.39884779241229923
       },
       "strategy": {
         "priority": 4,
@@ -10947,7 +10929,7 @@
           "Cash: $19.63B in 2026 Q2 (CY2026Q1I), +107.2% vs 2025 Q2 (CY2025Q1I).",
           "Inventory: $4.33B in 2026 Q2 (CY2026Q1I), +114.6% vs 2025 Q2 (CY2025Q1I)."
         ],
-        "trend_summary_preview": "# AVGO Research Summary Generated: 2026-07-10T05:15:42.904Z Company: Broadcom Inc. Themes: AI networking, custom silicon, semiconductors, infrastructure software ## Extracted Trend Snapshot - Revenue: $22.19B in 2026 Q2 (CY2026Q1), +47.9% vs 2025 Q2. - Gross profit: $15.41B in 2026 Q2 (CY2026Q1), +51.2% vs 2025 Q2. - Operating income: $10.79B in 2026 Q2 (CY2026Q1), +85.1% vs 2025 Q2. - Net income: $9.31B in 2026 Q2 (CY2026Q1), +87.5% vs 2025 Q2. - Diluted EPS: $1.91 in 2026 Q2 (CY2026Q1), +85.4% vs 2025 Q2. - Operating cash flow: $18.75B in 2026 Q2, +48.0% vs 2025 Q2. - Capital expenditures: $481.0M in 2026 Q2, +97.1% vs 2025 Q2. - Cash: $19.63B in 2026 Q2 (CY2026Q1I), +107.2% vs 2025 Q2 (CY2025Q1I). - Inventory: $4.33B in 2026 Q2 (CY2026Q1I), +114.6% vs 2025 Q2 (CY2025Q1I). ## Recent Filing Feed - 2026-07-06: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1730168/000119312526295589/d84378d8k.htm) - 2026-06-18: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1730168/000119312526275077/d149683d8k.htm) - 2026-06-11: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1730168/000119312526266777/d152717d8k.htm) - 2026-06-09: 10-Q, 10-Q (https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm) - 2026-06-03: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1730168/000173016826000051/avgo-20260603.htm) - 2026-04-21: 8-K, 8-K (https://www.sec.gov/Archi...",
+        "trend_summary_preview": "# AVGO Research Summary Generated: 2026-07-13T05:21:27.930Z Company: Broadcom Inc. Themes: AI networking, custom silicon, semiconductors, infrastructure software ## Extracted Trend Snapshot - Revenue: $22.19B in 2026 Q2 (CY2026Q1), +47.9% vs 2025 Q2. - Gross profit: $15.41B in 2026 Q2 (CY2026Q1), +51.2% vs 2025 Q2. - Operating income: $10.79B in 2026 Q2 (CY2026Q1), +85.1% vs 2025 Q2. - Net income: $9.31B in 2026 Q2 (CY2026Q1), +87.5% vs 2025 Q2. - Diluted EPS: $1.91 in 2026 Q2 (CY2026Q1), +85.4% vs 2025 Q2. - Operating cash flow: $18.75B in 2026 Q2, +48.0% vs 2025 Q2. - Capital expenditures: $481.0M in 2026 Q2, +97.1% vs 2025 Q2. - Cash: $19.63B in 2026 Q2 (CY2026Q1I), +107.2% vs 2025 Q2 (CY2025Q1I). - Inventory: $4.33B in 2026 Q2 (CY2026Q1I), +114.6% vs 2025 Q2 (CY2025Q1I). ## Recent Filing Feed - 2026-07-06: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1730168/000119312526295589/d84378d8k.htm) - 2026-06-18: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1730168/000119312526275077/d149683d8k.htm) - 2026-06-11: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1730168/000119312526266777/d152717d8k.htm) - 2026-06-09: 10-Q, 10-Q (https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm) - 2026-06-03: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1730168/000173016826000051/avgo-20260603.htm) - 2026-04-21: 8-K, 8-K (https://www.sec.gov/Archi...",
         "management_notes_preview": "# AVGO Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-06-04 | FQ2 2026 | [Broadcom Q2 release via PRNewswire](https://www.prnewswire.com/news-releases/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial-results-and-quarterly-dividend-302790698.html); [Broadcom Q1 IR release](https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-first-quarter-fiscal-year-2026-financial) | AI semiconductor revenue accelerated; custom AI accelerators and AI networking remain core. | Record operating profit/free cash flow in Q2 supports ..."
       },
       "financial_metrics": [
@@ -11627,15 +11609,15 @@
       ],
       "sec_ticker": "DELL",
       "market": {
-        "price": 443.4800109863281,
-        "as_of": "2026-07-10T14:00:03.000Z",
+        "price": 427.31,
+        "as_of": "2026-07-13T12:06:20.000Z",
         "previous_close": 450.22,
         "bid": null,
         "ask": null,
         "open": null,
-        "high": 451.895,
-        "low": 438.92,
-        "volume": 740903,
+        "high": 452.8,
+        "low": 433.25,
+        "volume": 5041286,
         "avg_volume_30d": 10102295.9918,
         "high_52w": 469.47,
         "low_52w": 110.22,
@@ -11646,12 +11628,12 @@
         "industry": "EQUITY",
         "ceo": "Michael Saul Dell",
         "employees": 97000,
-        "day_change": -6.739989013671902,
-        "day_change_pct": -1.497043448463396,
+        "day_change": -22.910000000000025,
+        "day_change_pct": -5.088623339700596,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 92.76548670461464,
-        "volume_vs_30d": 0.07334006057646583
+        "range_52w_position_pct": 88.26443980514964,
+        "volume_vs_30d": 0.4990237866809678
       },
       "strategy": {
         "priority": 3,
@@ -11691,7 +11673,7 @@
           "Cash: $11.58B in 2027 Q1 (CY2026Q1I), +50.4% vs 2026 Q1 (CY2025Q1I).",
           "Inventory: $15.05B in 2027 Q1 (CY2026Q1I), +103.0% vs 2026 Q1 (CY2025Q1I)."
         ],
-        "trend_summary_preview": "# DELL Research Summary Generated: 2026-07-10T05:15:42.907Z Company: Dell Technologies Inc. Themes: AI servers, enterprise hardware, storage, PCs ## Extracted Trend Snapshot - Revenue: $43.84B in 2027 Q1 (CY2026Q1), +87.5% vs 2026 Q1. - Gross profit: $7.78B in 2027 Q1 (CY2026Q1), +57.6% vs 2026 Q1. - Operating income: $3.66B in 2027 Q1 (CY2026Q1), +213.8% vs 2026 Q1. - Net income: $3.44B in 2027 Q1 (CY2026Q1), +256.3% vs 2026 Q1. - Diluted EPS: $5.24 in 2027 Q1 (CY2026Q1), +282.5% vs 2026 Q1. - Operating cash flow: $4.08B in 2027 Q1 (CY2026Q1), +46.0% vs 2026 Q1. - Capital expenditures: $963.0M in 2027 Q1 (CY2026Q1), +69.5% vs 2026 Q1. - Cash: $11.58B in 2027 Q1 (CY2026Q1I), +50.4% vs 2026 Q1 (CY2025Q1I). - Inventory: $15.05B in 2027 Q1 (CY2026Q1I), +103.0% vs 2026 Q1 (CY2025Q1I). ## Recent Filing Feed - 2026-07-06: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1571996/000119312526296224/d32716d8k.htm) - 2026-07-01: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1571996/000157199626000036/dell-20260625.htm) - 2026-06-17: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1571996/000157199626000032/dell-20260611.htm) - 2026-06-16: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1571996/000119312526272720/d20600d8k.htm) - 2026-06-12: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1571996/000119312526269594/d131151d8k.htm) - 2026-06-10: 8-K, 8-K (https://www.sec.gov/Ar...",
+        "trend_summary_preview": "# DELL Research Summary Generated: 2026-07-13T05:21:27.931Z Company: Dell Technologies Inc. Themes: AI servers, enterprise hardware, storage, PCs ## Extracted Trend Snapshot - Revenue: $43.84B in 2027 Q1 (CY2026Q1), +87.5% vs 2026 Q1. - Gross profit: $7.78B in 2027 Q1 (CY2026Q1), +57.6% vs 2026 Q1. - Operating income: $3.66B in 2027 Q1 (CY2026Q1), +213.8% vs 2026 Q1. - Net income: $3.44B in 2027 Q1 (CY2026Q1), +256.3% vs 2026 Q1. - Diluted EPS: $5.24 in 2027 Q1 (CY2026Q1), +282.5% vs 2026 Q1. - Operating cash flow: $4.08B in 2027 Q1 (CY2026Q1), +46.0% vs 2026 Q1. - Capital expenditures: $963.0M in 2027 Q1 (CY2026Q1), +69.5% vs 2026 Q1. - Cash: $11.58B in 2027 Q1 (CY2026Q1I), +50.4% vs 2026 Q1 (CY2025Q1I). - Inventory: $15.05B in 2027 Q1 (CY2026Q1I), +103.0% vs 2026 Q1 (CY2025Q1I). ## Recent Filing Feed - 2026-07-06: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1571996/000119312526296224/d32716d8k.htm) - 2026-07-01: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1571996/000157199626000036/dell-20260625.htm) - 2026-06-17: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1571996/000157199626000032/dell-20260611.htm) - 2026-06-16: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1571996/000119312526272720/d20600d8k.htm) - 2026-06-12: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1571996/000119312526269594/d131151d8k.htm) - 2026-06-10: 8-K, 8-K (https://www.sec.gov/Ar...",
         "management_notes_preview": "# DELL Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-05-29 | FQ1 2027 | [Dell IR home](https://investors.delltechnologies.com/); [Dell newsroom release](https://www.dell.com/en-us/dt/corporate/newsroom/announcements/detailpage.press-releases~usa~2026~05~dell-technologies-delivers-first-quarter-fiscal-2027-financial-results.htm); [Dell IR release PDF](https://investors.delltechnologies.com/static-files/ef369f17-2b83-4fd4-9a37-6b6ab53ac9c5) | AI server revenue and orders surged; demand extends to traditional servers/networking and storage. | Operating income strong..."
       },
       "financial_metrics": [
@@ -12505,15 +12487,15 @@
       ],
       "sec_ticker": "HPQ",
       "market": {
-        "price": 24.75,
-        "as_of": "2026-07-10T14:00:11.000Z",
+        "price": 24.19,
+        "as_of": "2026-07-13T12:00:03.000Z",
         "previous_close": 24.13,
         "bid": null,
         "ask": null,
         "open": null,
         "high": 24.845,
-        "low": 24.215,
-        "volume": 1330542,
+        "low": 24.125,
+        "volume": 10960617,
         "avg_volume_30d": 18051875.8614,
         "high_52w": 29.65,
         "low_52w": 17.56,
@@ -12524,12 +12506,12 @@
         "industry": "EQUITY",
         "ceo": "Bruce Dale Broussard",
         "employees": 55000,
-        "day_change": 0.620000000000001,
-        "day_change_pct": 2.5694156651471243,
+        "day_change": 0.060000000000002274,
+        "day_change_pct": 0.2486531288852146,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 59.47063688999174,
-        "volume_vs_30d": 0.07370657820914191
+        "range_52w_position_pct": 54.838709677419374,
+        "volume_vs_30d": 0.6071732978973609
       },
       "strategy": {
         "priority": 11,
@@ -12568,7 +12550,7 @@
           "Cash: $3.70B in 2026 Q2 (CY2026Q1I), +37.3% vs 2025 Q2 (CY2025Q1I).",
           "Inventory: $9.20B in 2026 Q2 (CY2026Q1I), +12.6% vs 2025 Q2 (CY2025Q1I)."
         ],
-        "trend_summary_preview": "# HPQ Research Summary Generated: 2026-07-10T05:15:42.912Z Company: HP INC Themes: PCs, printing, AI PCs ## Extracted Trend Snapshot - Revenue: $14.41B in 2026 Q2 (CY2026Q1), +9.0% vs 2025 Q2. - Gross profit: $3.02B in 2026 Q2 (CY2026Q1), +10.1% vs 2025 Q2. - Operating income: $612.0M in 2026 Q2 (CY2026Q1), -6.4% vs 2025 Q2. - Net income: $450.0M in 2026 Q2 (CY2026Q1), +10.8% vs 2025 Q2. - Diluted EPS: $0.49 in 2026 Q2 (CY2026Q1), +16.7% vs 2025 Q2. - Operating cash flow: $1.31B in 2026 Q2, +217.7% vs 2025 Q2. - Capital expenditures: $403.0M in 2026 Q2, -16.9% vs 2025 Q2. - Cash: $3.70B in 2026 Q2 (CY2026Q1I), +37.3% vs 2025 Q2 (CY2025Q1I). - Inventory: $9.20B in 2026 Q2 (CY2026Q1I), +12.6% vs 2025 Q2 (CY2025Q1I). ## Recent Filing Feed - 2026-06-26: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/47217/000004721726000041/hpq-20260624.htm) - 2026-05-28: 10-Q, 10-Q (https://www.sec.gov/Archives/edgar/data/47217/000004721726000029/hpq-20260430.htm) - 2026-05-27: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/47217/000004721726000027/hpq-20260527.htm) - 2026-04-21: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/47217/000004721726000019/hpq-20260416.htm) - 2026-02-25: 10-Q, 10-Q (https://www.sec.gov/Archives/edgar/data/47217/000004721726000011/hpq-20260131.htm) - 2026-02-24: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/47217/000004721726000009/hpq-20260224.htm) - 2026-...",
+        "trend_summary_preview": "# HPQ Research Summary Generated: 2026-07-13T05:21:27.933Z Company: HP INC Themes: PCs, printing, AI PCs ## Extracted Trend Snapshot - Revenue: $14.41B in 2026 Q2 (CY2026Q1), +9.0% vs 2025 Q2. - Gross profit: $3.02B in 2026 Q2 (CY2026Q1), +10.1% vs 2025 Q2. - Operating income: $612.0M in 2026 Q2 (CY2026Q1), -6.4% vs 2025 Q2. - Net income: $450.0M in 2026 Q2 (CY2026Q1), +10.8% vs 2025 Q2. - Diluted EPS: $0.49 in 2026 Q2 (CY2026Q1), +16.7% vs 2025 Q2. - Operating cash flow: $1.31B in 2026 Q2, +217.7% vs 2025 Q2. - Capital expenditures: $403.0M in 2026 Q2, -16.9% vs 2025 Q2. - Cash: $3.70B in 2026 Q2 (CY2026Q1I), +37.3% vs 2025 Q2 (CY2025Q1I). - Inventory: $9.20B in 2026 Q2 (CY2026Q1I), +12.6% vs 2025 Q2 (CY2025Q1I). ## Recent Filing Feed - 2026-06-26: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/47217/000004721726000041/hpq-20260624.htm) - 2026-05-28: 10-Q, 10-Q (https://www.sec.gov/Archives/edgar/data/47217/000004721726000029/hpq-20260430.htm) - 2026-05-27: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/47217/000004721726000027/hpq-20260527.htm) - 2026-04-21: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/47217/000004721726000019/hpq-20260416.htm) - 2026-02-25: 10-Q, 10-Q (https://www.sec.gov/Archives/edgar/data/47217/000004721726000011/hpq-20260131.htm) - 2026-02-24: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/47217/000004721726000009/hpq-20260224.htm) - 2026-...",
         "management_notes_preview": "# HPQ Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-05-27 | FQ2 2026 | [HP IR earnings release](https://investor.hp.com/news-events/news/news-details/2026/HP-Inc--Reports-Fiscal-2026-Second-Quarter-Results/default.aspx); [HP newsroom release](https://www.hp.com/us-en/newsroom/press-releases/2026/hp-inc-reports-fiscal-2026-second-quarter-results.html); [WSJ summary](https://www.wsj.com/business/earnings/hp-cuts-full-year-outlook-despite-higher-second-quarter-profit-revenue-100b00e1) | Revenue up 9%; PC demand/AI PC adoption helps, but memory shortages complicate o..."
       },
       "financial_metrics": [
@@ -12690,7 +12672,7 @@
           "accession_number": "0000047217-26-000029"
         }
       ],
-      "filings_count": 46,
+      "filings_count": 45,
       "recent_filings": [
         {
           "form": "8-K",
@@ -13206,15 +13188,6 @@
           "description": "8-K",
           "items": "2.02,9.01",
           "url": "https://www.sec.gov/Archives/edgar/data/47217/000004721723000060/hpq-20230829.htm"
-        },
-        {
-          "form": "8-K",
-          "filing_date": "2023-07-11",
-          "report_date": "2023-07-11",
-          "accession_number": "0001140361-23-034085",
-          "description": "8-K",
-          "items": "8.01,9.01",
-          "url": "https://www.sec.gov/Archives/edgar/data/47217/000114036123034085/brhc20055698_8k.htm"
         }
       ]
     },
@@ -13230,15 +13203,15 @@
       ],
       "sec_ticker": "HPE",
       "market": {
-        "price": 50.63999938964844,
-        "as_of": "2026-07-10T14:00:13.000Z",
+        "price": 47.8252,
+        "as_of": "2026-07-13T12:04:56.000Z",
         "previous_close": 49.11,
         "bid": null,
         "ask": null,
         "open": null,
-        "high": 50.855,
-        "low": 48.68,
-        "volume": 2629548,
+        "high": 51.08,
+        "low": 48.35,
+        "volume": 19429717,
         "avg_volume_30d": 40196770.5365,
         "high_52w": 64.25,
         "low_52w": 19.635,
@@ -13249,12 +13222,12 @@
         "industry": "EQUITY",
         "ceo": "Antonio Fabio Neri",
         "employees": 67000,
-        "day_change": 1.529999389648438,
-        "day_change_pct": 3.115453857968719,
+        "day_change": -1.284799999999997,
+        "day_change_pct": -2.6161677866015007,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 69.49456324027443,
-        "volume_vs_30d": 0.06541689705177393
+        "range_52w_position_pct": 63.18547573685981,
+        "volume_vs_30d": 0.4833651246275412
       },
       "strategy": {
         "priority": 7,
@@ -13292,7 +13265,7 @@
           "Cash: $5.29B in 2026 Q2 (CY2026Q1I), -54.6% vs 2025 Q2 (CY2025Q1I).",
           "Inventory: $9.03B in 2026 Q2 (CY2026Q1I), +11.6% vs 2025 Q2 (CY2025Q1I)."
         ],
-        "trend_summary_preview": "# HPE Research Summary Generated: 2026-07-10T05:15:42.910Z Company: Hewlett Packard Enterprise Co Themes: AI servers, networking, hybrid cloud, enterprise infrastructure ## Extracted Trend Snapshot - Revenue: $10.68B in 2026 Q2 (CY2026Q1), +40.0% vs 2025 Q2. - Gross profit: not available in extracted SEC facts. - Operating income: $747.0M in 2026 Q2 (CY2026Q1), +167.4% vs 2025 Q2. - Net income: $624.0M in 2026 Q2 (CY2026Q1), +159.4% vs 2025 Q2. - Diluted EPS: $0.44 in 2026 Q2 (CY2026Q1), +153.7% vs 2025 Q2. - Operating cash flow: $2.59B in 2026 Q2, +404.1% vs 2025 Q2. - Capital expenditures: $1.15B in 2026 Q2, +7.2% vs 2025 Q2. - Cash: $5.29B in 2026 Q2 (CY2026Q1I), -54.6% vs 2025 Q2 (CY2025Q1I). - Inventory: $9.03B in 2026 Q2 (CY2026Q1I), +11.6% vs 2025 Q2 (CY2025Q1I). ## Recent Filing Feed - 2026-06-02: 10-Q, 10-Q (https://www.sec.gov/Archives/edgar/data/1645590/000164559026000055/hpe-20260430.htm) - 2026-06-01: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1645590/000164559026000052/hpe-20260601.htm) - 2026-05-14: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1645590/000164559026000045/hpe-20260513.htm) - 2026-05-04: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1645590/000164559026000040/hpe-20260504.htm) - 2026-04-03: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1645590/000164559026000036/hpe-20260401.htm) - 2026-03-23: 8-K, 8-K (https://www.sec.gov/Archi...",
+        "trend_summary_preview": "# HPE Research Summary Generated: 2026-07-13T05:21:27.933Z Company: Hewlett Packard Enterprise Co Themes: AI servers, networking, hybrid cloud, enterprise infrastructure ## Extracted Trend Snapshot - Revenue: $10.68B in 2026 Q2 (CY2026Q1), +40.0% vs 2025 Q2. - Gross profit: not available in extracted SEC facts. - Operating income: $747.0M in 2026 Q2 (CY2026Q1), +167.4% vs 2025 Q2. - Net income: $624.0M in 2026 Q2 (CY2026Q1), +159.4% vs 2025 Q2. - Diluted EPS: $0.44 in 2026 Q2 (CY2026Q1), +153.7% vs 2025 Q2. - Operating cash flow: $2.59B in 2026 Q2, +404.1% vs 2025 Q2. - Capital expenditures: $1.15B in 2026 Q2, +7.2% vs 2025 Q2. - Cash: $5.29B in 2026 Q2 (CY2026Q1I), -54.6% vs 2025 Q2 (CY2025Q1I). - Inventory: $9.03B in 2026 Q2 (CY2026Q1I), +11.6% vs 2025 Q2 (CY2025Q1I). ## Recent Filing Feed - 2026-06-02: 10-Q, 10-Q (https://www.sec.gov/Archives/edgar/data/1645590/000164559026000055/hpe-20260430.htm) - 2026-06-01: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1645590/000164559026000052/hpe-20260601.htm) - 2026-05-14: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1645590/000164559026000045/hpe-20260513.htm) - 2026-05-04: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1645590/000164559026000040/hpe-20260504.htm) - 2026-04-03: 8-K, 8-K (https://www.sec.gov/Archives/edgar/data/1645590/000164559026000036/hpe-20260401.htm) - 2026-03-23: 8-K, 8-K (https://www.sec.gov/Archi...",
         "management_notes_preview": "# HPE Management Notes Purpose: accumulate original short notes from earnings calls, earnings releases, investor presentations, and material company updates. Do not paste full transcripts or long copyrighted passages. ## Call-By-Call Notes | Date | Period | Source | Demand | Margins | Guidance | Risks | Trading Relevance | | --- | --- | --- | --- | --- | --- | --- | --- | | 2026-06-01 | FQ2 2026 | [HPE IR home](https://investors.hpe.com/); [HPE Q2 newsroom release](https://www.hpe.com/us/en/newsroom/press-release/2026/06/hpe-reports-fiscal-2026-second-quarter-results.html); [HPE Q2 presentation PDF](https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q2-2026/q2-2026-earnings-presentation.pdf) | Networking revenue up sharply; data-center networking and Cloud & AI profitability support AI infrastructure thesis. | Networking margin still healthy but lower YoY; Cloud & AI p..."
       },
       "financial_metrics": [
@@ -14119,15 +14092,15 @@
       ],
       "sec_ticker": null,
       "market": {
-        "price": 604.9500732421875,
-        "as_of": "2026-07-10T14:00:13.000Z",
-        "previous_close": 607.73,
+        "price": 598.11,
+        "as_of": "2026-07-13T12:06:17.000Z",
+        "previous_close": 607.73004,
         "bid": null,
         "ask": null,
         "open": null,
-        "high": 607.66,
+        "high": 615.05,
         "low": 595.84,
-        "volume": 1438850,
+        "volume": 6608365,
         "avg_volume_30d": 12398554.8263,
         "high_52w": 671.83,
         "low_52w": 279.19,
@@ -14138,12 +14111,12 @@
         "industry": "ETF",
         "ceo": "",
         "employees": null,
-        "day_change": -2.779926757812518,
-        "day_change_pct": -0.4574279298064137,
+        "day_change": -9.620040000000017,
+        "day_change_pct": -1.5829462700247658,
         "spread": null,
         "spread_pct": null,
-        "range_52w_position_pct": 82.96660382085051,
-        "volume_vs_30d": 0.11604981549526157
+        "range_52w_position_pct": 81.22453137734311,
+        "volume_vs_30d": 0.5329947798417793
       },
       "strategy": {
         "priority": 12,
@@ -25299,39 +25272,6 @@
       "description": "8-K",
       "items": "3.02",
       "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312523186639/d533731d8k.htm"
-    },
-    {
-      "symbol": "HPQ",
-      "company": "HP Inc.",
-      "form": "8-K",
-      "filing_date": "2023-07-11",
-      "report_date": "2023-07-11",
-      "accession_number": "0001140361-23-034085",
-      "description": "8-K",
-      "items": "8.01,9.01",
-      "url": "https://www.sec.gov/Archives/edgar/data/47217/000114036123034085/brhc20055698_8k.htm"
-    },
-    {
-      "symbol": "STM",
-      "company": "STMicroelectronics",
-      "form": "6-K",
-      "filing_date": "2023-07-10",
-      "report_date": "2023-07-10",
-      "accession_number": "0000947871-23-000739",
-      "description": "REPORT OF FOREIGN PRIVATE ISSUER",
-      "items": "",
-      "url": "https://www.sec.gov/Archives/edgar/data/932787/000094787123000739/ss2262923_6k.htm"
-    },
-    {
-      "symbol": "AMD",
-      "company": "Advanced Micro Devices",
-      "form": "8-K",
-      "filing_date": "2023-07-10",
-      "report_date": "2023-07-05",
-      "accession_number": "0000002488-23-000123",
-      "description": "8-K",
-      "items": "5.02",
-      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248823000123/amd-20230705.htm"
     }
   ]
 }
