@@ -8,11 +8,13 @@ Purpose: accumulate original short notes from earnings calls, earnings releases,
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2026-04-30 | FQ3 2026 | [WD IR earnings release](https://investor.wdc.com/news-releases/news-release-details/wd-reports-fiscal-third-quarter-2026-financial-results); [WD IR presentation](https://investor.wdc.com/static-files/5b2d41c1-7d45-4575-b9ea-c51424dbffeb) | Revenue up 45% YoY; nearline capacity and cloud storage remain the core AI infrastructure read-through. | Non-GAAP gross margin above 50%; pricing/mix improving. | Q4 revenue guide implies 36%-44% YoY growth and 51%-52% non-GAAP GM. | HDD cycle can reverse if cloud digestion appears; NAND-linked sentiment remains volatile post-split. | Strong storage beta to AI server/cloud capex; pairs with STX and reacts to MU memory pricing tone. |
 | 2026-07-03 | Post-separation source review | [WD investor relations](https://investor.wdc.com/) | No fresher operating update found; WDC remains the HDD/cloud storage-capacity expression after Sandisk separation. | No new margin update; prior high HDD margin guide still anchors setup. | Await next earnings/company release for updated nearline/cloud digestion commentary. | SNDK holder-flow or NAND headlines can create sympathy noise even though WDC is now primarily the HDD vehicle. | Prefer WDC when storage-capacity/HAMR/nearline catalysts are source-backed; confirm with STX and broader memory/storage action. |
+| 2026-07-13 | FQ4/FY2026 earnings date | [WD investor relations](https://investor.wdc.com/) | No new operating data, but Aug. 5 earnings becomes the next HDD/cloud-storage catalyst. | Prior Q4 non-GAAP GM guide remains the margin benchmark until the call. | Watch for FY2027 commentary on nearline demand, AI data workloads, and post-separation capital allocation. | Pre-earnings drift can be sympathy-led by SNDK/MU/STX rather than WDC-specific data. | Use Aug. 5 as a dated catalyst; require storage peers and volume confirmation before treating pre-call moves as thesis validation. |
 
 ## What Management Keeps Repeating
 
 - AI cloud storage demand and high-capacity nearline mix are the core upside themes.
 - Post-separation, distinguish HDD-specific WDC catalysts from SNDK/NAND holder-flow noise.
+- Next hard refresh is Aug. 5 earnings; until then, peer storage and memory moves are only confirming context.
 
 ## What Management Stopped Saying
 
@@ -22,6 +24,7 @@ Purpose: accumulate original short notes from earnings calls, earnings releases,
 
 - 2026-07-02: Added FQ3 2026 WD IR note; thesis remains AI storage capacity plus margin expansion.
 - 2026-07-06: Added post-separation source review; keep WDC focused on HDD/cloud-capacity catalysts.
+- 2026-07-14: Added Aug. 5 FQ4/FY2026 earnings catalyst from WD IR.
 
 ## Overnight Strategy Notes - 2026-07-01
 
