@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-14T09:20:44.969Z",
+  "generated_at": "2026-07-14T09:50:44.895Z",
   "source": "Yahoo Finance public chart API",
   "note": "Public market snapshot for GitHub Pages freshness. Account, position, and order data still requires the Robinhood monitor. Bid/ask, fundamentals, and private account fields may be absent.",
   "symbols": {
     "MU": {
       "price": 967,
-      "as_of": "2026-07-14T09:20:43.000Z",
+      "as_of": "2026-07-14T09:50:44.000Z",
       "previous_close": 979.3,
       "bid": null,
       "ask": null,
@@ -25,8 +25,8 @@
       "employees": 53000
     },
     "WDC": {
-      "price": 574.21,
-      "as_of": "2026-07-14T09:20:40.000Z",
+      "price": 576,
+      "as_of": "2026-07-14T09:50:37.000Z",
       "previous_close": 582.585,
       "bid": null,
       "ask": null,
@@ -46,8 +46,8 @@
       "employees": 40000
     },
     "SNDK": {
-      "price": 1765.62,
-      "as_of": "2026-07-14T09:20:40.000Z",
+      "price": 1760.55,
+      "as_of": "2026-07-14T09:50:35.000Z",
       "previous_close": 1915.92,
       "bid": null,
       "ask": null,
@@ -67,8 +67,8 @@
       "employees": 11000
     },
     "STX": {
-      "price": 886.5,
-      "as_of": "2026-07-14T09:18:04.000Z",
+      "price": 885,
+      "as_of": "2026-07-14T09:47:48.000Z",
       "previous_close": 910.34,
       "bid": null,
       "ask": null,
@@ -109,8 +109,8 @@
       "employees": 101000
     },
     "STM": {
-      "price": 70.49,
-      "as_of": "2026-07-14T09:17:40.000Z",
+      "price": 70.82,
+      "as_of": "2026-07-14T09:50:19.000Z",
       "previous_close": 71.46,
       "bid": null,
       "ask": null,
@@ -130,8 +130,8 @@
       "employees": 49157
     },
     "ASML": {
-      "price": 1754.56,
-      "as_of": "2026-07-14T09:19:32.000Z",
+      "price": 1758.4988,
+      "as_of": "2026-07-14T09:50:36.000Z",
       "previous_close": 1797.32,
       "bid": null,
       "ask": null,
@@ -151,8 +151,8 @@
       "employees": 44209
     },
     "MRVL": {
-      "price": 222.88,
-      "as_of": "2026-07-14T09:20:31.000Z",
+      "price": 223.31,
+      "as_of": "2026-07-14T09:50:40.000Z",
       "previous_close": 235.81,
       "bid": null,
       "ask": null,
@@ -172,8 +172,8 @@
       "employees": 7480
     },
     "NBIS": {
-      "price": 211.89,
-      "as_of": "2026-07-14T09:19:15.000Z",
+      "price": 211.65,
+      "as_of": "2026-07-14T09:50:33.000Z",
       "previous_close": 219.65,
       "bid": null,
       "ask": null,
@@ -193,8 +193,8 @@
       "employees": 1543
     },
     "APLD": {
-      "price": 29.48,
-      "as_of": "2026-07-14T09:19:46.000Z",
+      "price": 29.37,
+      "as_of": "2026-07-14T09:49:34.000Z",
       "previous_close": 31.15,
       "bid": null,
       "ask": null,
@@ -214,8 +214,8 @@
       "employees": 205
     },
     "NVDA": {
-      "price": 204.744,
-      "as_of": "2026-07-14T09:20:39.000Z",
+      "price": 204.58,
+      "as_of": "2026-07-14T09:50:44.000Z",
       "previous_close": 210.96,
       "bid": null,
       "ask": null,
@@ -235,8 +235,8 @@
       "employees": 42000
     },
     "AMD": {
-      "price": 546.56,
-      "as_of": "2026-07-14T09:20:23.000Z",
+      "price": 547.1636,
+      "as_of": "2026-07-14T09:50:35.000Z",
       "previous_close": 557.89,
       "bid": null,
       "ask": null,
@@ -256,8 +256,8 @@
       "employees": 31000
     },
     "AVGO": {
-      "price": 389.99,
-      "as_of": "2026-07-14T09:19:52.000Z",
+      "price": 389.45,
+      "as_of": "2026-07-14T09:50:42.000Z",
       "previous_close": 399.97,
       "bid": null,
       "ask": null,
@@ -277,8 +277,8 @@
       "employees": 33000
     },
     "DELL": {
-      "price": 430.81,
-      "as_of": "2026-07-14T09:18:47.000Z",
+      "price": 430.24,
+      "as_of": "2026-07-14T09:44:56.000Z",
       "previous_close": 434.97,
       "bid": null,
       "ask": null,
@@ -298,8 +298,8 @@
       "employees": 97000
     },
     "HPQ": {
-      "price": 24.69,
-      "as_of": "2026-07-14T09:04:26.000Z",
+      "price": 24.74,
+      "as_of": "2026-07-14T09:41:07.000Z",
       "previous_close": 24.22,
       "bid": null,
       "ask": null,
@@ -319,8 +319,8 @@
       "employees": 55000
     },
     "HPE": {
-      "price": 47.3103,
-      "as_of": "2026-07-14T09:12:28.000Z",
+      "price": 47.45,
+      "as_of": "2026-07-14T09:48:58.000Z",
       "previous_close": 48.54,
       "bid": null,
       "ask": null,
@@ -340,8 +340,8 @@
       "employees": 67000
     },
     "SMH": {
-      "price": 598,
-      "as_of": "2026-07-14T09:20:15.000Z",
+      "price": 596.97,
+      "as_of": "2026-07-14T09:49:45.000Z",
       "previous_close": 611.03,
       "bid": null,
       "ask": null,
